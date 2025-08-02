@@ -244,6 +244,177 @@ def fetch_prizepicks_data(league: str = 'nfl') -> Dict[str, Any]:
         }
 
 
+def fetch_nfl_game_ids(year: int = 2023, week: int = 1, type_param: int = 2) -> Dict[str, Any]:
+    """
+    Fetch NFL game events and IDs from RapidAPI NFL Data service.
+    
+    Args:
+        year (int): NFL season year (default: 2023)
+        week (int): NFL week number (default: 1)
+        type_param (int): Game type (2 = regular season, default: 2)
+        
+    Returns:
+        Dict[str, Any]: Response data with success status and results
+    """
+    print_api_separator("NFL Player Stats (RapidAPI)")
+    
+    # Get required environment variables
+    rapidapi_key = os.getenv('RAPIDAPI_KEY')
+    rapidapi_host = os.getenv('RAPIDAPI_HOST')
+    
+    if not rapidapi_key or not rapidapi_host:
+        error_msg = "Missing required RapidAPI credentials (RAPIDAPI_KEY or RAPIDAPI_HOST)"
+        print(f"❌ Authentication Error: {error_msg}")
+        print_response_summary("NFL Player Stats", False)
+        return {
+            'success': False,
+            'error': error_msg,
+            'data': None
+        }
+    
+    # Build API URL and headers
+    base_url = f"https://{rapidapi_host}/nfl-weeks-events"
+    params = {
+        'year': year,
+        'week': week,
+        'type': type_param
+    }
+    
+    headers = {
+        'X-RapidAPI-Key': rapidapi_key,
+        'X-RapidAPI-Host': rapidapi_host,
+        'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36'
+    }
+    
+    try:
+        print(f"🔗 Calling NFL API for {year} season, week {week}...")
+        print(f"🌐 URL: {base_url}")
+        print(f"📋 Parameters: {params}")
+        print(f"🔑 Using RapidAPI Host: {rapidapi_host}")
+        
+        response = requests.get(base_url, params=params, headers=headers, timeout=30)
+        
+        print(f"📡 HTTP Status Code: {response.status_code}")
+        
+        if response.status_code == 200:
+            try:
+                data = response.json()
+                
+                # Validate response structure (NFL API uses 'items' instead of 'events')
+                if 'items' in data and isinstance(data['items'], list):
+                    games = data['items']
+                    game_count = len(games)
+                    total_count = data.get('count', game_count)
+                    
+                    print(f"✅ Successfully retrieved {game_count} NFL games (total: {total_count})")
+                    
+                    # Get sample record for display
+                    sample_record = games[0] if games else None
+                    
+                    print_response_summary("NFL Player Stats", True, game_count, sample_record)
+                    
+                    return {
+                        'success': True,
+                        'year': year,
+                        'week': week,
+                        'game_count': game_count,
+                        'total_count': total_count,
+                        'data': data
+                    }
+                else:
+                    error_msg = "Response missing 'items' field or invalid format"
+                    print(f"❌ Response validation failed: {error_msg}")
+                    print(f"📄 Response keys: {list(data.keys()) if isinstance(data, dict) else 'Not a dictionary'}")
+                    print_response_summary("NFL Player Stats", False)
+                    
+                    return {
+                        'success': False,
+                        'error': error_msg,
+                        'data': data
+                    }
+                    
+            except json.JSONDecodeError as e:
+                error_msg = f"Failed to parse JSON response: {str(e)}"
+                print(f"❌ JSON Error: {error_msg}")
+                print(f"📄 Raw response: {response.text[:200]}...")
+                print_response_summary("NFL Player Stats", False)
+                
+                return {
+                    'success': False,
+                    'error': error_msg,
+                    'data': None
+                }
+                
+        elif response.status_code == 401:
+            error_msg = "Authentication failed - Invalid RapidAPI key"
+            print(f"❌ Authentication Error: {error_msg}")
+            print("🔍 Please verify your RAPIDAPI_KEY in the .env file")
+            print_response_summary("NFL Player Stats", False)
+            
+            return {
+                'success': False,
+                'error': error_msg,
+                'data': None
+            }
+            
+        elif response.status_code == 403:
+            error_msg = "Access forbidden - Check API subscription or rate limits"
+            print(f"❌ Authorization Error: {error_msg}")
+            print("🔍 You may have exceeded your RapidAPI rate limit or subscription plan")
+            print_response_summary("NFL Player Stats", False)
+            
+            return {
+                'success': False,
+                'error': error_msg,
+                'data': None
+            }
+            
+        else:
+            error_msg = f"HTTP {response.status_code}: {response.reason}"
+            print(f"❌ HTTP Error: {error_msg}")
+            print(f"📄 Response content: {response.text[:200]}...")
+            print_response_summary("NFL Player Stats", False)
+            
+            return {
+                'success': False,
+                'error': error_msg,
+                'data': None
+            }
+            
+    except requests.exceptions.Timeout:
+        error_msg = "Request timeout (30 seconds)"
+        print(f"❌ Timeout Error: {error_msg}")
+        print_response_summary("NFL Player Stats", False)
+        
+        return {
+            'success': False,
+            'error': error_msg,
+            'data': None
+        }
+        
+    except requests.exceptions.ConnectionError as e:
+        error_msg = f"Connection error: {str(e)}"
+        print(f"❌ Connection Error: {error_msg}")
+        print_response_summary("NFL Player Stats", False)
+        
+        return {
+            'success': False,
+            'error': error_msg,
+            'data': None
+        }
+        
+    except Exception as e:
+        error_msg = f"Unexpected error: {str(e)}"
+        print(f"❌ Unexpected Error: {error_msg}")
+        print_response_summary("NFL Player Stats", False)
+        
+        return {
+            'success': False,
+            'error': error_msg,
+            'data': None
+        }
+
+
 if __name__ == "__main__":
     print("🏈 Football Prop Insights - API Client Test Suite")
     print("Step 1: API Connectivity & Data Validation")
@@ -264,11 +435,17 @@ if __name__ == "__main__":
         # Test College Football  
         cfb_result = fetch_prizepicks_data('cfb')
         
+        # Test NFL Player Stats API
+        print("\n🏈 Testing NFL Player Stats API Integration...")
+        
+        nfl_stats_result = fetch_nfl_game_ids(2023, 1, 2)
+        
         print("\n" + "=" * 80)
-        print("🏁 PRIZEPICKS API TEST SUMMARY")
+        print("🏁 API TEST SUMMARY")
         print("=" * 80)
-        print(f"NFL API: {'✅ SUCCESS' if nfl_result['success'] else '❌ FAILED'}")
-        print(f"CFB API: {'✅ SUCCESS' if cfb_result['success'] else '❌ FAILED'}")
+        print(f"PrizePicks NFL: {'✅ SUCCESS' if nfl_result['success'] else '❌ FAILED'}")
+        print(f"PrizePicks CFB: {'✅ SUCCESS' if cfb_result['success'] else '❌ FAILED'}")
+        print(f"NFL Player Stats: {'✅ SUCCESS' if nfl_stats_result['success'] else '❌ FAILED'}")
         print("=" * 80)
         
     else:
