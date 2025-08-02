@@ -4,7 +4,7 @@
 
 - `parsers/parse_prizepicks.py` - ✅ COMPLETE - Parser for PrizePicks NFL projection data, handles complex lookup dictionaries and field extraction
 - `parsers/parse_cfb_stats.py` - ✅ COMPLETE - Parser for College Football player statistics, filters by position and extracts relevant stats
-- `parsers/parse_nfl_game_ids.py` - Simple parser for NFL game ID extraction from weekly game lists
+- `parsers/parse_nfl_game_ids.py` - ✅ COMPLETE - Simple parser for NFL game ID extraction from weekly game lists
 - `parsers/parse_nfl_boxscore.py` - Complex parser for NFL boxscore data, navigates nested player statistics
 - `parsers/__init__.py` - Module initialization file with imports and metadata, establishes parsers as Python package
 - `parsers/common.py` - Common utilities and error handling patterns used across all parsers
@@ -48,7 +48,7 @@
   - [x] 3.8 Return list of dictionaries with player and game context information
   - [x] 3.9 Add function to handle both file path and JSON data inputs
 
-- [ ] 4.0 Implement NFL Game ID Parser (`parse_nfl_game_ids.py`)
+- [x] 4.0 Implement NFL Game ID Parser (`parse_nfl_game_ids.py`)
   - [x] 4.1 Create `parse_nfl_game_ids()` function with proper error handling
   - [x] 4.2 Extract `eventid` values from `items[]` array in JSON structure
   - [x] 4.3 Parse filename or input parameters to determine week and year
@@ -57,17 +57,17 @@
   - [x] 4.6 Add function to handle both file path and JSON data inputs
 
 - [ ] 5.0 Implement NFL Boxscore Parser (`parse_nfl_boxscore.py`)
-  - [ ] 5.1 Create `parse_nfl_boxscore()` function with proper error handling
-  - [ ] 5.2 Navigate the nested `boxscore.players` data structure
-  - [ ] 5.3 Identify and filter players by position (QB, WR, RB)
-  - [ ] 5.4 Extract QB passing statistics from the passing category: yards, completions, attempts, touchdowns, interceptions
-  - [ ] 5.5 Extract WR receiving statistics from the receiving category: yards, receptions, targets, touchdowns
-  - [ ] 5.6 Extract RB receiving statistics: yards only
-  - [ ] 5.7 Parse game_id from filename or input parameter
-  - [ ] 5.8 Include player name, team, position, game_id, and stat_type in each record
-  - [ ] 5.9 Handle missing player statistics or positions gracefully
-  - [ ] 5.10 Return list of dictionaries for all relevant player statistics
-  - [ ] 5.11 Add function to handle both file path and JSON data inputs
+  - [x] 5.1 Create `parse_nfl_boxscore()` function with proper error handling
+  - [x] 5.2 Navigate the nested `boxscore.players` data structure
+  - [x] 5.3 Identify and filter players by position (QB, WR, RB)
+  - [x] 5.4 Extract QB passing statistics from the passing category: yards, completions, attempts, touchdowns, interceptions
+  - [x] 5.5 Extract WR receiving statistics from the receiving category: yards, receptions, targets, touchdowns
+  - [x] 5.6 Extract RB receiving statistics: yards only
+  - [x] 5.7 Parse game_id from filename or input parameter
+  - [x] 5.8 Include player name, team, position, game_id, and stat_type in each record
+  - [x] 5.9 Handle missing player statistics or positions gracefully
+  - [x] 5.10 Return list of dictionaries for all relevant player statistics
+  - [x] 5.11 Add function to handle both file path and JSON data inputs
 
 - [ ] 6.0 Test and Validate All Parsers
   - [ ] 6.1 Test PrizePicks parser with actual `nfl_projections.json` files from api_data
