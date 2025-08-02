@@ -25,15 +25,15 @@
   - [x] 1.5 Create validation decorator for ensuring no "Unknown" placeholder values in final output
   - [x] 1.6 Update `parsers/function_patterns.py` with enhanced validation patterns and field requirements
 
-- [ ] 2.0 Enhance PrizePicks NFL Parser (Phase 1 Implementation)
-  - [ ] 2.1 Implement team derivation logic using projection.relationships.team.data.id → included[type="team"].attributes.name mapping
-  - [ ] 2.2 Implement opponent derivation from market data using projection.relationships.market.data.id → included[type="market"] lookup
-  - [ ] 2.3 Add position field extraction from projection.relationships.new_player.data.id → included[type="new_player"].attributes.position
-  - [ ] 2.4 Fix game_time field to use actual starts_at values instead of null from projection.attributes or market.attributes
-  - [ ] 2.5 Add metadata fields: league="nfl", season (from game_time year), source="PrizePicks", player_id (from new_player.data.id)
-  - [ ] 2.6 Add odds_type field from projection.attributes.odds_type with fallback to "standard"
-  - [ ] 2.7 Update field validation to ensure all required fields are populated with actual values
-  - [ ] 2.8 Test enhanced parser with 3+ different NFL projection data samples and validate output quality
+- [x] 2.0 Enhance PrizePicks NFL Parser (Phase 1 Implementation)
+  - [x] 2.1 Implement team derivation logic using projection.relationships.team.data.id → included[type="team"].attributes.name mapping
+  - [x] 2.2 Implement opponent derivation from market data using projection.relationships.market.data.id → included[type="market"] lookup
+  - [x] 2.3 Add position field extraction from projection.relationships.new_player.data.id → included[type="new_player"].attributes.position
+  - [x] 2.4 Fix game_time field to use actual starts_at values instead of null from projection.attributes or market.attributes
+  - [x] 2.5 Add metadata fields: league="nfl", season (from game_time year), source="PrizePicks", player_id (from new_player.data.id)
+  - [x] 2.6 Add odds_type field from projection.attributes.odds_type with fallback to "standard"
+  - [x] 2.7 Update field validation to ensure all required fields are populated with actual values
+  - [x] 2.8 Test enhanced parser with 3+ different NFL projection data samples and validate output quality
 
 - [ ] 3.0 Enhance PrizePicks CFB Parser (Phase 2 Implementation)
   - [ ] 3.1 Apply identical team/opponent derivation logic from NFL parser to CFB data structure
