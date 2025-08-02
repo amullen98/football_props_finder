@@ -82,8 +82,8 @@ def parse_cfb_player_stats(data_source: Union[str, List]) -> List[Dict[str, Any]
                                 opponent = other_team.get('school', 'Unknown Opponent')
                                 break
                         
-                        # Extract player statistics
-                        statistics = safe_get_list(team_data, 'statistics', [])
+                        # Extract player statistics (CFB API uses 'categories' not 'statistics')
+                        statistics = safe_get_list(team_data, 'categories', [])
                         
                         for stat_category in statistics:
                             category_name = stat_category.get('name', '')

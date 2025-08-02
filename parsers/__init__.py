@@ -8,6 +8,13 @@ This module contains parsers for extracting structured data from various footbal
 
 Each parser accepts JSON data and returns standardized Python dictionaries
 ready for database insertion and analysis.
+
+## Testing
+
+Use `test_all_parsers.py` for comprehensive manual validation:
+    python3 parsers/test_all_parsers.py
+
+Or run individual parser test scripts in each module.
 """
 
 from .parse_prizepicks import parse_prizepicks_data
