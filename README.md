@@ -76,15 +76,19 @@ Football Prop Insights is designed to collect, store, and analyze football betti
    - Public API, no key needed
    - **Rate Limit**: No documented limit
 
-## 📊 Data Generation
+## 📊 Data Generation & Parsing
 
 ### Using the Shell Script (Recommended)
 
-The project includes a convenient shell script for generating API data:
+The project includes a convenient shell script for generating and parsing API data:
 
 ```bash
 ./generate_api_data.sh <api_type> [additional_params...]
 ```
+
+**What the script does:**
+1. **Fetches raw JSON data** from APIs → saved to `api_data/` directory
+2. **Parses data into structured format** → saved to `parsed_data/` directory
 
 ### Available Commands
 
@@ -197,6 +201,9 @@ print(f"Success: {result['success']}, Games: {result.get('game_count', 0)}")
 
 ## 📁 Data Structure
 
+The script generates two types of output:
+
+### Raw API Data
 All API responses are automatically saved to the `api_data/` directory with the following structure:
 
 ```
@@ -213,6 +220,23 @@ api_data/
     └── players_YYYY_weekN_SEASON.json  # College Football player statistics
 ```
 
+### Parsed Data
+Structured, analyzed data is saved to the `parsed_data/` directory:
+
+```
+parsed_data/
+├── prizepicks/
+│   ├── nfl_parsed.json               # Structured NFL projections
+│   └── cfb_parsed.json               # Structured CFB projections
+├── nfl_stats/
+│   └── games_YYYY_weekN_typeT_parsed.json  # Parsed NFL game IDs
+├── nfl_boxscore/
+│   ├── boxscore_EVENT_ID_parsed.json      # Individual parsed player stats
+│   └── week_YYYY_weekN_typeT_all_parsed.json  # Combined weekly player stats
+└── cfb_stats/
+    └── players_YYYY_weekN_SEASON_parsed.json  # Parsed CFB player stats
+```
+
 ### File Naming Conventions
 
 - **PrizePicks**: `{league}_projections.json`
@@ -223,7 +247,7 @@ api_data/
 
 ### Data Samples
 
-#### PrizePicks Data Structure
+#### Raw PrizePicks Data Structure
 ```json
 {
   "data": [
@@ -245,7 +269,22 @@ api_data/
 }
 ```
 
-#### NFL Stats Data Structure
+#### Parsed PrizePicks Data Structure
+```json
+[
+  {
+    "player_name": "Jalen Hurts",
+    "team": "UNK",
+    "opponent": "Unknown Opponent", 
+    "stat_type": "Pass Yards",
+    "line_score": 249.5,
+    "game_time": null,
+    "projection_id": "5591188"
+  }
+]
+```
+
+#### Raw NFL Stats Data Structure
 ```json
 {
   "items": [
@@ -261,7 +300,7 @@ api_data/
 }
 ```
 
-#### NFL Boxscore Data Structure
+#### Raw NFL Boxscore Data Structure
 ```json
 {
   "boxscore": {

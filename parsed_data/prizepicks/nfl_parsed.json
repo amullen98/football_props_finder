@@ -1,0 +1,4772 @@
+[
+  {
+    "player_name": "Jalen Hurts",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Pass Yards",
+    "line_score": 249.5,
+    "game_time": null,
+    "projection_id": "5591188"
+  },
+  {
+    "player_name": "Jalen Hurts",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Pass Yards",
+    "line_score": 269.5,
+    "game_time": null,
+    "projection_id": "5883680"
+  },
+  {
+    "player_name": "Jalen Hurts",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Pass Yards",
+    "line_score": 215.5,
+    "game_time": null,
+    "projection_id": "4998394"
+  },
+  {
+    "player_name": "Jalen Hurts",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Pass Yards",
+    "line_score": 289.5,
+    "game_time": null,
+    "projection_id": "5860109"
+  },
+  {
+    "player_name": "Jalen Hurts",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Pass Yards",
+    "line_score": 169.5,
+    "game_time": null,
+    "projection_id": "5860113"
+  },
+  {
+    "player_name": "Jalen Hurts",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Pass Yards",
+    "line_score": 299.5,
+    "game_time": null,
+    "projection_id": "4993700"
+  },
+  {
+    "player_name": "Jalen Hurts",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "4993703"
+  },
+  {
+    "player_name": "Jalen Hurts",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 1.5,
+    "game_time": null,
+    "projection_id": "4993702"
+  },
+  {
+    "player_name": "Jalen Hurts",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Pass Yards",
+    "line_score": 179.5,
+    "game_time": null,
+    "projection_id": "5860112"
+  },
+  {
+    "player_name": "Jalen Hurts",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Pass Yards",
+    "line_score": 189.5,
+    "game_time": null,
+    "projection_id": "5860111"
+  },
+  {
+    "player_name": "Jalen Hurts",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Pass Yards",
+    "line_score": 279.5,
+    "game_time": null,
+    "projection_id": "5860110"
+  },
+  {
+    "player_name": "Jalen Hurts",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Pass Yards",
+    "line_score": 199.5,
+    "game_time": null,
+    "projection_id": "4993701"
+  },
+  {
+    "player_name": "Saquon Barkley",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5740806"
+  },
+  {
+    "player_name": "Saquon Barkley",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush Yards",
+    "line_score": 89.5,
+    "game_time": null,
+    "projection_id": "4993709"
+  },
+  {
+    "player_name": "Saquon Barkley",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5214558"
+  },
+  {
+    "player_name": "Saquon Barkley",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush Yards",
+    "line_score": 96.5,
+    "game_time": null,
+    "projection_id": "4998260"
+  },
+  {
+    "player_name": "Saquon Barkley",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush Yards",
+    "line_score": 79.5,
+    "game_time": null,
+    "projection_id": "4993708"
+  },
+  {
+    "player_name": "Saquon Barkley",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 1.5,
+    "game_time": null,
+    "projection_id": "4993710"
+  },
+  {
+    "player_name": "Saquon Barkley",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush Yards",
+    "line_score": 129.5,
+    "game_time": null,
+    "projection_id": "5750737"
+  },
+  {
+    "player_name": "Saquon Barkley",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush Yards",
+    "line_score": 139.5,
+    "game_time": null,
+    "projection_id": "5750736"
+  },
+  {
+    "player_name": "Saquon Barkley",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush Yards",
+    "line_score": 119.5,
+    "game_time": null,
+    "projection_id": "4993706"
+  },
+  {
+    "player_name": "Saquon Barkley",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5607534"
+  },
+  {
+    "player_name": "Saquon Barkley",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush Yards",
+    "line_score": 149.5,
+    "game_time": null,
+    "projection_id": "4993705"
+  },
+  {
+    "player_name": "Saquon Barkley",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "4993711"
+  },
+  {
+    "player_name": "A.J. Brown",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "4993691"
+  },
+  {
+    "player_name": "A.J. Brown",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5652045"
+  },
+  {
+    "player_name": "A.J. Brown",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Receiving Yards",
+    "line_score": 119.5,
+    "game_time": null,
+    "projection_id": "5591191"
+  },
+  {
+    "player_name": "A.J. Brown",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Receiving Yards",
+    "line_score": 99.5,
+    "game_time": null,
+    "projection_id": "4993687"
+  },
+  {
+    "player_name": "A.J. Brown",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Receiving Yards",
+    "line_score": 59.5,
+    "game_time": null,
+    "projection_id": "5474774"
+  },
+  {
+    "player_name": "A.J. Brown",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Receiving Yards",
+    "line_score": 49.5,
+    "game_time": null,
+    "projection_id": "5474773"
+  },
+  {
+    "player_name": "A.J. Brown",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Receiving Yards",
+    "line_score": 67.5,
+    "game_time": null,
+    "projection_id": "4998760"
+  },
+  {
+    "player_name": "A.J. Brown",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5770068"
+  },
+  {
+    "player_name": "A.J. Brown",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Receiving Yards",
+    "line_score": 89.5,
+    "game_time": null,
+    "projection_id": "4993688"
+  },
+  {
+    "player_name": "A.J. Brown",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Receiving Yards",
+    "line_score": 79.5,
+    "game_time": null,
+    "projection_id": "4993689"
+  },
+  {
+    "player_name": "Dallas Goedert",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Receiving Yards",
+    "line_score": 49.5,
+    "game_time": null,
+    "projection_id": "5591192"
+  },
+  {
+    "player_name": "Dallas Goedert",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Receiving Yards",
+    "line_score": 79.5,
+    "game_time": null,
+    "projection_id": "5474777"
+  },
+  {
+    "player_name": "Dallas Goedert",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "4993692"
+  },
+  {
+    "player_name": "Dallas Goedert",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Receiving Yards",
+    "line_score": 69.5,
+    "game_time": null,
+    "projection_id": "5474778"
+  },
+  {
+    "player_name": "Dallas Goedert",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Receiving Yards",
+    "line_score": 24.5,
+    "game_time": null,
+    "projection_id": "5474776"
+  },
+  {
+    "player_name": "Dallas Goedert",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Receiving Yards",
+    "line_score": 59.5,
+    "game_time": null,
+    "projection_id": "5474779"
+  },
+  {
+    "player_name": "Dallas Goedert",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Receiving Yards",
+    "line_score": 38.5,
+    "game_time": null,
+    "projection_id": "5474982"
+  },
+  {
+    "player_name": "Dallas Goedert",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5726082"
+  },
+  {
+    "player_name": "Dallas Goedert",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5599986"
+  },
+  {
+    "player_name": "DeVonta Smith",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Receiving Yards",
+    "line_score": 89.5,
+    "game_time": null,
+    "projection_id": "4993694"
+  },
+  {
+    "player_name": "DeVonta Smith",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "4993697"
+  },
+  {
+    "player_name": "DeVonta Smith",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5652046"
+  },
+  {
+    "player_name": "DeVonta Smith",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Receiving Yards",
+    "line_score": 57.5,
+    "game_time": null,
+    "projection_id": "4998858"
+  },
+  {
+    "player_name": "DeVonta Smith",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Receiving Yards",
+    "line_score": 79.5,
+    "game_time": null,
+    "projection_id": "4993695"
+  },
+  {
+    "player_name": "DeVonta Smith",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Receiving Yards",
+    "line_score": 99.5,
+    "game_time": null,
+    "projection_id": "4993693"
+  },
+  {
+    "player_name": "DeVonta Smith",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Receiving Yards",
+    "line_score": 39.5,
+    "game_time": null,
+    "projection_id": "5474781"
+  },
+  {
+    "player_name": "DeVonta Smith",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Receiving Yards",
+    "line_score": 109.5,
+    "game_time": null,
+    "projection_id": "5591193"
+  },
+  {
+    "player_name": "DeVonta Smith",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5770069"
+  },
+  {
+    "player_name": "DeVonta Smith",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Receiving Yards",
+    "line_score": 49.5,
+    "game_time": null,
+    "projection_id": "5474782"
+  },
+  {
+    "player_name": "Jake Ferguson",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5726083"
+  },
+  {
+    "player_name": "Jake Ferguson",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5599989"
+  },
+  {
+    "player_name": "Jake Ferguson",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "4993724"
+  },
+  {
+    "player_name": "Dak Prescott",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Pass Yards",
+    "line_score": 319.5,
+    "game_time": null,
+    "projection_id": "5860104"
+  },
+  {
+    "player_name": "Dak Prescott",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Pass Yards",
+    "line_score": 219.5,
+    "game_time": null,
+    "projection_id": "5860105"
+  },
+  {
+    "player_name": "Dak Prescott",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5600163"
+  },
+  {
+    "player_name": "Dak Prescott",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5721189"
+  },
+  {
+    "player_name": "Dak Prescott",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Pass Yards",
+    "line_score": 209.5,
+    "game_time": null,
+    "projection_id": "5860106"
+  },
+  {
+    "player_name": "Dak Prescott",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Pass Yards",
+    "line_score": 329.5,
+    "game_time": null,
+    "projection_id": "5860103"
+  },
+  {
+    "player_name": "Dak Prescott",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5214560"
+  },
+  {
+    "player_name": "Dak Prescott",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Pass Yards",
+    "line_score": 241.5,
+    "game_time": null,
+    "projection_id": "4998474"
+  },
+  {
+    "player_name": "Dak Prescott",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Pass Yards",
+    "line_score": 199.5,
+    "game_time": null,
+    "projection_id": "4993723"
+  },
+  {
+    "player_name": "Dak Prescott",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Pass Yards",
+    "line_score": 299.5,
+    "game_time": null,
+    "projection_id": "4993720"
+  },
+  {
+    "player_name": "Dak Prescott",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Pass Yards",
+    "line_score": 349.5,
+    "game_time": null,
+    "projection_id": "5621624"
+  },
+  {
+    "player_name": "Dak Prescott",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Pass Yards",
+    "line_score": 229.5,
+    "game_time": null,
+    "projection_id": "5860107"
+  },
+  {
+    "player_name": "Dak Prescott",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Pass Yards",
+    "line_score": 339.5,
+    "game_time": null,
+    "projection_id": "5860102"
+  },
+  {
+    "player_name": "CeeDee Lamb",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5600888"
+  },
+  {
+    "player_name": "CeeDee Lamb",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5726081"
+  },
+  {
+    "player_name": "CeeDee Lamb",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Receiving Yards",
+    "line_score": 69.5,
+    "game_time": null,
+    "projection_id": "4993718"
+  },
+  {
+    "player_name": "CeeDee Lamb",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Receiving Yards",
+    "line_score": 89.5,
+    "game_time": null,
+    "projection_id": "4993715"
+  },
+  {
+    "player_name": "CeeDee Lamb",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Receiving Yards",
+    "line_score": 59.5,
+    "game_time": null,
+    "projection_id": "4993717"
+  },
+  {
+    "player_name": "CeeDee Lamb",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Receiving Yards",
+    "line_score": 109.5,
+    "game_time": null,
+    "projection_id": "4993713"
+  },
+  {
+    "player_name": "CeeDee Lamb",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Receiving Yards",
+    "line_score": 99.5,
+    "game_time": null,
+    "projection_id": "4993714"
+  },
+  {
+    "player_name": "CeeDee Lamb",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Receiving Yards",
+    "line_score": 77.5,
+    "game_time": null,
+    "projection_id": "4999236"
+  },
+  {
+    "player_name": "CeeDee Lamb",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5214559"
+  },
+  {
+    "player_name": "CeeDee Lamb",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "4993719"
+  },
+  {
+    "player_name": "Jalen Tolbert",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "4993725"
+  },
+  {
+    "player_name": "Jalen Tolbert",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5734750"
+  },
+  {
+    "player_name": "Jalen Tolbert",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5607546"
+  },
+  {
+    "player_name": "Jalen Tolbert",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5214562"
+  },
+  {
+    "player_name": "Jahan Dotson",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "4993699"
+  },
+  {
+    "player_name": "Jahan Dotson",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5719631"
+  },
+  {
+    "player_name": "Jahan Dotson",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5599988"
+  },
+  {
+    "player_name": "Luke Schoonmaker",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "4993726"
+  },
+  {
+    "player_name": "Luke Schoonmaker",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5369874"
+  },
+  {
+    "player_name": "Johnny Wilson",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5599990"
+  },
+  {
+    "player_name": "Johnny Wilson",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5719632"
+  },
+  {
+    "player_name": "Johnny Wilson",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "4993704"
+  },
+  {
+    "player_name": "KaVontae Turpin",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5087134"
+  },
+  {
+    "player_name": "KaVontae Turpin",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5607012"
+  },
+  {
+    "player_name": "KaVontae Turpin",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5727010"
+  },
+  {
+    "player_name": "Jalen Brooks",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5287958"
+  },
+  {
+    "player_name": "Grant Calcaterra",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "4993698"
+  },
+  {
+    "player_name": "Grant Calcaterra",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5599987"
+  },
+  {
+    "player_name": "Grant Calcaterra",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5719630"
+  },
+  {
+    "player_name": "Will Shipley",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5599991"
+  },
+  {
+    "player_name": "Will Shipley",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "4993712"
+  },
+  {
+    "player_name": "Jonathan Mingo",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5214563"
+  },
+  {
+    "player_name": "Jonathan Mingo",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5797035"
+  },
+  {
+    "player_name": "Jonathan Mingo",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5681629"
+  },
+  {
+    "player_name": "A.J. Dillon",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5684097"
+  },
+  {
+    "player_name": "Ainias Smith",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5675149"
+  },
+  {
+    "player_name": "Elijah Cooks",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5684098"
+  },
+  {
+    "player_name": "George Pickens",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Receiving Yards",
+    "line_score": 79.5,
+    "game_time": null,
+    "projection_id": "5749834"
+  },
+  {
+    "player_name": "George Pickens",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Receiving Yards",
+    "line_score": 99.5,
+    "game_time": null,
+    "projection_id": "5749832"
+  },
+  {
+    "player_name": "George Pickens",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Receiving Yards",
+    "line_score": 49.5,
+    "game_time": null,
+    "projection_id": "5749836"
+  },
+  {
+    "player_name": "George Pickens",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Receiving Yards",
+    "line_score": 89.5,
+    "game_time": null,
+    "projection_id": "5749833"
+  },
+  {
+    "player_name": "George Pickens",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5684099"
+  },
+  {
+    "player_name": "George Pickens",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Receiving Yards",
+    "line_score": 69.5,
+    "game_time": null,
+    "projection_id": "5749835"
+  },
+  {
+    "player_name": "Javonte Williams",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5684100"
+  },
+  {
+    "player_name": "Jaydon Blue",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5684101"
+  },
+  {
+    "player_name": "Kylen Granson",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5778115"
+  },
+  {
+    "player_name": "Miles Sanders",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5684102"
+  },
+  {
+    "player_name": "Phil Mafah",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5684103"
+  },
+  {
+    "player_name": "George Pickens",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Receiving Yards",
+    "line_score": 58.5,
+    "game_time": null,
+    "projection_id": "5543560"
+  },
+  {
+    "player_name": "Quentin Johnston",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "4993676"
+  },
+  {
+    "player_name": "Quentin Johnston",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5599983"
+  },
+  {
+    "player_name": "Quentin Johnston",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5719629"
+  },
+  {
+    "player_name": "Patrick Mahomes",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5731767"
+  },
+  {
+    "player_name": "Patrick Mahomes",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "4993683"
+  },
+  {
+    "player_name": "Patrick Mahomes",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5599982"
+  },
+  {
+    "player_name": "Isiah Pacheco",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5737829"
+  },
+  {
+    "player_name": "Isiah Pacheco",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "4993679"
+  },
+  {
+    "player_name": "Xavier Worthy",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "4993686"
+  },
+  {
+    "player_name": "Xavier Worthy",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5720640"
+  },
+  {
+    "player_name": "Xavier Worthy",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5599985"
+  },
+  {
+    "player_name": "Noah Gray",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "4993682"
+  },
+  {
+    "player_name": "Noah Gray",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5732578"
+  },
+  {
+    "player_name": "Noah Gray",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5599981"
+  },
+  {
+    "player_name": "Justin Herbert",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "4993672"
+  },
+  {
+    "player_name": "Justin Herbert",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5737830"
+  },
+  {
+    "player_name": "Travis Kelce",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "4993685"
+  },
+  {
+    "player_name": "Travis Kelce",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5740653"
+  },
+  {
+    "player_name": "Travis Kelce",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5599984"
+  },
+  {
+    "player_name": "Ladd McConkey",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5599980"
+  },
+  {
+    "player_name": "Ladd McConkey",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5727562"
+  },
+  {
+    "player_name": "Ladd McConkey",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "4993674"
+  },
+  {
+    "player_name": "Will Dissly",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "4993677"
+  },
+  {
+    "player_name": "Will Dissly",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5737833"
+  },
+  {
+    "player_name": "JuJu Smith-Schuster",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5762079"
+  },
+  {
+    "player_name": "JuJu Smith-Schuster",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "4993680"
+  },
+  {
+    "player_name": "JuJu Smith-Schuster",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5652044"
+  },
+  {
+    "player_name": "Carson Steele",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5389003"
+  },
+  {
+    "player_name": "Kareem Hunt",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5737831"
+  },
+  {
+    "player_name": "Kareem Hunt",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "4993681"
+  },
+  {
+    "player_name": "Kimani Vidal",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "4993673"
+  },
+  {
+    "player_name": "Kimani Vidal",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5737832"
+  },
+  {
+    "player_name": "Derius Davis",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5599979"
+  },
+  {
+    "player_name": "Derius Davis",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "4993670"
+  },
+  {
+    "player_name": "Derius Davis",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5740669"
+  },
+  {
+    "player_name": "Jalen Reagor",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5712456"
+  },
+  {
+    "player_name": "Hassan Haskins",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "4993671"
+  },
+  {
+    "player_name": "Hassan Haskins",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5737827"
+  },
+  {
+    "player_name": "Skyy Moore",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5749760"
+  },
+  {
+    "player_name": "Skyy Moore",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5633126"
+  },
+  {
+    "player_name": "Tucker Fisk",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5619424"
+  },
+  {
+    "player_name": "Hollywood Brown",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "4993678"
+  },
+  {
+    "player_name": "Hollywood Brown",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5737828"
+  },
+  {
+    "player_name": "Brashard Smith",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5687613"
+  },
+  {
+    "player_name": "Elijah Mitchell",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5687614"
+  },
+  {
+    "player_name": "Jalen Royals",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5687615"
+  },
+  {
+    "player_name": "Omarion Hampton",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5687617"
+  },
+  {
+    "player_name": "Omarion Hampton",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 1.5,
+    "game_time": null,
+    "projection_id": "5710333"
+  },
+  {
+    "player_name": "Oronde Gadsden",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5687618"
+  },
+  {
+    "player_name": "Tre Harris",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5687619"
+  },
+  {
+    "player_name": "Tyler Conklin",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5687620"
+  },
+  {
+    "player_name": "Tyquan Thornton",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5749761"
+  },
+  {
+    "player_name": "Tyquan Thornton",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5633127"
+  },
+  {
+    "player_name": "KeAndre Lambert-Smith",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5710332"
+  },
+  {
+    "player_name": "Alec Pierce",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650679"
+  },
+  {
+    "player_name": "Josh Downs",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650686"
+  },
+  {
+    "player_name": "Mo Alie-Cox",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650693"
+  },
+  {
+    "player_name": "Tyreek Hill",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650696"
+  },
+  {
+    "player_name": "Jonathan Taylor",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650685"
+  },
+  {
+    "player_name": "Jonathan Taylor",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 1.5,
+    "game_time": null,
+    "projection_id": "5650684"
+  },
+  {
+    "player_name": "Tua Tagovailoa",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650695"
+  },
+  {
+    "player_name": "Jaylen Waddle",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650682"
+  },
+  {
+    "player_name": "De'Von Achane",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5728242"
+  },
+  {
+    "player_name": "De'Von Achane",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 1.5,
+    "game_time": null,
+    "projection_id": "5650681"
+  },
+  {
+    "player_name": "Michael Pittman",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650692"
+  },
+  {
+    "player_name": "Adonai Mitchell",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650677"
+  },
+  {
+    "player_name": "Jaylen Wright",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650683"
+  },
+  {
+    "player_name": "Malik Washington",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650691"
+  },
+  {
+    "player_name": "Julian Hill",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650688"
+  },
+  {
+    "player_name": "Ashton Dulin",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5731201"
+  },
+  {
+    "player_name": "Anthony Gould",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5728332"
+  },
+  {
+    "player_name": "Drew Ogletree",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5728327"
+  },
+  {
+    "player_name": "Daniel Jones",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650680"
+  },
+  {
+    "player_name": "Khalil Herbert",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650690"
+  },
+  {
+    "player_name": "Nick Westbrook-Ikhine",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650694"
+  },
+  {
+    "player_name": "Tyler Warren",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650875"
+  },
+  {
+    "player_name": "D.J. Montgomery",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5731202"
+  },
+  {
+    "player_name": "Erik Ezukanma",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5731203"
+  },
+  {
+    "player_name": "Laquon Treadwell",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5731204"
+  },
+  {
+    "player_name": "Pharaoh Brown",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5761761"
+  },
+  {
+    "player_name": "Juwan Johnson",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650881"
+  },
+  {
+    "player_name": "Kyler Murray",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650885"
+  },
+  {
+    "player_name": "James Conner",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 1.5,
+    "game_time": null,
+    "projection_id": "5650880"
+  },
+  {
+    "player_name": "James Conner",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5727098"
+  },
+  {
+    "player_name": "Greg Dortch",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650879"
+  },
+  {
+    "player_name": "Michael Wilson",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650887"
+  },
+  {
+    "player_name": "Alvin Kamara",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 1.5,
+    "game_time": null,
+    "projection_id": "5650876"
+  },
+  {
+    "player_name": "Rashid Shaheed",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650888"
+  },
+  {
+    "player_name": "Trey McBride",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650890"
+  },
+  {
+    "player_name": "Chris Olave",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650878"
+  },
+  {
+    "player_name": "Taysom Hill",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5727180"
+  },
+  {
+    "player_name": "Trey Benson",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650889"
+  },
+  {
+    "player_name": "Foster Moreau",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5727115"
+  },
+  {
+    "player_name": "Marvin Harrison",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650886"
+  },
+  {
+    "player_name": "Elijah Higgins",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5727113"
+  },
+  {
+    "player_name": "Bub Means",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5731205"
+  },
+  {
+    "player_name": "Kendre Miller",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650884"
+  },
+  {
+    "player_name": "Xavier Weaver",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5727116"
+  },
+  {
+    "player_name": "Zay Jones",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650892"
+  },
+  {
+    "player_name": "Emari Demercado",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5727114"
+  },
+  {
+    "player_name": "Michael Carter",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5731206"
+  },
+  {
+    "player_name": "Brandin Cooks",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650877"
+  },
+  {
+    "player_name": "Tyler Shough",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650891"
+  },
+  {
+    "player_name": "Jalin Hyatt",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5728072"
+  },
+  {
+    "player_name": "Malik Nabers",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650743"
+  },
+  {
+    "player_name": "Jayden Daniels",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650739"
+  },
+  {
+    "player_name": "Jayden Daniels",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 1.5,
+    "game_time": null,
+    "projection_id": "5707848"
+  },
+  {
+    "player_name": "Brian Robinson Jr.",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 1.5,
+    "game_time": null,
+    "projection_id": "5650732"
+  },
+  {
+    "player_name": "Devin Singletary",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650738"
+  },
+  {
+    "player_name": "Austin Ekeler",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650730"
+  },
+  {
+    "player_name": "Zach Ertz",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650749"
+  },
+  {
+    "player_name": "Wan'Dale Robinson",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650748"
+  },
+  {
+    "player_name": "Terry McLaurin",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650745"
+  },
+  {
+    "player_name": "Darius Slayton",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650736"
+  },
+  {
+    "player_name": "Theo Johnson",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650746"
+  },
+  {
+    "player_name": "Luke McCaffrey",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650742"
+  },
+  {
+    "player_name": "Noah Brown",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5829929"
+  },
+  {
+    "player_name": "John Bates",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5728073"
+  },
+  {
+    "player_name": "Tyrone Tracy",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650747"
+  },
+  {
+    "player_name": "Jeremy McNichols",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650741"
+  },
+  {
+    "player_name": "Ben Sinnott",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650731"
+  },
+  {
+    "player_name": "Cam Skattebo",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650734"
+  },
+  {
+    "player_name": "Chris Rodriguez",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650735"
+  },
+  {
+    "player_name": "Deebo Samuel",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650737"
+  },
+  {
+    "player_name": "Jaylin Lane",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650740"
+  },
+  {
+    "player_name": "Russell Wilson",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650744"
+  },
+  {
+    "player_name": "K.J. Osborn",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5689512"
+  },
+  {
+    "player_name": "Chris Moore",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5728071"
+  },
+  {
+    "player_name": "Michael Gallup",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5829928"
+  },
+  {
+    "player_name": "Breece Hall",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 1.5,
+    "game_time": null,
+    "projection_id": "5778245"
+  },
+  {
+    "player_name": "Breece Hall",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650897"
+  },
+  {
+    "player_name": "Garrett Wilson",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650900"
+  },
+  {
+    "player_name": "Darnell Washington",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5727924"
+  },
+  {
+    "player_name": "Pat Freiermuth",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650908"
+  },
+  {
+    "player_name": "Jaylen Warren",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650901"
+  },
+  {
+    "player_name": "Braelon Allen",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650896"
+  },
+  {
+    "player_name": "Allen Lazard",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650895"
+  },
+  {
+    "player_name": "Jeremy Ruckert",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650902"
+  },
+  {
+    "player_name": "Calvin Austin",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650898"
+  },
+  {
+    "player_name": "Roman Wilson",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650910"
+  },
+  {
+    "player_name": "DK Metcalf",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650899"
+  },
+  {
+    "player_name": "Jonnu Smith",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650903"
+  },
+  {
+    "player_name": "Josh Reynolds",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650904"
+  },
+  {
+    "player_name": "Justin Fields",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650905"
+  },
+  {
+    "player_name": "Kaleb Johnson",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650906"
+  },
+  {
+    "player_name": "Mason Taylor",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650907"
+  },
+  {
+    "player_name": "Robert Woods",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650909"
+  },
+  {
+    "player_name": "Aaron Rodgers",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5731207"
+  },
+  {
+    "player_name": "Ben Skowronek",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5731208"
+  },
+  {
+    "player_name": "Chuba Hubbard",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 1.5,
+    "game_time": null,
+    "projection_id": "5650826"
+  },
+  {
+    "player_name": "Chuba Hubbard",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5674906"
+  },
+  {
+    "player_name": "Adam Thielen",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650820"
+  },
+  {
+    "player_name": "Trevor Lawrence",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650839"
+  },
+  {
+    "player_name": "Travis Etienne",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650836"
+  },
+  {
+    "player_name": "Bryce Young",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650825"
+  },
+  {
+    "player_name": "Xavier Legette",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650840"
+  },
+  {
+    "player_name": "Ja'Tavion Sanders",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650829"
+  },
+  {
+    "player_name": "Tank Bigsby",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650834"
+  },
+  {
+    "player_name": "Brian Thomas",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650824"
+  },
+  {
+    "player_name": "Brian Thomas",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 1.5,
+    "game_time": null,
+    "projection_id": "5650823"
+  },
+  {
+    "player_name": "Tommy Tremble",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650835"
+  },
+  {
+    "player_name": "Brenton Strange",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650822"
+  },
+  {
+    "player_name": "Jalen Coker",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650830"
+  },
+  {
+    "player_name": "David Moore",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5731216"
+  },
+  {
+    "player_name": "Raheem Blackshear",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5731218"
+  },
+  {
+    "player_name": "Parker Washington",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650832"
+  },
+  {
+    "player_name": "Bhayshul Tuten",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650821"
+  },
+  {
+    "player_name": "Dyami Brown",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650828"
+  },
+  {
+    "player_name": "Johnny Mundt",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650831"
+  },
+  {
+    "player_name": "Rico Dowdle",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650833"
+  },
+  {
+    "player_name": "Travis Hunter",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650837"
+  },
+  {
+    "player_name": "Trevor Etienne",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650838"
+  },
+  {
+    "player_name": "Jimmy Horn",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650970"
+  },
+  {
+    "player_name": "Tetairoa McMillan",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650971"
+  },
+  {
+    "player_name": "Mitchell Evans",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5697724"
+  },
+  {
+    "player_name": "Derrick Brown",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5728264"
+  },
+  {
+    "player_name": "Joshua Cephus",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5731217"
+  },
+  {
+    "player_name": "LeQuint Allen",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5872681"
+  },
+  {
+    "player_name": "Brock Bowers",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650757"
+  },
+  {
+    "player_name": "Hunter Henry",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650762"
+  },
+  {
+    "player_name": "Ja'Lynn Polk",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650763"
+  },
+  {
+    "player_name": "Rhamondre Stevenson",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650773"
+  },
+  {
+    "player_name": "Jakobi Meyers",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650765"
+  },
+  {
+    "player_name": "Zamir White",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5731211"
+  },
+  {
+    "player_name": "Antonio Gibson",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5728262"
+  },
+  {
+    "player_name": "Tre Tucker",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650775"
+  },
+  {
+    "player_name": "Michael Mayer",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650771"
+  },
+  {
+    "player_name": "Austin Hooper",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650756"
+  },
+  {
+    "player_name": "DeMario Douglas",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650758"
+  },
+  {
+    "player_name": "Kendrick Bourne",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650768"
+  },
+  {
+    "player_name": "Drake Maye",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650760"
+  },
+  {
+    "player_name": "Kayshon Boutte",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650767"
+  },
+  {
+    "player_name": "Javon Baker",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650766"
+  },
+  {
+    "player_name": "Jaheim Bell",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5731210"
+  },
+  {
+    "player_name": "Sincere McCormick",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5728263"
+  },
+  {
+    "player_name": "Ashton Jeanty",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650755"
+  },
+  {
+    "player_name": "Ashton Jeanty",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 1.5,
+    "game_time": null,
+    "projection_id": "5650754"
+  },
+  {
+    "player_name": "Dont'e Thornton",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650759"
+  },
+  {
+    "player_name": "Geno Smith",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650761"
+  },
+  {
+    "player_name": "Jack Bech",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650764"
+  },
+  {
+    "player_name": "Kyle Williams",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650769"
+  },
+  {
+    "player_name": "Mack Hollins",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5860076"
+  },
+  {
+    "player_name": "Raheem Mostert",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650772"
+  },
+  {
+    "player_name": "Stefon Diggs",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650774"
+  },
+  {
+    "player_name": "TreVeyon Henderson",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650776"
+  },
+  {
+    "player_name": "Jack Westover",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5731209"
+  },
+  {
+    "player_name": "Ja'Marr Chase",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 1.5,
+    "game_time": null,
+    "projection_id": "5650784"
+  },
+  {
+    "player_name": "Ja'Marr Chase",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5674907"
+  },
+  {
+    "player_name": "Tee Higgins",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650792"
+  },
+  {
+    "player_name": "Pierre Strong",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5666826"
+  },
+  {
+    "player_name": "Andrei Iosivas",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650777"
+  },
+  {
+    "player_name": "Jerome Ford",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650787"
+  },
+  {
+    "player_name": "Jerry Jeudy",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650788"
+  },
+  {
+    "player_name": "David Njoku",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650780"
+  },
+  {
+    "player_name": "Joe Burrow",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650789"
+  },
+  {
+    "player_name": "Chase Brown",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5727198"
+  },
+  {
+    "player_name": "Chase Brown",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 1.5,
+    "game_time": null,
+    "projection_id": "5650779"
+  },
+  {
+    "player_name": "Cedric Tillman",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650778"
+  },
+  {
+    "player_name": "Mike Gesicki",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650790"
+  },
+  {
+    "player_name": "Jermaine Burton",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650786"
+  },
+  {
+    "player_name": "Jamari Thrash",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5727912"
+  },
+  {
+    "player_name": "Charlie Jones",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5731213"
+  },
+  {
+    "player_name": "Tanner Hudson",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5731214"
+  },
+  {
+    "player_name": "Michael Woods",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5727913"
+  },
+  {
+    "player_name": "Diontae Johnson",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650781"
+  },
+  {
+    "player_name": "Dylan Sampson",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650782"
+  },
+  {
+    "player_name": "Harold Fannin",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650783"
+  },
+  {
+    "player_name": "Quinshon Judkins",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650791"
+  },
+  {
+    "player_name": "Cam Grandy",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5731212"
+  },
+  {
+    "player_name": "Samaje Perine",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5853266"
+  },
+  {
+    "player_name": "Tahj Brooks",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5853267"
+  },
+  {
+    "player_name": "Bijan Robinson",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650843"
+  },
+  {
+    "player_name": "Bijan Robinson",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 1.5,
+    "game_time": null,
+    "projection_id": "5650842"
+  },
+  {
+    "player_name": "Kyle Pitts",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650853"
+  },
+  {
+    "player_name": "Darnell Mooney",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650849"
+  },
+  {
+    "player_name": "Ray-Ray McCloud",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650857"
+  },
+  {
+    "player_name": "Cade Otton",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650846"
+  },
+  {
+    "player_name": "Baker Mayfield",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650841"
+  },
+  {
+    "player_name": "Rachaad White",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650856"
+  },
+  {
+    "player_name": "Chris Godwin",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650848"
+  },
+  {
+    "player_name": "Mike Evans",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 1.5,
+    "game_time": null,
+    "projection_id": "5650854"
+  },
+  {
+    "player_name": "Mike Evans",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650855"
+  },
+  {
+    "player_name": "Tyler Allgeier",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650859"
+  },
+  {
+    "player_name": "Drake London",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 1.5,
+    "game_time": null,
+    "projection_id": "5777851"
+  },
+  {
+    "player_name": "Drake London",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650850"
+  },
+  {
+    "player_name": "Jalen McMillan",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650852"
+  },
+  {
+    "player_name": "Bucky Irving",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 1.5,
+    "game_time": null,
+    "projection_id": "5650844"
+  },
+  {
+    "player_name": "Bucky Irving",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650845"
+  },
+  {
+    "player_name": "Trey Palmer",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5728078"
+  },
+  {
+    "player_name": "Charlie Woerner",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650847"
+  },
+  {
+    "player_name": "Sterling Shepard",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5728077"
+  },
+  {
+    "player_name": "Sean Tucker",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650858"
+  },
+  {
+    "player_name": "Casey Washington",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5731221"
+  },
+  {
+    "player_name": "KhaDarel Hodge",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5728074"
+  },
+  {
+    "player_name": "Michael Penix",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5728075"
+  },
+  {
+    "player_name": "Payne Durham",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5728076"
+  },
+  {
+    "player_name": "Emeka Egbuka",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650851"
+  },
+  {
+    "player_name": "Carlos Washington",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5731220"
+  },
+  {
+    "player_name": "DJ Chark",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5810788"
+  },
+  {
+    "player_name": "Calvin Ridley",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650717"
+  },
+  {
+    "player_name": "Tony Pollard",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650726"
+  },
+  {
+    "player_name": "Bo Nix",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650716"
+  },
+  {
+    "player_name": "Tyjae Spears",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650728"
+  },
+  {
+    "player_name": "Courtland Sutton",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650720"
+  },
+  {
+    "player_name": "Jaleel McLaughlin",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650724"
+  },
+  {
+    "player_name": "Marvin Mims Jr.",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650725"
+  },
+  {
+    "player_name": "Chig Okonkwo",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650719"
+  },
+  {
+    "player_name": "Adam Trautman",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5738587"
+  },
+  {
+    "player_name": "Devaughn Vele",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650721"
+  },
+  {
+    "player_name": "Josh Whyle",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5738894"
+  },
+  {
+    "player_name": "Troy Franklin",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650727"
+  },
+  {
+    "player_name": "Lucas Krull",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5738588"
+  },
+  {
+    "player_name": "Audric Estime",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650715"
+  },
+  {
+    "player_name": "Cameron Ward",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650718"
+  },
+  {
+    "player_name": "Evan Engram",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650722"
+  },
+  {
+    "player_name": "J.K. Dobbins",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650723"
+  },
+  {
+    "player_name": "Tyler Lockett",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650729"
+  },
+  {
+    "player_name": "Pat Bryant",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650893"
+  },
+  {
+    "player_name": "RJ Harvey",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650894"
+  },
+  {
+    "player_name": "A.T. Perry",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5738608"
+  },
+  {
+    "player_name": "Michael Bandy",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5738609"
+  },
+  {
+    "player_name": "Elic Ayomanor",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5861366"
+  },
+  {
+    "player_name": "Jauan Jennings",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650958"
+  },
+  {
+    "player_name": "Kyle Juszczyk",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650963"
+  },
+  {
+    "player_name": "Brock Purdy",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650949"
+  },
+  {
+    "player_name": "Christian McCaffrey",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650950"
+  },
+  {
+    "player_name": "Christian McCaffrey",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 1.5,
+    "game_time": null,
+    "projection_id": "5650951"
+  },
+  {
+    "player_name": "Brandon Aiyuk",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650948"
+  },
+  {
+    "player_name": "George Kittle",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650955"
+  },
+  {
+    "player_name": "Jaxon Smith-Njigba",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650959"
+  },
+  {
+    "player_name": "Zach Charbonnet",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650969"
+  },
+  {
+    "player_name": "Isaac Guerendo",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650956"
+  },
+  {
+    "player_name": "Kenneth Walker III",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 1.5,
+    "game_time": null,
+    "projection_id": "5650961"
+  },
+  {
+    "player_name": "AJ Barner",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5741299"
+  },
+  {
+    "player_name": "Ricky Pearsall",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650966"
+  },
+  {
+    "player_name": "Jacob Cowing",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5738902"
+  },
+  {
+    "player_name": "Jake Bobo",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650957"
+  },
+  {
+    "player_name": "Kenny McIntosh",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650962"
+  },
+  {
+    "player_name": "Cooper Kupp",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650952"
+  },
+  {
+    "player_name": "Demarcus Robinson",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650953"
+  },
+  {
+    "player_name": "Elijah Arroyo",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650954"
+  },
+  {
+    "player_name": "Marquez Valdes-Scantling",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650964"
+  },
+  {
+    "player_name": "Sam Darnold",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650967"
+  },
+  {
+    "player_name": "Tory Horton",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650968"
+  },
+  {
+    "player_name": "Ricky White",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5689402"
+  },
+  {
+    "player_name": "Cody White",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5738901"
+  },
+  {
+    "player_name": "Damien Martinez",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5831112"
+  },
+  {
+    "player_name": "Jordan James",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5857351"
+  },
+  {
+    "player_name": "Jordan Love",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650918"
+  },
+  {
+    "player_name": "Josh Jacobs",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 1.5,
+    "game_time": null,
+    "projection_id": "5650753"
+  },
+  {
+    "player_name": "Josh Jacobs",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650919"
+  },
+  {
+    "player_name": "Jared Goff",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5738896"
+  },
+  {
+    "player_name": "Jahmyr Gibbs",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650915"
+  },
+  {
+    "player_name": "Jahmyr Gibbs",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 1.5,
+    "game_time": null,
+    "projection_id": "5650752"
+  },
+  {
+    "player_name": "Amon-Ra St. Brown",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650911"
+  },
+  {
+    "player_name": "Sam LaPorta",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650925"
+  },
+  {
+    "player_name": "David Montgomery",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650751"
+  },
+  {
+    "player_name": "David Montgomery",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 1.5,
+    "game_time": null,
+    "projection_id": "5650750"
+  },
+  {
+    "player_name": "Christian Watson",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5738585"
+  },
+  {
+    "player_name": "Jayden Reed",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650917"
+  },
+  {
+    "player_name": "Romeo Doubs",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650924"
+  },
+  {
+    "player_name": "Jameson Williams",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650916"
+  },
+  {
+    "player_name": "Luke Musgrave",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650921"
+  },
+  {
+    "player_name": "Dontayvion Wicks",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650913"
+  },
+  {
+    "player_name": "Kalif Raymond",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650920"
+  },
+  {
+    "player_name": "Tucker Kraft",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650928"
+  },
+  {
+    "player_name": "Emanuel Wilson",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5738579"
+  },
+  {
+    "player_name": "Tim Patrick",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650927"
+  },
+  {
+    "player_name": "Malik Heath",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5738897"
+  },
+  {
+    "player_name": "Bo Melton",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5738895"
+  },
+  {
+    "player_name": "Brock Wright",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650912"
+  },
+  {
+    "player_name": "Chris Brooks",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5841174"
+  },
+  {
+    "player_name": "Isaac TeSlaa",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650914"
+  },
+  {
+    "player_name": "MarShawn Lloyd",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650922"
+  },
+  {
+    "player_name": "Matthew Golden",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650923"
+  },
+  {
+    "player_name": "Savion Williams",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650926"
+  },
+  {
+    "player_name": "Dominic Lovett",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5825688"
+  },
+  {
+    "player_name": "Dalton Schultz",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650934"
+  },
+  {
+    "player_name": "C.J. Stroud",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650930"
+  },
+  {
+    "player_name": "Nico Collins",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650942"
+  },
+  {
+    "player_name": "Dare Ogunbowale",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5806991"
+  },
+  {
+    "player_name": "John Metchie",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5738899"
+  },
+  {
+    "player_name": "Cade Stover",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650931"
+  },
+  {
+    "player_name": "Dameon Pierce",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5738898"
+  },
+  {
+    "player_name": "Kyren Williams",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 1.5,
+    "game_time": null,
+    "projection_id": "5650795"
+  },
+  {
+    "player_name": "Kyren Williams",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650940"
+  },
+  {
+    "player_name": "Blake Corum",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650929"
+  },
+  {
+    "player_name": "Christian Kirk",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650932"
+  },
+  {
+    "player_name": "Colby Parkinson",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650933"
+  },
+  {
+    "player_name": "Davante Adams",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650935"
+  },
+  {
+    "player_name": "Jarquez Hunter",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650936"
+  },
+  {
+    "player_name": "Jayden Higgins",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650937"
+  },
+  {
+    "player_name": "Jaylin Noel",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650938"
+  },
+  {
+    "player_name": "Jordan Whittington",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650939"
+  },
+  {
+    "player_name": "Nick Chubb",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650941"
+  },
+  {
+    "player_name": "Puka Nacua",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650943"
+  },
+  {
+    "player_name": "Terrance Ferguson",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650944"
+  },
+  {
+    "player_name": "Tutu Atwell",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650945"
+  },
+  {
+    "player_name": "Tyler Higbee",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650946"
+  },
+  {
+    "player_name": "Woody Marks",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650947"
+  },
+  {
+    "player_name": "Irv Smith",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5738851"
+  },
+  {
+    "player_name": "Ronnie Rivers",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5738900"
+  },
+  {
+    "player_name": "Josh Allen",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 1.5,
+    "game_time": null,
+    "projection_id": "5650806"
+  },
+  {
+    "player_name": "Lamar Jackson",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650814"
+  },
+  {
+    "player_name": "Derrick Henry",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650801"
+  },
+  {
+    "player_name": "Derrick Henry",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 1.5,
+    "game_time": null,
+    "projection_id": "5650800"
+  },
+  {
+    "player_name": "Mark Andrews",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650815"
+  },
+  {
+    "player_name": "Frank Gore",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5731215"
+  },
+  {
+    "player_name": "Ray Davis",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650817"
+  },
+  {
+    "player_name": "Zay Flowers",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650819"
+  },
+  {
+    "player_name": "Rashod Bateman",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650816"
+  },
+  {
+    "player_name": "James Cook",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 1.5,
+    "game_time": null,
+    "projection_id": "5650804"
+  },
+  {
+    "player_name": "Curtis Samuel",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650796"
+  },
+  {
+    "player_name": "Khalil Shakir",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650813"
+  },
+  {
+    "player_name": "Dalton Kincaid",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650797"
+  },
+  {
+    "player_name": "Isaiah Likely",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650803"
+  },
+  {
+    "player_name": "Justice Hill",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650810"
+  },
+  {
+    "player_name": "Dawson Knox",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650798"
+  },
+  {
+    "player_name": "Keon Coleman",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650812"
+  },
+  {
+    "player_name": "Ty Johnson",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650818"
+  },
+  {
+    "player_name": "Charlie Kolar",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5842704"
+  },
+  {
+    "player_name": "Tylan Wallace",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5708428"
+  },
+  {
+    "player_name": "Devontez Walker",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5708427"
+  },
+  {
+    "player_name": "Keaton Mitchell",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650811"
+  },
+  {
+    "player_name": "DeAndre Hopkins",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650799"
+  },
+  {
+    "player_name": "Elijah Moore",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650802"
+  },
+  {
+    "player_name": "Joshua Palmer",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650809"
+  },
+  {
+    "player_name": "Roschon Johnson",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650712"
+  },
+  {
+    "player_name": "Caleb Williams",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650698"
+  },
+  {
+    "player_name": "Cole Kmet",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650699"
+  },
+  {
+    "player_name": "D'Andre Swift",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650701"
+  },
+  {
+    "player_name": "D'Andre Swift",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 1.5,
+    "game_time": null,
+    "projection_id": "5730715"
+  },
+  {
+    "player_name": "Jordan Addison",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650705"
+  },
+  {
+    "player_name": "Aaron Jones",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650697"
+  },
+  {
+    "player_name": "D.J. Moore",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650702"
+  },
+  {
+    "player_name": "Justin Jefferson",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 1.5,
+    "game_time": null,
+    "projection_id": "5825188"
+  },
+  {
+    "player_name": "Justin Jefferson",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650707"
+  },
+  {
+    "player_name": "Rome Odunze",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650711"
+  },
+  {
+    "player_name": "Ty Chandler",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5738875"
+  },
+  {
+    "player_name": "Jalen Nailor",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650704"
+  },
+  {
+    "player_name": "Josh Oliver",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5738891"
+  },
+  {
+    "player_name": "Tyler Scott",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5738893"
+  },
+  {
+    "player_name": "T.J. Hockenson",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650713"
+  },
+  {
+    "player_name": "Colston Loveland",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650700"
+  },
+  {
+    "player_name": "J.J. McCarthy",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650703"
+  },
+  {
+    "player_name": "Jordan Mason",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650706"
+  },
+  {
+    "player_name": "Kyle Monangai",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650708"
+  },
+  {
+    "player_name": "Luther Burden",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650709"
+  },
+  {
+    "player_name": "Olamide Zaccheaus",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650710"
+  },
+  {
+    "player_name": "Tai Felton",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5650714"
+  },
+  {
+    "player_name": "Travis Homer",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5738892"
+  },
+  {
+    "player_name": "Rondale Moore",
+    "team": "UNK",
+    "opponent": "Unknown Opponent",
+    "stat_type": "Rush+Rec TDs",
+    "line_score": 0.5,
+    "game_time": null,
+    "projection_id": "5825189"
+  }
+]

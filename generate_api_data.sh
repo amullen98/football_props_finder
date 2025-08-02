@@ -14,9 +14,13 @@ NC='\033[0m' # No Color
 
 # Function to display help
 show_help() {
-    echo -e "${BLUE}🏈 Football Prop Insights - API Data Generator${NC}"
+    echo -e "${BLUE}🏈 Football Prop Insights - API Data Generator & Parser${NC}"
     echo ""
     echo "Usage: ./generate_api_data.sh <api_type> [additional_params...]"
+    echo ""
+    echo "This script:"
+    echo "  1. Fetches raw JSON data from APIs → api_data/ directory"
+    echo "  2. Parses the data into structured format → parsed_data/ directory"
     echo ""
     echo "Available API Types:"
     echo "  prizepicks-nfl    - PrizePicks NFL projections"
@@ -64,6 +68,29 @@ from src.api_client import fetch_prizepicks_data
 result = fetch_prizepicks_data('nfl')
 print(f'✅ Success: {result[\"success\"]}, Records: {result.get(\"record_count\", 0)}')
 "
+    
+    echo -e "${BLUE}📊 Parsing PrizePicks NFL data...${NC}"
+    python3 -c "
+import json
+import os
+from pathlib import Path
+from parsers.parse_prizepicks import parse_prizepicks_data
+
+# Create parsed_data directory
+Path('parsed_data/prizepicks').mkdir(parents=True, exist_ok=True)
+
+# Parse the raw data
+try:
+    parsed_data = parse_prizepicks_data('api_data/prizepicks/nfl_projections.json')
+    
+    # Save parsed data to file
+    with open('parsed_data/prizepicks/nfl_parsed.json', 'w') as f:
+        json.dump(parsed_data, f, indent=2, ensure_ascii=False)
+    
+    print(f'📊 Parsed {len(parsed_data)} NFL projections → parsed_data/prizepicks/nfl_parsed.json')
+except Exception as e:
+    print(f'❌ Parsing error: {e}')
+"
 }
 
 # Function to run PrizePicks CFB
@@ -73,6 +100,29 @@ run_prizepicks_cfb() {
 from src.api_client import fetch_prizepicks_data
 result = fetch_prizepicks_data('cfb')
 print(f'✅ Success: {result[\"success\"]}, Records: {result.get(\"record_count\", 0)}')
+"
+    
+    echo -e "${BLUE}📊 Parsing PrizePicks CFB data...${NC}"
+    python3 -c "
+import json
+import os
+from pathlib import Path
+from parsers.parse_prizepicks import parse_prizepicks_data
+
+# Create parsed_data directory
+Path('parsed_data/prizepicks').mkdir(parents=True, exist_ok=True)
+
+# Parse the raw data
+try:
+    parsed_data = parse_prizepicks_data('api_data/prizepicks/cfb_projections.json')
+    
+    # Save parsed data to file
+    with open('parsed_data/prizepicks/cfb_parsed.json', 'w') as f:
+        json.dump(parsed_data, f, indent=2, ensure_ascii=False)
+    
+    print(f'📊 Parsed {len(parsed_data)} CFB projections → parsed_data/prizepicks/cfb_parsed.json')
+except Exception as e:
+    print(f'❌ Parsing error: {e}')
 "
 }
 
@@ -87,6 +137,31 @@ run_nfl_stats() {
 from src.api_client import fetch_nfl_game_ids
 result = fetch_nfl_game_ids($year, $week, $type)
 print(f'✅ Success: {result[\"success\"]}, Games: {result.get(\"game_count\", 0)}')
+"
+    
+    echo -e "${BLUE}📊 Parsing NFL Game IDs data...${NC}"
+    python3 -c "
+import json
+import os
+from pathlib import Path
+from parsers.parse_nfl_game_ids import parse_nfl_game_ids
+
+# Create parsed_data directory
+Path('parsed_data/nfl_stats').mkdir(parents=True, exist_ok=True)
+
+# Parse the raw data
+try:
+    input_file = f'api_data/nfl_stats/games_{$year}_week{$week}_type{$type}.json'
+    parsed_data = parse_nfl_game_ids(input_file)
+    
+    # Save parsed data to file
+    output_file = f'parsed_data/nfl_stats/games_{$year}_week{$week}_type{$type}_parsed.json'
+    with open(output_file, 'w') as f:
+        json.dump(parsed_data, f, indent=2, ensure_ascii=False)
+    
+    print(f'📊 Parsed {len(parsed_data[\"game_ids\"])} game IDs → {output_file}')
+except Exception as e:
+    print(f'❌ Parsing error: {e}')
 "
 }
 
@@ -106,6 +181,31 @@ run_nfl_boxscore() {
 from src.api_client import fetch_nfl_boxscore
 result = fetch_nfl_boxscore('$event_id')
 print(f'✅ Success: {result[\"success\"]}, Players: {result.get(\"players_count\", 0)}')
+"
+    
+    echo -e "${BLUE}📊 Parsing NFL Boxscore data...${NC}"
+    python3 -c "
+import json
+import os
+from pathlib import Path
+from parsers.parse_nfl_boxscore import parse_nfl_boxscore
+
+# Create parsed_data directory
+Path('parsed_data/nfl_boxscore').mkdir(parents=True, exist_ok=True)
+
+# Parse the raw data
+try:
+    input_file = f'api_data/nfl_boxscore/boxscore_$event_id.json'
+    parsed_data = parse_nfl_boxscore(input_file)
+    
+    # Save parsed data to file
+    output_file = f'parsed_data/nfl_boxscore/boxscore_$event_id_parsed.json'
+    with open(output_file, 'w') as f:
+        json.dump(parsed_data, f, indent=2, ensure_ascii=False)
+    
+    print(f'📊 Parsed {len(parsed_data)} player records → {output_file}')
+except Exception as e:
+    print(f'❌ Parsing error: {e}')
 "
 }
 
@@ -132,6 +232,52 @@ from src.api_client import fetch_nfl_week_boxscores
 result = fetch_nfl_week_boxscores($year, $week, $type)
 print(f'✅ Week Success: {result[\"success\"]}, Games Processed: {result.get(\"games_processed\", 0)}/{result.get(\"total_games\", 0)}')
 "
+    
+    echo -e "${BLUE}📊 Parsing NFL Week Boxscores data...${NC}"
+    python3 -c "
+import json
+import os
+import glob
+from pathlib import Path
+from parsers.parse_nfl_boxscore import parse_nfl_boxscore
+
+# Create parsed_data directory
+Path('parsed_data/nfl_boxscore').mkdir(parents=True, exist_ok=True)
+
+# Find all boxscore files for this week and parse them
+try:
+    boxscore_pattern = 'api_data/nfl_boxscore/boxscore_*.json'
+    boxscore_files = glob.glob(boxscore_pattern)
+    
+    all_parsed_data = []
+    files_parsed = 0
+    
+    for boxscore_file in boxscore_files:
+        try:
+            parsed_data = parse_nfl_boxscore(boxscore_file)
+            all_parsed_data.extend(parsed_data)
+            files_parsed += 1
+            
+            # Also save individual parsed file
+            filename = os.path.basename(boxscore_file).replace('.json', '_parsed.json')
+            output_file = f'parsed_data/nfl_boxscore/{filename}'
+            with open(output_file, 'w') as f:
+                json.dump(parsed_data, f, indent=2, ensure_ascii=False)
+                
+        except Exception as e:
+            print(f'⚠️ Error parsing {boxscore_file}: {e}')
+    
+    # Save combined week data
+    week_output_file = f'parsed_data/nfl_boxscore/week_{$year}_week{$week}_type{$type}_all_parsed.json'
+    with open(week_output_file, 'w') as f:
+        json.dump(all_parsed_data, f, indent=2, ensure_ascii=False)
+    
+    print(f'📊 Parsed {len(all_parsed_data)} total player records from {files_parsed} games')
+    print(f'📊 Combined data → {week_output_file}')
+    
+except Exception as e:
+    print(f'❌ Parsing error: {e}')
+"
 }
 
 # Function to run CFB Stats
@@ -145,6 +291,31 @@ run_cfb_stats() {
 from src.api_client import fetch_cfb_player_data
 result = fetch_cfb_player_data($year, $week, '$season_type')
 print(f'✅ Success: {result[\"success\"]}, Games: {result.get(\"game_count\", 0)}')
+"
+    
+    echo -e "${BLUE}📊 Parsing CFB Stats data...${NC}"
+    python3 -c "
+import json
+import os
+from pathlib import Path
+from parsers.parse_cfb_stats import parse_cfb_player_stats
+
+# Create parsed_data directory
+Path('parsed_data/cfb_stats').mkdir(parents=True, exist_ok=True)
+
+# Parse the raw data
+try:
+    input_file = f'api_data/cfb_stats/players_{$year}_week{$week}_{$season_type}.json'
+    parsed_data = parse_cfb_player_stats(input_file)
+    
+    # Save parsed data to file
+    output_file = f'parsed_data/cfb_stats/players_{$year}_week{$week}_{$season_type}_parsed.json'
+    with open(output_file, 'w') as f:
+        json.dump(parsed_data, f, indent=2, ensure_ascii=False)
+    
+    print(f'📊 Parsed {len(parsed_data)} player records → {output_file}')
+except Exception as e:
+    print(f'❌ Parsing error: {e}')
 "
 }
 
@@ -233,5 +404,6 @@ case "$1" in
 esac
 
 echo ""
-echo -e "${GREEN}✅ Data generation completed successfully!${NC}"
-echo -e "${BLUE}📁 Check the api_data/ directory for saved JSON files${NC}"
+echo -e "${GREEN}✅ Data generation and parsing completed successfully!${NC}"
+echo -e "${BLUE}📁 Raw JSON files saved to: api_data/ directory${NC}"
+echo -e "${BLUE}📊 Parsed data files saved to: parsed_data/ directory${NC}"
