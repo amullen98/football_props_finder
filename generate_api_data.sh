@@ -195,11 +195,11 @@ Path('parsed_data/nfl_boxscore').mkdir(parents=True, exist_ok=True)
 
 # Parse the raw data
 try:
-    input_file = f'api_data/nfl_boxscore/boxscore_$event_id.json'
+    input_file = 'api_data/nfl_boxscore/boxscore_$event_id.json'
     parsed_data = parse_nfl_boxscore(input_file)
     
     # Save parsed data to file
-    output_file = f'parsed_data/nfl_boxscore/boxscore_$event_id_parsed.json'
+    output_file = 'parsed_data/nfl_boxscore/boxscore_${event_id}_parsed.json'
     with open(output_file, 'w') as f:
         json.dump(parsed_data, f, indent=2, ensure_ascii=False)
     
