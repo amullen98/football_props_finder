@@ -15,9 +15,36 @@ import requests
 import json
 from dotenv import load_dotenv
 from typing import Dict, Any, Optional
+from pathlib import Path
 
 # Load environment variables
 load_dotenv()
+
+
+def save_api_data(data: Any, api_folder: str, filename: str) -> None:
+    """
+    Save API response data to JSON file.
+    
+    Args:
+        data: The data to save (usually API response)
+        api_folder: Subfolder name under api_data (e.g., 'prizepicks', 'nfl_stats')
+        filename: Name of the JSON file (e.g., 'nfl_projections.json')
+    """
+    try:
+        # Create directory structure
+        base_dir = Path("api_data")
+        api_dir = base_dir / api_folder
+        api_dir.mkdir(parents=True, exist_ok=True)
+        
+        # Save data to file
+        filepath = api_dir / filename
+        with open(filepath, 'w', encoding='utf-8') as f:
+            json.dump(data, f, indent=2, ensure_ascii=False)
+        
+        print(f"💾 Data saved to: {filepath}")
+        
+    except Exception as e:
+        print(f"⚠️  Failed to save data to {api_folder}/{filename}: {str(e)}")
 
 
 def validate_environment_variables() -> bool:
@@ -164,6 +191,10 @@ def fetch_prizepicks_data(league: str = 'nfl') -> Dict[str, Any]:
                     
                     print(f"✅ Successfully retrieved {record_count} {league_name} projections")
                     
+                    # Save raw API data to file
+                    filename = f"{league.lower()}_projections.json"
+                    save_api_data(data, "prizepicks", filename)
+                    
                     # Get sample record for display
                     sample_record = projections[0] if projections else None
                     
@@ -307,6 +338,10 @@ def fetch_nfl_game_ids(year: int = 2023, week: int = 1, type_param: int = 2) -> 
                     total_count = data.get('count', game_count)
                     
                     print(f"✅ Successfully retrieved {game_count} NFL games (total: {total_count})")
+                    
+                    # Save raw API data to file
+                    filename = f"games_{year}_week{week}_type{type_param}.json"
+                    save_api_data(data, "nfl_stats", filename)
                     
                     # Get sample record for display
                     sample_record = games[0] if games else None
@@ -484,6 +519,10 @@ def fetch_cfb_player_data(year: int = 2023, week: int = 1, season_type: str = 'r
                                     total_player_stats += len(team['statistics'])
                     
                     print(f"✅ Successfully retrieved {game_count} CFB games with {total_player_stats} player stat records")
+                    
+                    # Save raw API data to file
+                    filename = f"players_{year}_week{week}_{season_type}.json"
+                    save_api_data(data, "cfb_stats", filename)
                     
                     # Get sample record for display
                     sample_record = games[0] if games else None
