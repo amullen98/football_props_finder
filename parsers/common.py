@@ -284,7 +284,7 @@ def extract_season_from_datetime(date_string: str, default_season: int = 2023) -
                    '%Y-%m-%dT%H:%M:%S.%fZ', '%Y-%m-%dT%H:%M:%S%z', '%Y-%m-%d %H:%M:%S',
                    '%Y-%m-%d', '%m/%d/%Y', '%m-%d-%Y']:
             try:
-                parsed_date = datetime.strptime(date_string.replace('Z', '').split('+')[0].split('-')[0:3] if 'T' in date_string else date_string, fmt)
+                parsed_date = datetime.strptime(date_string.replace('Z', '').split('+')[0] if 'T' in date_string else date_string, fmt)
                 return parsed_date.year
             except ValueError:
                 continue
@@ -374,31 +374,33 @@ def find_included_item_by_type_and_id(included_data: List[Dict], item_type: str,
 
 def derive_team_from_prizepicks(projection: Dict, included_data: List[Dict]) -> str:
     """
-    Derive team name from PrizePicks projection using included[] lookup.
+    Derive team name from PrizePicks projection using player data in included[] lookup.
     
     Args:
         projection: Individual projection from PrizePicks API
         included_data: Included array from PrizePicks API response
         
     Returns:
-        Team name or "Unknown Team" if derivation fails
+        Team abbreviation or "Unknown Team" if derivation fails
     """
     try:
-        # Get team ID from projection relationships
-        team_id = safe_get_nested(projection, ['relationships', 'team', 'data', 'id'])
-        if not team_id:
+        # Get player ID from projection relationships  
+        player_id = safe_get_nested(projection, ['relationships', 'new_player', 'data', 'id'])
+        if not player_id:
             return "Unknown Team"
         
-        # Find team in included data
-        team_item = find_included_item_by_type_and_id(included_data, 'team', team_id)
-        if not team_item:
+        # Find player in included data
+        player_item = find_included_item_by_type_and_id(included_data, 'new_player', player_id)
+        if not player_item:
             return "Unknown Team"
         
-        # Extract team name
-        team_name = safe_get_nested(team_item, ['attributes', 'name'])
-        if not team_name:
-            team_name = safe_get_nested(team_item, ['attributes', 'abbreviation'])
+        # Extract team abbreviation from player data
+        team_abbr = safe_get_nested(player_item, ['attributes', 'team'])
+        if team_abbr:
+            return team_abbr
         
+        # Fallback to team_name if abbreviation not available
+        team_name = safe_get_nested(player_item, ['attributes', 'team_name'])
         return team_name if team_name else "Unknown Team"
         
     except Exception:
@@ -407,40 +409,28 @@ def derive_team_from_prizepicks(projection: Dict, included_data: List[Dict]) -> 
 
 def derive_opponent_from_prizepicks(projection: Dict, included_data: List[Dict]) -> str:
     """
-    Derive opponent name from PrizePicks projection using market lookup.
+    Derive opponent name from PrizePicks projection. 
+    Note: PrizePicks data structure doesn't include market objects with opponent info.
+    This function provides a placeholder implementation for now.
     
     Args:
         projection: Individual projection from PrizePicks API
         included_data: Included array from PrizePicks API response
         
     Returns:
-        Opponent name or "Unknown Opponent" if derivation fails
+        Opponent name or "TBD" if derivation not possible
     """
     try:
-        # Get market ID from projection relationships
-        market_id = safe_get_nested(projection, ['relationships', 'market', 'data', 'id'])
-        if not market_id:
-            return "Unknown Opponent"
+        # PrizePicks data structure doesn't include direct opponent information
+        # in the relationships or included data. The opponent would need to be
+        # derived from game data or external sources.
         
-        # Find market in included data
-        market_item = find_included_item_by_type_and_id(included_data, 'market', market_id)
-        if not market_item:
-            return "Unknown Opponent"
-        
-        # Extract opponent information
-        market_attrs = market_item.get('attributes', {})
-        
-        # Try different opponent field names
-        opponent = (market_attrs.get('away_team') or 
-                   market_attrs.get('home_team') or
-                   market_attrs.get('opponent') or
-                   market_attrs.get('away_team_name') or
-                   market_attrs.get('home_team_name'))
-        
-        return opponent if opponent else "Unknown Opponent"
+        # For now, return "TBD" to indicate this needs to be populated
+        # from a different data source or logic
+        return "TBD"
         
     except Exception:
-        return "Unknown Opponent"
+        return "TBD"
 
 
 def derive_position_from_prizepicks(projection: Dict, included_data: List[Dict]) -> str:
@@ -602,6 +592,12 @@ def parse_datetime_flexible(date_string: str) -> Optional[datetime]:
     if not date_string or date_string in ['null', 'None', '']:
         return None
     
+    # Handle unexpected list input (defensive programming)
+    if isinstance(date_string, list):
+        if len(date_string) > 0:
+            return parse_datetime_flexible(date_string[0])
+        return None
+    
     # Clean the input string
     clean_string = str(date_string).strip()
     
@@ -667,6 +663,12 @@ def extract_season_year_robust(date_input: Union[str, datetime, int], default_ye
     """
     # Handle None or empty inputs
     if date_input is None or date_input == '' or date_input == 'null':
+        return default_year
+    
+    # Handle unexpected list input (fix for bug)
+    if isinstance(date_input, list):
+        if len(date_input) > 0:
+            return extract_season_year_robust(date_input[0], default_year)
         return default_year
     
     # Handle integer year input
