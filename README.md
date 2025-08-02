@@ -126,6 +126,30 @@ The project includes a convenient shell script for generating API data:
 
 **Output:** Detailed player statistics including passing, rushing, receiving, defense, and special teams stats for all players in the specified game.
 
+#### NFL Weekly Boxscore API
+```bash
+./generate_api_data.sh nfl-week-boxscores <year> <week> <type>
+
+# Examples:
+./generate_api_data.sh nfl-week-boxscores 2023 1 2    # ALL games from Week 1, 2023 Regular Season
+./generate_api_data.sh nfl-week-boxscores 2023 5 2    # ALL games from Week 5, 2023 Regular Season
+./generate_api_data.sh nfl-week-boxscores 2023 1 3    # ALL playoff games from Week 1, 2023
+```
+
+**Parameters:**
+- `year`: NFL season year (e.g., 2023, 2024)
+- `week`: Week number (1-18)
+- `type`: Game type (1=preseason, 2=regular season, 3=postseason)
+
+**Output:** Complete player statistics for ALL games in the specified week. This command:
+- ✅ Fetches game IDs for the entire week
+- ✅ Downloads detailed boxscore data for every game
+- ✅ Saves individual game files: `boxscore_{event_id}.json`
+- ✅ Creates a week summary: `week_summary_{year}_week{week}_type{type}.json`
+- ⚠️ **Note:** Takes several minutes as it processes 15-16 games per week
+
+**Perfect for:** Comprehensive weekly analysis, prop betting research across all games, and bulk data collection.
+
 #### College Football Data API
 ```bash
 ./generate_api_data.sh cfb-stats <year> <week> <season_type>
@@ -181,7 +205,10 @@ api_data/
 │   ├── nfl_projections.json      # NFL prop betting lines
 │   └── cfb_projections.json      # College Football prop betting lines
 ├── nfl_stats/
-│   └── games_YYYY_weekN_typeT.json  # NFL game data and player stats
+│   └── games_YYYY_weekN_typeT.json  # NFL game IDs and basic info
+├── nfl_boxscore/
+│   ├── boxscore_EVENT_ID.json    # Individual game detailed player stats
+│   └── week_summary_YYYY_weekN_typeT.json  # Weekly processing summary
 └── cfb_stats/
     └── players_YYYY_weekN_SEASON.json  # College Football player statistics
 ```
@@ -190,6 +217,8 @@ api_data/
 
 - **PrizePicks**: `{league}_projections.json`
 - **NFL Stats**: `games_{year}_week{week}_type{type}.json`
+- **NFL Boxscore**: `boxscore_{event_id}.json`
+- **NFL Week Summary**: `week_summary_{year}_week{week}_type{type}.json`
 - **CFB Stats**: `players_{year}_week{week}_{season_type}.json`
 
 ### Data Samples

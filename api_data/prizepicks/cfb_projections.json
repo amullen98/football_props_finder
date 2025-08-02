@@ -232,7 +232,7 @@
         "stat_display_name": "Receiving Yards",
         "stat_type": "Receiving Yards",
         "status": "pre_game",
-        "trending_count": 169,
+        "trending_count": 170,
         "tv_channel": null,
         "updated_at": "2025-07-29T23:11:32-04:00"
       },
@@ -371,7 +371,7 @@
         "stat_display_name": "Pass Yards",
         "stat_type": "Pass Yards",
         "status": "pre_game",
-        "trending_count": 243,
+        "trending_count": 244,
         "tv_channel": null,
         "updated_at": "2025-07-29T22:46:16-04:00"
       },
@@ -511,7 +511,7 @@
         "stat_display_name": "Receiving Yards",
         "stat_type": "Receiving Yards",
         "status": "pre_game",
-        "trending_count": 236,
+        "trending_count": 237,
         "tv_channel": null,
         "updated_at": "2025-07-30T00:20:33-04:00"
       },
@@ -581,6 +581,7 @@
         "stat_display_name": "Receiving Yards",
         "stat_type": "Receiving Yards",
         "status": "pre_game",
+        "trending_count": 100,
         "tv_channel": null,
         "updated_at": "2025-07-30T00:41:58-04:00"
       },
@@ -1207,7 +1208,7 @@
         "stat_display_name": "Pass Yards",
         "stat_type": "Pass Yards",
         "status": "pre_game",
-        "trending_count": 222,
+        "trending_count": 223,
         "tv_channel": null,
         "updated_at": "2025-07-29T22:46:16-04:00"
       },
@@ -1257,46 +1258,30 @@
   "included": [
     {
       "type": "game",
-      "id": "85008",
+      "id": "85010",
       "attributes": {
-        "created_at": "2025-07-29T22:22:23-04:00",
+        "created_at": "2025-07-29T22:26:38-04:00",
         "end_time": null,
-        "external_game_id": "95ef9b56-801e-4f63-b9c5-c25e8e1a243c",
+        "external_game_id": "ff0532c8-cc0d-473a-b47f-421eccf4d427",
         "is_live": false,
         "metadata": {
-          "game_id": "95ef9b56-801e-4f63-b9c5-c25e8e1a243c",
+          "game_id": "ff0532c8-cc0d-473a-b47f-421eccf4d427",
           "game_info": {
             "status": "pre-game",
             "teams": {
               "away": {
-                "abbreviation": "LSU"
+                "abbreviation": "ISU"
               },
               "home": {
-                "abbreviation": "CLEM"
+                "abbreviation": "KSU"
               }
             }
           },
           "league_name": "CFB"
         },
-        "start_time": "2025-08-30T19:30:00-04:00",
+        "start_time": "2025-08-23T12:00:00-04:00",
         "status": "pre-game",
-        "updated_at": "2025-07-29T22:22:23-04:00"
-      }
-    },
-    {
-      "type": "projection_type",
-      "id": "2",
-      "attributes": {
-        "name": "Single Stat"
-      }
-    },
-    {
-      "type": "stat_type",
-      "id": "17",
-      "attributes": {
-        "lfg_ignored_leagues": [],
-        "name": "Receiving Yards",
-        "rank": 3
+        "updated_at": "2025-07-29T22:26:38-04:00"
       }
     },
     {
@@ -1312,41 +1297,20 @@
       }
     },
     {
-      "type": "team",
-      "id": "41459",
-      "attributes": {
-        "abbreviation": "ALA",
-        "market": "Alabama",
-        "name": "Crimson Tide",
-        "primary_color": null,
-        "secondary_color": null,
-        "tertiary_color": null
-      }
-    },
-    {
-      "type": "stat_type",
-      "id": "15",
-      "attributes": {
-        "lfg_ignored_leagues": [],
-        "name": "Rush Yards",
-        "rank": 2
-      }
-    },
-    {
       "type": "new_player",
-      "id": "249572",
+      "id": "153476",
       "attributes": {
         "combo": false,
-        "display_name": "Germie Bernard",
-        "image_url": "https://static.prizepicks.com/images/players/cfb/Germie_Bernard_e14eaaf0-8e80-11ec-8d02-85ead82574a9.webp",
+        "display_name": "Rocco Becht",
+        "image_url": "https://static.prizepicks.com/images/teams/cfb/Iowa_State_105193.webp",
         "jersey_number": null,
         "league": "CFB",
         "league_id": 15,
-        "market": "Alabama",
-        "name": "Germie Bernard",
-        "position": "WR",
-        "team": "ALA",
-        "team_name": "Crimson Tide"
+        "market": "Iowa State",
+        "name": "Rocco Becht",
+        "position": "QB",
+        "team": "ISU",
+        "team_name": "Cyclones"
       },
       "relationships": {
         "league": {
@@ -1358,7 +1322,81 @@
         "team_data": {
           "data": {
             "type": "team",
-            "id": "41459"
+            "id": "219"
+          }
+        }
+      }
+    },
+    {
+      "type": "new_player",
+      "id": "249577",
+      "attributes": {
+        "combo": false,
+        "display_name": "Avery Johnson",
+        "image_url": "https://static.prizepicks.com/images/players/cfb/Avery_Johnson_5e30d140-9cd8-11ed-8450-073f5137ec67.webp",
+        "jersey_number": null,
+        "league": "CFB",
+        "league_id": 15,
+        "market": "Kansas State",
+        "name": "Avery Johnson",
+        "position": "QB",
+        "team": "KSU",
+        "team_name": "Wildcats"
+      },
+      "relationships": {
+        "league": {
+          "data": {
+            "type": "league",
+            "id": "15"
+          }
+        },
+        "team_data": {
+          "data": {
+            "type": "team",
+            "id": "41462"
+          }
+        }
+      }
+    },
+    {
+      "type": "team",
+      "id": "305",
+      "attributes": {
+        "abbreviation": "LSU",
+        "market": "LSU",
+        "name": "Tigers",
+        "primary_color": null,
+        "secondary_color": null,
+        "tertiary_color": null
+      }
+    },
+    {
+      "type": "new_player",
+      "id": "183036",
+      "attributes": {
+        "combo": false,
+        "display_name": "Garrett Nussmeier",
+        "image_url": "https://static.prizepicks.com/images/manual/NUSSMEIER.png",
+        "jersey_number": null,
+        "league": "CFB",
+        "league_id": 15,
+        "market": "LSU",
+        "name": "Garrett Nussmeier",
+        "position": "QB",
+        "team": "LSU",
+        "team_name": "Tigers"
+      },
+      "relationships": {
+        "league": {
+          "data": {
+            "type": "league",
+            "id": "15"
+          }
+        },
+        "team_data": {
+          "data": {
+            "type": "team",
+            "id": "305"
           }
         }
       }
@@ -1408,19 +1446,19 @@
     },
     {
       "type": "new_player",
-      "id": "182773",
+      "id": "249573",
       "attributes": {
         "combo": false,
-        "display_name": "Jeremiyah Love",
-        "image_url": "https://static.prizepicks.com/images/manual/Jeremiyah_LOVE.png",
+        "display_name": "Cade Klubnik",
+        "image_url": "https://static.prizepicks.com/images/players/cfb/Cade_Klubnik_7c73bff0-8b5e-11ec-84cd-2d772b2010bf.webp",
         "jersey_number": null,
         "league": "CFB",
         "league_id": 15,
-        "market": "Notre Dame",
-        "name": "Jeremiyah Love",
-        "position": "RB",
-        "team": "ND",
-        "team_name": "Fighting Irish"
+        "market": "Clemson",
+        "name": "Cade Klubnik",
+        "position": "QB",
+        "team": "CLEM",
+        "team_name": "Tigers"
       },
       "relationships": {
         "league": {
@@ -1432,75 +1470,26 @@
         "team_data": {
           "data": {
             "type": "team",
-            "id": "710"
+            "id": "41460"
           }
         }
-      }
-    },
-    {
-      "type": "team",
-      "id": "41461",
-      "attributes": {
-        "abbreviation": "MIA",
-        "market": "Miami (FL)",
-        "name": "Hurricanes",
-        "primary_color": null,
-        "secondary_color": null,
-        "tertiary_color": null
-      }
-    },
-    {
-      "type": "stat_type",
-      "id": "16",
-      "attributes": {
-        "lfg_ignored_leagues": [],
-        "name": "Pass Yards",
-        "rank": 0
-      }
-    },
-    {
-      "type": "game",
-      "id": "85010",
-      "attributes": {
-        "created_at": "2025-07-29T22:26:38-04:00",
-        "end_time": null,
-        "external_game_id": "ff0532c8-cc0d-473a-b47f-421eccf4d427",
-        "is_live": false,
-        "metadata": {
-          "game_id": "ff0532c8-cc0d-473a-b47f-421eccf4d427",
-          "game_info": {
-            "status": "pre-game",
-            "teams": {
-              "away": {
-                "abbreviation": "ISU"
-              },
-              "home": {
-                "abbreviation": "KSU"
-              }
-            }
-          },
-          "league_name": "CFB"
-        },
-        "start_time": "2025-08-23T12:00:00-04:00",
-        "status": "pre-game",
-        "updated_at": "2025-07-29T22:26:38-04:00"
       }
     },
     {
       "type": "new_player",
-      "id": "249577",
+      "id": "249574",
       "attributes": {
         "combo": false,
-        "display_name": "Avery Johnson",
-        "image_url": "https://static.prizepicks.com/images/players/cfb/Avery_Johnson_5e30d140-9cd8-11ed-8450-073f5137ec67.webp",
+        "display_name": "Antonio Williams",
+        "image_url": "https://static.prizepicks.com/images/players/cfb/Antonio_Williams_ee065540-8b5b-11ec-be36-0b578f8db3ee.webp",
         "jersey_number": null,
         "league": "CFB",
         "league_id": 15,
-        "market": "Kansas State",
-        "name": "Avery Johnson",
-        "position": "QB",
-        "team": "KSU",
-        "team_name": "Wildcats"
+        "market": "Clemson",
+        "name": "Antonio Williams",
+        "position": "WR",
+        "team": "CLEM",
+        "team_name": "Tigers"
       },
       "relationships": {
         "league": {
@@ -1512,21 +1501,9 @@
         "team_data": {
           "data": {
             "type": "team",
-            "id": "41462"
+            "id": "41460"
           }
         }
-      }
-    },
-    {
-      "type": "team",
-      "id": "41458",
-      "attributes": {
-        "abbreviation": "SCAR",
-        "market": "South Carolina",
-        "name": "Gamecocks",
-        "primary_color": null,
-        "secondary_color": null,
-        "tertiary_color": null
       }
     },
     {
@@ -1534,108 +1511,6 @@
       "id": "11",
       "attributes": {
         "name": "Full"
-      }
-    },
-    {
-      "type": "team",
-      "id": "41462",
-      "attributes": {
-        "abbreviation": "KSU",
-        "market": "Kansas State",
-        "name": "Wildcats",
-        "primary_color": null,
-        "secondary_color": null,
-        "tertiary_color": null
-      }
-    },
-    {
-      "type": "team",
-      "id": "264",
-      "attributes": {
-        "abbreviation": "OSU",
-        "market": "Ohio State",
-        "name": "Buckeyes",
-        "primary_color": null,
-        "secondary_color": null,
-        "tertiary_color": null
-      }
-    },
-    {
-      "type": "team",
-      "id": "305",
-      "attributes": {
-        "abbreviation": "LSU",
-        "market": "LSU",
-        "name": "Tigers",
-        "primary_color": null,
-        "secondary_color": null,
-        "tertiary_color": null
-      }
-    },
-    {
-      "type": "team",
-      "id": "710",
-      "attributes": {
-        "abbreviation": "ND",
-        "market": "Notre Dame",
-        "name": "Fighting Irish",
-        "primary_color": null,
-        "secondary_color": null,
-        "tertiary_color": null
-      }
-    },
-    {
-      "type": "league",
-      "id": "15",
-      "attributes": {
-        "active": true,
-        "f2p_enabled": true,
-        "icon": "football",
-        "image_url": "https://static.prizepicks.com/images/leagues/production/41.svg",
-        "last_five_games_enabled": true,
-        "league_icon_id": 41,
-        "name": "CFB",
-        "parent_id": null,
-        "parent_name": null,
-        "projections_count": 0,
-        "rank": 295,
-        "show_trending": true
-      },
-      "relationships": {
-        "projection_filters": {
-          "data": []
-        }
-      }
-    },
-    {
-      "type": "new_player",
-      "id": "249576",
-      "attributes": {
-        "combo": false,
-        "display_name": "Dylan Edwards",
-        "image_url": "https://static.prizepicks.com/images/players/cfb/Dylan_Edwards_3c434d70-993a-11ed-961f-17b5255c6c3e.webp",
-        "jersey_number": null,
-        "league": "CFB",
-        "league_id": 15,
-        "market": "Kansas State",
-        "name": "Dylan Edwards",
-        "position": "RB",
-        "team": "KSU",
-        "team_name": "Wildcats"
-      },
-      "relationships": {
-        "league": {
-          "data": {
-            "type": "league",
-            "id": "15"
-          }
-        },
-        "team_data": {
-          "data": {
-            "type": "team",
-            "id": "41462"
-          }
-        }
       }
     },
     {
@@ -1651,37 +1526,6 @@
         "market": "Texas",
         "name": "Ryan Wingo",
         "position": "WR",
-        "team": "TEX",
-        "team_name": "Longhorns"
-      },
-      "relationships": {
-        "league": {
-          "data": {
-            "type": "league",
-            "id": "15"
-          }
-        },
-        "team_data": {
-          "data": {
-            "type": "team",
-            "id": "313"
-          }
-        }
-      }
-    },
-    {
-      "type": "new_player",
-      "id": "207623",
-      "attributes": {
-        "combo": false,
-        "display_name": "Arch Manning",
-        "image_url": "https://static.prizepicks.com/images/manual/MANNING_ARCH.png",
-        "jersey_number": null,
-        "league": "CFB",
-        "league_id": 15,
-        "market": "Texas",
-        "name": "Arch Manning",
-        "position": "QB",
         "team": "TEX",
         "team_name": "Longhorns"
       },
@@ -1733,19 +1577,19 @@
     },
     {
       "type": "new_player",
-      "id": "249573",
+      "id": "249572",
       "attributes": {
         "combo": false,
-        "display_name": "Cade Klubnik",
-        "image_url": "https://static.prizepicks.com/images/players/cfb/Cade_Klubnik_7c73bff0-8b5e-11ec-84cd-2d772b2010bf.webp",
+        "display_name": "Germie Bernard",
+        "image_url": "https://static.prizepicks.com/images/players/cfb/Germie_Bernard_e14eaaf0-8e80-11ec-8d02-85ead82574a9.webp",
         "jersey_number": null,
         "league": "CFB",
         "league_id": 15,
-        "market": "Clemson",
-        "name": "Cade Klubnik",
-        "position": "QB",
-        "team": "CLEM",
-        "team_name": "Tigers"
+        "market": "Alabama",
+        "name": "Germie Bernard",
+        "position": "WR",
+        "team": "ALA",
+        "team_name": "Crimson Tide"
       },
       "relationships": {
         "league": {
@@ -1757,7 +1601,7 @@
         "team_data": {
           "data": {
             "type": "team",
-            "id": "41460"
+            "id": "41459"
           }
         }
       }
@@ -1776,19 +1620,19 @@
     },
     {
       "type": "new_player",
-      "id": "153476",
+      "id": "249576",
       "attributes": {
         "combo": false,
-        "display_name": "Rocco Becht",
-        "image_url": "https://static.prizepicks.com/images/teams/cfb/Iowa_State_105193.webp",
+        "display_name": "Dylan Edwards",
+        "image_url": "https://static.prizepicks.com/images/players/cfb/Dylan_Edwards_3c434d70-993a-11ed-961f-17b5255c6c3e.webp",
         "jersey_number": null,
         "league": "CFB",
         "league_id": 15,
-        "market": "Iowa State",
-        "name": "Rocco Becht",
-        "position": "QB",
-        "team": "ISU",
-        "team_name": "Cyclones"
+        "market": "Kansas State",
+        "name": "Dylan Edwards",
+        "position": "RB",
+        "team": "KSU",
+        "team_name": "Wildcats"
       },
       "relationships": {
         "league": {
@@ -1800,7 +1644,7 @@
         "team_data": {
           "data": {
             "type": "team",
-            "id": "219"
+            "id": "41462"
           }
         }
       }
@@ -1837,6 +1681,110 @@
       }
     },
     {
+      "type": "new_player",
+      "id": "207623",
+      "attributes": {
+        "combo": false,
+        "display_name": "Arch Manning",
+        "image_url": "https://static.prizepicks.com/images/manual/MANNING_ARCH.png",
+        "jersey_number": null,
+        "league": "CFB",
+        "league_id": 15,
+        "market": "Texas",
+        "name": "Arch Manning",
+        "position": "QB",
+        "team": "TEX",
+        "team_name": "Longhorns"
+      },
+      "relationships": {
+        "league": {
+          "data": {
+            "type": "league",
+            "id": "15"
+          }
+        },
+        "team_data": {
+          "data": {
+            "type": "team",
+            "id": "313"
+          }
+        }
+      }
+    },
+    {
+      "type": "team",
+      "id": "41459",
+      "attributes": {
+        "abbreviation": "ALA",
+        "market": "Alabama",
+        "name": "Crimson Tide",
+        "primary_color": null,
+        "secondary_color": null,
+        "tertiary_color": null
+      }
+    },
+    {
+      "type": "game",
+      "id": "85008",
+      "attributes": {
+        "created_at": "2025-07-29T22:22:23-04:00",
+        "end_time": null,
+        "external_game_id": "95ef9b56-801e-4f63-b9c5-c25e8e1a243c",
+        "is_live": false,
+        "metadata": {
+          "game_id": "95ef9b56-801e-4f63-b9c5-c25e8e1a243c",
+          "game_info": {
+            "status": "pre-game",
+            "teams": {
+              "away": {
+                "abbreviation": "LSU"
+              },
+              "home": {
+                "abbreviation": "CLEM"
+              }
+            }
+          },
+          "league_name": "CFB"
+        },
+        "start_time": "2025-08-30T19:30:00-04:00",
+        "status": "pre-game",
+        "updated_at": "2025-07-29T22:22:23-04:00"
+      }
+    },
+    {
+      "type": "team",
+      "id": "41458",
+      "attributes": {
+        "abbreviation": "SCAR",
+        "market": "South Carolina",
+        "name": "Gamecocks",
+        "primary_color": null,
+        "secondary_color": null,
+        "tertiary_color": null
+      }
+    },
+    {
+      "type": "stat_type",
+      "id": "16",
+      "attributes": {
+        "lfg_ignored_leagues": [],
+        "name": "Pass Yards",
+        "rank": 0
+      }
+    },
+    {
+      "type": "team",
+      "id": "41462",
+      "attributes": {
+        "abbreviation": "KSU",
+        "market": "Kansas State",
+        "name": "Wildcats",
+        "primary_color": null,
+        "secondary_color": null,
+        "tertiary_color": null
+      }
+    },
+    {
       "type": "game",
       "id": "85006",
       "attributes": {
@@ -1865,142 +1813,12 @@
       }
     },
     {
-      "type": "new_player",
-      "id": "183036",
-      "attributes": {
-        "combo": false,
-        "display_name": "Garrett Nussmeier",
-        "image_url": "https://static.prizepicks.com/images/manual/NUSSMEIER.png",
-        "jersey_number": null,
-        "league": "CFB",
-        "league_id": 15,
-        "market": "LSU",
-        "name": "Garrett Nussmeier",
-        "position": "QB",
-        "team": "LSU",
-        "team_name": "Tigers"
-      },
-      "relationships": {
-        "league": {
-          "data": {
-            "type": "league",
-            "id": "15"
-          }
-        },
-        "team_data": {
-          "data": {
-            "type": "team",
-            "id": "305"
-          }
-        }
-      }
-    },
-    {
-      "type": "team",
-      "id": "260",
-      "attributes": {
-        "abbreviation": "VT",
-        "market": "Virginia Tech",
-        "name": "Hokies",
-        "primary_color": null,
-        "secondary_color": null,
-        "tertiary_color": null
-      }
-    },
-    {
-      "type": "game",
-      "id": "85009",
-      "attributes": {
-        "created_at": "2025-07-29T22:24:22-04:00",
-        "end_time": null,
-        "external_game_id": "27fe216a-415b-4d26-9a85-a0de9c02bb78",
-        "is_live": false,
-        "metadata": {
-          "game_id": "27fe216a-415b-4d26-9a85-a0de9c02bb78",
-          "game_info": {
-            "status": "pre-game",
-            "teams": {
-              "away": {
-                "abbreviation": "ND"
-              },
-              "home": {
-                "abbreviation": "MIA"
-              }
-            }
-          },
-          "league_name": "CFB"
-        },
-        "start_time": "2025-08-31T19:30:00-04:00",
-        "status": "pre-game",
-        "updated_at": "2025-07-29T22:24:22-04:00"
-      }
-    },
-    {
       "type": "stat_type",
       "id": "44",
       "attributes": {
         "lfg_ignored_leagues": [],
         "name": "Pass TDs",
         "rank": 3
-      }
-    },
-    {
-      "type": "game",
-      "id": "85007",
-      "attributes": {
-        "created_at": "2025-07-29T22:21:33-04:00",
-        "end_time": null,
-        "external_game_id": "c460a7c1-92b9-414e-8c9a-b9759884f470",
-        "is_live": false,
-        "metadata": {
-          "game_id": "c460a7c1-92b9-414e-8c9a-b9759884f470",
-          "game_info": {
-            "status": "pre-game",
-            "teams": {
-              "away": {
-                "abbreviation": "FSU"
-              },
-              "home": {
-                "abbreviation": "ALA"
-              }
-            }
-          },
-          "league_name": "CFB"
-        },
-        "start_time": "2025-08-30T15:30:00-04:00",
-        "status": "pre-game",
-        "updated_at": "2025-07-29T22:21:33-04:00"
-      }
-    },
-    {
-      "type": "new_player",
-      "id": "249574",
-      "attributes": {
-        "combo": false,
-        "display_name": "Antonio Williams",
-        "image_url": "https://static.prizepicks.com/images/players/cfb/Antonio_Williams_ee065540-8b5b-11ec-be36-0b578f8db3ee.webp",
-        "jersey_number": null,
-        "league": "CFB",
-        "league_id": 15,
-        "market": "Clemson",
-        "name": "Antonio Williams",
-        "position": "WR",
-        "team": "CLEM",
-        "team_name": "Tigers"
-      },
-      "relationships": {
-        "league": {
-          "data": {
-            "type": "league",
-            "id": "15"
-          }
-        },
-        "team_data": {
-          "data": {
-            "type": "team",
-            "id": "41460"
-          }
-        }
       }
     },
     {
@@ -2063,6 +1881,177 @@
       }
     },
     {
+      "type": "game",
+      "id": "85009",
+      "attributes": {
+        "created_at": "2025-07-29T22:24:22-04:00",
+        "end_time": null,
+        "external_game_id": "27fe216a-415b-4d26-9a85-a0de9c02bb78",
+        "is_live": false,
+        "metadata": {
+          "game_id": "27fe216a-415b-4d26-9a85-a0de9c02bb78",
+          "game_info": {
+            "status": "pre-game",
+            "teams": {
+              "away": {
+                "abbreviation": "ND"
+              },
+              "home": {
+                "abbreviation": "MIA"
+              }
+            }
+          },
+          "league_name": "CFB"
+        },
+        "start_time": "2025-08-31T19:30:00-04:00",
+        "status": "pre-game",
+        "updated_at": "2025-07-29T22:24:22-04:00"
+      }
+    },
+    {
+      "type": "league",
+      "id": "15",
+      "attributes": {
+        "active": true,
+        "f2p_enabled": true,
+        "icon": "football",
+        "image_url": "https://static.prizepicks.com/images/leagues/production/41.svg",
+        "last_five_games_enabled": true,
+        "league_icon_id": 41,
+        "name": "CFB",
+        "parent_id": null,
+        "parent_name": null,
+        "projections_count": 0,
+        "rank": 295,
+        "show_trending": true
+      },
+      "relationships": {
+        "projection_filters": {
+          "data": []
+        }
+      }
+    },
+    {
+      "type": "stat_type",
+      "id": "15",
+      "attributes": {
+        "lfg_ignored_leagues": [],
+        "name": "Rush Yards",
+        "rank": 2
+      }
+    },
+    {
+      "type": "stat_type",
+      "id": "17",
+      "attributes": {
+        "lfg_ignored_leagues": [],
+        "name": "Receiving Yards",
+        "rank": 3
+      }
+    },
+    {
+      "type": "team",
+      "id": "710",
+      "attributes": {
+        "abbreviation": "ND",
+        "market": "Notre Dame",
+        "name": "Fighting Irish",
+        "primary_color": null,
+        "secondary_color": null,
+        "tertiary_color": null
+      }
+    },
+    {
+      "type": "projection_type",
+      "id": "2",
+      "attributes": {
+        "name": "Single Stat"
+      }
+    },
+    {
+      "type": "team",
+      "id": "264",
+      "attributes": {
+        "abbreviation": "OSU",
+        "market": "Ohio State",
+        "name": "Buckeyes",
+        "primary_color": null,
+        "secondary_color": null,
+        "tertiary_color": null
+      }
+    },
+    {
+      "type": "game",
+      "id": "85007",
+      "attributes": {
+        "created_at": "2025-07-29T22:21:33-04:00",
+        "end_time": null,
+        "external_game_id": "c460a7c1-92b9-414e-8c9a-b9759884f470",
+        "is_live": false,
+        "metadata": {
+          "game_id": "c460a7c1-92b9-414e-8c9a-b9759884f470",
+          "game_info": {
+            "status": "pre-game",
+            "teams": {
+              "away": {
+                "abbreviation": "FSU"
+              },
+              "home": {
+                "abbreviation": "ALA"
+              }
+            }
+          },
+          "league_name": "CFB"
+        },
+        "start_time": "2025-08-30T15:30:00-04:00",
+        "status": "pre-game",
+        "updated_at": "2025-07-29T22:21:33-04:00"
+      }
+    },
+    {
+      "type": "team",
+      "id": "260",
+      "attributes": {
+        "abbreviation": "VT",
+        "market": "Virginia Tech",
+        "name": "Hokies",
+        "primary_color": null,
+        "secondary_color": null,
+        "tertiary_color": null
+      }
+    },
+    {
+      "type": "new_player",
+      "id": "182773",
+      "attributes": {
+        "combo": false,
+        "display_name": "Jeremiyah Love",
+        "image_url": "https://static.prizepicks.com/images/manual/Jeremiyah_LOVE.png",
+        "jersey_number": null,
+        "league": "CFB",
+        "league_id": 15,
+        "market": "Notre Dame",
+        "name": "Jeremiyah Love",
+        "position": "RB",
+        "team": "ND",
+        "team_name": "Fighting Irish"
+      },
+      "relationships": {
+        "league": {
+          "data": {
+            "type": "league",
+            "id": "15"
+          }
+        },
+        "team_data": {
+          "data": {
+            "type": "team",
+            "id": "710"
+          }
+        }
+      }
+    },
+    {
       "type": "new_player",
       "id": "249575",
       "attributes": {
@@ -2122,6 +2111,18 @@
             "id": "41458"
           }
         }
+      }
+    },
+    {
+      "type": "team",
+      "id": "41461",
+      "attributes": {
+        "abbreviation": "MIA",
+        "market": "Miami (FL)",
+        "name": "Hurricanes",
+        "primary_color": null,
+        "secondary_color": null,
+        "tertiary_color": null
       }
     }
   ],

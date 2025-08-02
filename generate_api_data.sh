@@ -23,6 +23,7 @@ show_help() {
     echo "  prizepicks-cfb    - PrizePicks College Football projections"
     echo "  nfl-stats         - NFL Game IDs (requires: year week type)"
     echo "  nfl-boxscore      - NFL Player Stats (requires: event_id)"
+    echo "  nfl-week-boxscores - ALL NFL Player Stats for a week (requires: year week type)"
     echo "  cfb-stats         - College Football Data (requires: year week season_type)"
     echo "  all               - Run all APIs with default parameters"
     echo ""
@@ -31,6 +32,7 @@ show_help() {
     echo "  ./generate_api_data.sh prizepicks-cfb"
     echo "  ./generate_api_data.sh nfl-stats 2023 1 2"
     echo "  ./generate_api_data.sh nfl-boxscore 401220225"
+    echo "  ./generate_api_data.sh nfl-week-boxscores 2023 1 2"
     echo "  ./generate_api_data.sh cfb-stats 2023 1 regular"
     echo "  ./generate_api_data.sh all"
     echo ""
@@ -41,6 +43,11 @@ show_help() {
     echo ""
     echo "Parameters for nfl-boxscore:"
     echo "  event_id - NFL game event ID (e.g., 401220225)"
+    echo ""
+    echo "Parameters for nfl-week-boxscores:"
+    echo "  year    - NFL season year (e.g., 2023)"
+    echo "  week    - Week number (1-18)"
+    echo "  type    - Game type (2=regular season, 1=preseason, 3=postseason)"
     echo ""
     echo "Parameters for cfb-stats:"
     echo "  year         - CFB season year (e.g., 2023)"
@@ -99,6 +106,31 @@ run_nfl_boxscore() {
 from src.api_client import fetch_nfl_boxscore
 result = fetch_nfl_boxscore('$event_id')
 print(f'✅ Success: {result[\"success\"]}, Players: {result.get(\"players_count\", 0)}')
+"
+}
+
+# Function to run NFL Week Boxscores
+run_nfl_week_boxscores() {
+    local year=${1}
+    local week=${2}
+    local type=${3}
+    
+    if [ -z "$year" ] || [ -z "$week" ] || [ -z "$type" ]; then
+        echo -e "${RED}❌ Error: nfl-week-boxscores requires 3 parameters: year week type${NC}"
+        echo "Usage: ./generate_api_data.sh nfl-week-boxscores <year> <week> <type>"
+        echo "Example: ./generate_api_data.sh nfl-week-boxscores 2023 1 2"
+        exit 1
+    fi
+    
+    echo -e "${BLUE}🏈 Fetching ALL NFL Boxscores for Week (Year: $year, Week: $week, Type: $type)...${NC}"
+    echo -e "${YELLOW}⚠️  Warning: This will fetch detailed stats for ALL games in the week${NC}"
+    echo -e "${YELLOW}   This may take several minutes and use multiple API calls${NC}"
+    echo ""
+    
+    python3 -c "
+from src.api_client import fetch_nfl_week_boxscores
+result = fetch_nfl_week_boxscores($year, $week, $type)
+print(f'✅ Week Success: {result[\"success\"]}, Games Processed: {result.get(\"games_processed\", 0)}/{result.get(\"total_games\", 0)}')
 "
 }
 
@@ -172,6 +204,14 @@ case "$1" in
             exit 1
         fi
         run_nfl_boxscore "$2"
+        ;;
+    "nfl-week-boxscores")
+        if [ $# -lt 4 ]; then
+            echo -e "${RED}❌ Error: nfl-week-boxscores requires 3 parameters: year week type${NC}"
+            echo "Example: ./generate_api_data.sh nfl-week-boxscores 2023 1 2"
+            exit 1
+        fi
+        run_nfl_week_boxscores "$2" "$3" "$4"
         ;;
     "cfb-stats")
         if [ $# -lt 4 ]; then
