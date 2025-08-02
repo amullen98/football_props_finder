@@ -16,6 +16,7 @@
 - Each function must be independently testable via `if __name__ == "__main__"` blocks
 - Environment variables must be validated before making API calls
 - Console output should include clear separators between different API test results
+- **SCOPE UPDATE**: Underdog Fantasy API integration deferred - focusing on PrizePicks only for now
 
 ## Tasks
 
@@ -34,33 +35,33 @@
   - [x] 2.5 Implement console output showing total record count and full sample record for both leagues
   - [x] 2.6 Add independent test execution capability with clear success/failure status for both NFL and CFB
 
-- [ ] 3.0 Underdog Fantasy API Integration & Testing
-  - [ ] 3.1 Create `fetch_underdog_data()` function in `api_client.py`
-  - [ ] 3.2 Implement GET request to Underdog Fantasy over_under_lines endpoint
-  - [ ] 3.3 Add response validation to verify expected fields (over_under_lines, player, stat_type)
-  - [ ] 3.4 Implement console output showing total record count and full sample record
-  - [ ] 3.5 Add independent test execution capability with clear success/failure status
+- [ ] ~~3.0 Underdog Fantasy API Integration & Testing~~ (DEFERRED - Focusing on PrizePicks only)
+  - [ ] ~~3.1 Create `fetch_underdog_data()` function in `api_client.py`~~ (DEFERRED)
+  - [ ] ~~3.2 Implement GET request to Underdog Fantasy over_under_lines endpoint~~ (DEFERRED)
+  - [ ] ~~3.3 Add response validation to verify expected fields (over_under_lines, player, stat_type)~~ (DEFERRED)
+  - [ ] ~~3.4 Implement console output showing total record count and full sample record~~ (DEFERRED)
+  - [ ] ~~3.5 Add independent test execution capability with clear success/failure status~~ (DEFERRED)
 
-- [ ] 4.0 NFL Player Stats API Integration & Testing
-  - [ ] 4.1 Create `fetch_nfl_game_ids()` function in `api_client.py`
-  - [ ] 4.2 Implement RapidAPI authentication headers (x-rapidapi-key, x-rapidapi-host)
-  - [ ] 4.3 Implement GET request to NFL weeks events endpoint (year=2023, week=1, type=2)
-  - [ ] 4.4 Add response validation to verify expected fields (events, competitions, competitors)
-  - [ ] 4.5 Implement console output showing total games count and full sample game record
-  - [ ] 4.6 Add independent test execution capability with authentication error detection
+- [ ] 3.0 NFL Player Stats API Integration & Testing
+  - [ ] 3.1 Create `fetch_nfl_game_ids()` function in `api_client.py`
+  - [ ] 3.2 Implement RapidAPI authentication headers (x-rapidapi-key, x-rapidapi-host)
+  - [ ] 3.3 Implement GET request to NFL weeks events endpoint (year=2023, week=1, type=2)
+  - [ ] 3.4 Add response validation to verify expected fields (events, competitions, competitors)
+  - [ ] 3.5 Implement console output showing total games count and full sample game record
+  - [ ] 3.6 Add independent test execution capability with authentication error detection
 
-- [ ] 5.0 College Football Data API Integration & Testing
-  - [ ] 5.1 Create `fetch_cfb_player_data()` function in `api_client.py`
-  - [ ] 5.2 Implement Bearer token authentication using CFB_API_KEY environment variable
-  - [ ] 5.3 Implement GET request to games/players endpoint (year=2023, week=1, seasonType=regular)
-  - [ ] 5.4 Add response validation to verify expected fields (games, teams, statistics)
-  - [ ] 5.5 Implement console output showing total games count and full sample player stat record
-  - [ ] 5.6 Add independent test execution capability with Bearer token validation
+- [ ] 4.0 College Football Data API Integration & Testing
+  - [ ] 4.1 Create `fetch_cfb_player_data()` function in `api_client.py`
+  - [ ] 4.2 Implement Bearer token authentication using CFB_API_KEY environment variable
+  - [ ] 4.3 Implement GET request to games/players endpoint (year=2023, week=1, seasonType=regular)
+  - [ ] 4.4 Add response validation to verify expected fields (games, teams, statistics)
+  - [ ] 4.5 Implement console output showing total games count and full sample player stat record
+  - [ ] 4.6 Add independent test execution capability with Bearer token validation
 
-- [ ] 6.0 Error Handling & Validation Framework
-  - [ ] 6.1 Implement detailed HTTP status code logging (200, 403, 404, 500, etc.) for all functions
-  - [ ] 6.2 Add response content analysis and logging for debugging purposes
-  - [ ] 6.3 Handle connection errors (timeouts, DNS failures, connection refused) with clear messages
-  - [ ] 6.4 Implement specific authentication error detection and reporting
-  - [ ] 6.5 Create consistent error message format with human-readable descriptions
-  - [ ] 6.6 Add visual separators in console output between different API test results
+- [ ] 5.0 Error Handling & Validation Framework
+  - [ ] 5.1 Implement detailed HTTP status code logging (200, 403, 404, 500, etc.) for all functions
+  - [ ] 5.2 Add response content analysis and logging for debugging purposes
+  - [ ] 5.3 Handle connection errors (timeouts, DNS failures, connection refused) with clear messages
+  - [ ] 5.4 Implement specific authentication error detection and reporting
+  - [ ] 5.5 Create consistent error message format with human-readable descriptions
+  - [ ] 5.6 Add visual separators in console output between different API test results
