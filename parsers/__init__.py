@@ -26,11 +26,26 @@ from .common import (
     JSONParseError,
     FileNotFoundError,
     DataStructureError,
+    MetadataValidationError,
+    PlaceholderValueError,
     safe_load_json,
     safe_get_nested,
     validate_required_fields,
     safe_get_list,
-    print_parser_summary
+    print_parser_summary,
+    validate_metadata_fields,
+    validate_no_placeholder_values,
+    create_player_id,
+    extract_season_from_datetime,
+    add_standard_metadata,
+    derive_team_from_prizepicks,
+    derive_opponent_from_prizepicks,
+    derive_position_from_prizepicks,
+    derive_game_time_from_prizepicks,
+    validate_no_placeholders,
+    require_valid_data,
+    detect_placeholder_values,
+    GracefulParser
 )
 
 __all__ = [
@@ -42,11 +57,26 @@ __all__ = [
     'JSONParseError',
     'FileNotFoundError', 
     'DataStructureError',
+    'MetadataValidationError',
+    'PlaceholderValueError',
     'safe_load_json',
     'safe_get_nested',
     'validate_required_fields',
     'safe_get_list',
-    'print_parser_summary'
+    'print_parser_summary',
+    'validate_metadata_fields',
+    'validate_no_placeholder_values',
+    'create_player_id',
+    'extract_season_from_datetime',
+    'add_standard_metadata',
+    'derive_team_from_prizepicks',
+    'derive_opponent_from_prizepicks',
+    'derive_position_from_prizepicks',
+    'derive_game_time_from_prizepicks',
+    'validate_no_placeholders',
+    'require_valid_data',
+    'detect_placeholder_values',
+    'GracefulParser'
 ]
 
 __version__ = '1.0.0'
