@@ -13,7 +13,8 @@ Build a system that tracks quarterback (QB) and wide receiver (WR) prop betting 
 
 **Betting Lines**
 - **PrizePicks API** (No auth required)  
-  `https://api.prizepicks.com/projections?league_id=9&per_page=250&single_stat=true&in_game=true&state_code=CA&game_mode=pickem`
+  - NFL: `https://api.prizepicks.com/projections?league_id=9&per_page=250&single_stat=true&in_game=true&state_code=CA&game_mode=prizepools`
+  - College Football: `https://api.prizepicks.com/projections?league_id=15&per_page=250&single_stat=true&in_game=true&state_code=CA&game_mode=prizepools`
 
 - **Underdog Fantasy API** (No auth required)  
   `https://api.underdogfantasy.com/beta/v6/over_under_lines`

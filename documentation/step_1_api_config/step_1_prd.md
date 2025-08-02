@@ -29,11 +29,12 @@ The primary goal is to validate API integration points and examine raw data stru
 ## Functional Requirements
 
 ### 1. PrizePicks API Integration
-1.1. **Function**: Create `fetch_prizepicks_data()` function
-1.2. **Endpoint**: `https://api.prizepicks.com/projections?league_id=9&per_page=250&single_stat=true&in_game=true&state_code=FL&game_mode=pickem`
-1.3. **Authentication**: No authentication required
-1.4. **Response Validation**: Verify response contains expected fields (player data, stat types, projections)
-1.5. **Output**: Print total record count, full sample record, and connection status
+1.1. **Function**: Create `fetch_prizepicks_data(league='nfl')` function with league parameter
+1.2. **NFL Endpoint**: `https://api.prizepicks.com/projections?league_id=9&per_page=250&single_stat=true&in_game=true&state_code=CA&game_mode=prizepools`
+1.3. **College Football Endpoint**: `https://api.prizepicks.com/projections?league_id=15&per_page=250&single_stat=true&in_game=true&state_code=CA&game_mode=prizepools`
+1.4. **Authentication**: No authentication required
+1.5. **Response Validation**: Verify response contains expected fields (player data, stat types, projections)
+1.6. **Output**: Print total record count, full sample record, and connection status for specified league
 
 ### 2. Underdog Fantasy API Integration
 2.1. **Function**: Create `fetch_underdog_data()` function  
@@ -122,7 +123,7 @@ CFB_API_KEY=your_cfb_api_key_here
 
 ### Response Structure Validation
 Each function should verify the presence of key fields:
-- **PrizePicks**: `projections`, `attributes`, `player_name`
+- **PrizePicks**: `projections`, `attributes`, `player_name` (both NFL and College Football leagues)
 - **Underdog**: `over_under_lines`, `player`, `stat_type`
 - **NFL**: `events`, `competitions`, `competitors`
 - **CFB**: `games`, `teams`, `statistics`

@@ -19,7 +19,7 @@
 
 ## Tasks
 
-- [ ] 1.0 Environment Setup & Dependencies Configuration
+- [x] 1.0 Environment Setup & Dependencies Configuration
   - [x] 1.1 Create `requirements.txt` with requests, python-dotenv dependencies
   - [x] 1.2 Create `env.example` file with placeholder API key variables
   - [x] 1.3 Create actual `.env` file with provided API keys (RAPIDAPI_KEY, CFB_API_KEY, RAPIDAPI_HOST)
@@ -27,11 +27,12 @@
   - [x] 1.5 Add environment variable validation function to check for required keys before API calls
 
 - [ ] 2.0 PrizePicks API Integration & Testing
-  - [ ] 2.1 Create `fetch_prizepicks_data()` function in `api_client.py`
-  - [ ] 2.2 Implement GET request to PrizePicks endpoint with specified parameters (league_id=9, per_page=250, etc.)
-  - [ ] 2.3 Add response validation to verify expected fields (projections, attributes, player_name)
-  - [ ] 2.4 Implement console output showing total record count and full sample record
-  - [ ] 2.5 Add independent test execution capability with clear success/failure status
+  - [x] 2.1 Create `fetch_prizepicks_data(league='nfl')` function in `api_client.py` with league parameter
+  - [x] 2.2 Implement GET request to PrizePicks NFL endpoint (league_id=9, per_page=250, state_code=CA, game_mode=prizepools)
+  - [x] 2.3 Implement GET request to PrizePicks College Football endpoint (league_id=15, per_page=250, state_code=CA, game_mode=prizepools)
+  - [x] 2.4 Add response validation to verify expected fields (projections, attributes, player_name)
+  - [x] 2.5 Implement console output showing total record count and full sample record for both leagues
+  - [x] 2.6 Add independent test execution capability with clear success/failure status for both NFL and CFB
 
 - [ ] 3.0 Underdog Fantasy API Integration & Testing
   - [ ] 3.1 Create `fetch_underdog_data()` function in `api_client.py`
