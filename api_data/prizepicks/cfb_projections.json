@@ -1,0 +1,2135 @@
+{
+  "data": [
+    {
+      "type": "projection",
+      "id": "5846145",
+      "attributes": {
+        "adjusted_odds": null,
+        "board_time": "2025-07-28T12:00:00-04:00",
+        "custom_image": null,
+        "description": "KSU",
+        "end_time": null,
+        "flash_sale_line_score": null,
+        "game_id": "ff0532c8-cc0d-473a-b47f-421eccf4d427",
+        "group_key": "153476-16-ff0532c8-cc0d-473a-b47f-421eccf4d427-11-false",
+        "in_game": false,
+        "is_live": false,
+        "is_promo": false,
+        "line_score": 234.5,
+        "odds_type": "standard",
+        "projection_type": "Single Stat",
+        "rank": 1,
+        "refundable": true,
+        "start_time": "2025-08-23T12:00:00-04:00",
+        "stat_display_name": "Pass Yards",
+        "stat_type": "Pass Yards",
+        "status": "pre_game",
+        "tv_channel": null,
+        "updated_at": "2025-07-29T22:46:16-04:00"
+      },
+      "relationships": {
+        "duration": {
+          "data": {
+            "type": "duration",
+            "id": "11"
+          }
+        },
+        "game": {
+          "data": {
+            "type": "game",
+            "id": "85010"
+          }
+        },
+        "league": {
+          "data": {
+            "type": "league",
+            "id": "15"
+          }
+        },
+        "new_player": {
+          "data": {
+            "type": "new_player",
+            "id": "153476"
+          }
+        },
+        "projection_type": {
+          "data": {
+            "type": "projection_type",
+            "id": "2"
+          }
+        },
+        "score": {
+          "data": null
+        },
+        "stat_type": {
+          "data": {
+            "type": "stat_type",
+            "id": "16"
+          }
+        }
+      }
+    },
+    {
+      "type": "projection",
+      "id": "5846144",
+      "attributes": {
+        "adjusted_odds": null,
+        "board_time": "2025-07-27T12:00:00-04:00",
+        "custom_image": null,
+        "description": "ISU",
+        "end_time": null,
+        "flash_sale_line_score": null,
+        "game_id": "ff0532c8-cc0d-473a-b47f-421eccf4d427",
+        "group_key": "249576-15-ff0532c8-cc0d-473a-b47f-421eccf4d427-11-false",
+        "in_game": false,
+        "is_live": false,
+        "is_promo": false,
+        "line_score": 87.5,
+        "odds_type": "standard",
+        "projection_type": "Single Stat",
+        "rank": 2,
+        "refundable": true,
+        "start_time": "2025-08-23T12:00:00-04:00",
+        "stat_display_name": "Rush Yards",
+        "stat_type": "Rush Yards",
+        "status": "pre_game",
+        "tv_channel": null,
+        "updated_at": "2025-07-29T23:08:03-04:00"
+      },
+      "relationships": {
+        "duration": {
+          "data": {
+            "type": "duration",
+            "id": "11"
+          }
+        },
+        "game": {
+          "data": {
+            "type": "game",
+            "id": "85010"
+          }
+        },
+        "league": {
+          "data": {
+            "type": "league",
+            "id": "15"
+          }
+        },
+        "new_player": {
+          "data": {
+            "type": "new_player",
+            "id": "249576"
+          }
+        },
+        "projection_type": {
+          "data": {
+            "type": "projection_type",
+            "id": "2"
+          }
+        },
+        "score": {
+          "data": null
+        },
+        "stat_type": {
+          "data": {
+            "type": "stat_type",
+            "id": "15"
+          }
+        }
+      }
+    },
+    {
+      "type": "projection",
+      "id": "5846146",
+      "attributes": {
+        "adjusted_odds": null,
+        "board_time": "2025-07-27T12:00:00-04:00",
+        "custom_image": null,
+        "description": "ISU",
+        "end_time": null,
+        "flash_sale_line_score": null,
+        "game_id": "ff0532c8-cc0d-473a-b47f-421eccf4d427",
+        "group_key": "249577-16-ff0532c8-cc0d-473a-b47f-421eccf4d427-11-false",
+        "in_game": false,
+        "is_live": false,
+        "is_promo": false,
+        "line_score": 214.5,
+        "odds_type": "standard",
+        "projection_type": "Single Stat",
+        "rank": 3,
+        "refundable": true,
+        "start_time": "2025-08-23T12:00:00-04:00",
+        "stat_display_name": "Pass Yards",
+        "stat_type": "Pass Yards",
+        "status": "pre_game",
+        "trending_count": 122,
+        "tv_channel": null,
+        "updated_at": "2025-08-01T01:36:04-04:00"
+      },
+      "relationships": {
+        "duration": {
+          "data": {
+            "type": "duration",
+            "id": "11"
+          }
+        },
+        "game": {
+          "data": {
+            "type": "game",
+            "id": "85010"
+          }
+        },
+        "league": {
+          "data": {
+            "type": "league",
+            "id": "15"
+          }
+        },
+        "new_player": {
+          "data": {
+            "type": "new_player",
+            "id": "249577"
+          }
+        },
+        "projection_type": {
+          "data": {
+            "type": "projection_type",
+            "id": "2"
+          }
+        },
+        "score": {
+          "data": null
+        },
+        "stat_type": {
+          "data": {
+            "type": "stat_type",
+            "id": "16"
+          }
+        }
+      }
+    },
+    {
+      "type": "projection",
+      "id": "5846118",
+      "attributes": {
+        "adjusted_odds": null,
+        "board_time": "2025-07-27T12:00:00-04:00",
+        "custom_image": null,
+        "description": "TEX",
+        "end_time": null,
+        "flash_sale_line_score": null,
+        "game_id": "0daef1e3-63e6-453c-b985-988b389fc3f3",
+        "group_key": "206973-17-0daef1e3-63e6-453c-b985-988b389fc3f3-11-false",
+        "in_game": false,
+        "is_live": false,
+        "is_promo": false,
+        "line_score": 89.5,
+        "odds_type": "standard",
+        "projection_type": "Single Stat",
+        "rank": 4,
+        "refundable": true,
+        "start_time": "2025-08-30T12:00:00-04:00",
+        "stat_display_name": "Receiving Yards",
+        "stat_type": "Receiving Yards",
+        "status": "pre_game",
+        "trending_count": 169,
+        "tv_channel": null,
+        "updated_at": "2025-07-29T23:11:32-04:00"
+      },
+      "relationships": {
+        "duration": {
+          "data": {
+            "type": "duration",
+            "id": "11"
+          }
+        },
+        "game": {
+          "data": {
+            "type": "game",
+            "id": "85006"
+          }
+        },
+        "league": {
+          "data": {
+            "type": "league",
+            "id": "15"
+          }
+        },
+        "new_player": {
+          "data": {
+            "type": "new_player",
+            "id": "206973"
+          }
+        },
+        "projection_type": {
+          "data": {
+            "type": "projection_type",
+            "id": "2"
+          }
+        },
+        "score": {
+          "data": null
+        },
+        "stat_type": {
+          "data": {
+            "type": "stat_type",
+            "id": "17"
+          }
+        }
+      }
+    },
+    {
+      "type": "projection",
+      "id": "5846120",
+      "attributes": {
+        "adjusted_odds": null,
+        "board_time": "2025-07-28T12:00:00-04:00",
+        "custom_image": null,
+        "description": "OSU",
+        "end_time": null,
+        "flash_sale_line_score": null,
+        "game_id": "0daef1e3-63e6-453c-b985-988b389fc3f3",
+        "group_key": "207612-17-0daef1e3-63e6-453c-b985-988b389fc3f3-11-false",
+        "in_game": false,
+        "is_live": false,
+        "is_promo": false,
+        "line_score": 60.5,
+        "odds_type": "standard",
+        "projection_type": "Single Stat",
+        "rank": 5,
+        "refundable": true,
+        "start_time": "2025-08-30T12:00:00-04:00",
+        "stat_display_name": "Receiving Yards",
+        "stat_type": "Receiving Yards",
+        "status": "pre_game",
+        "tv_channel": null,
+        "updated_at": "2025-07-30T00:41:58-04:00"
+      },
+      "relationships": {
+        "duration": {
+          "data": {
+            "type": "duration",
+            "id": "11"
+          }
+        },
+        "game": {
+          "data": {
+            "type": "game",
+            "id": "85006"
+          }
+        },
+        "league": {
+          "data": {
+            "type": "league",
+            "id": "15"
+          }
+        },
+        "new_player": {
+          "data": {
+            "type": "new_player",
+            "id": "207612"
+          }
+        },
+        "projection_type": {
+          "data": {
+            "type": "projection_type",
+            "id": "2"
+          }
+        },
+        "score": {
+          "data": null
+        },
+        "stat_type": {
+          "data": {
+            "type": "stat_type",
+            "id": "17"
+          }
+        }
+      }
+    },
+    {
+      "type": "projection",
+      "id": "5846117",
+      "attributes": {
+        "adjusted_odds": null,
+        "board_time": "2025-07-28T12:00:00-04:00",
+        "custom_image": null,
+        "description": "OSU",
+        "end_time": null,
+        "flash_sale_line_score": null,
+        "game_id": "0daef1e3-63e6-453c-b985-988b389fc3f3",
+        "group_key": "207623-16-0daef1e3-63e6-453c-b985-988b389fc3f3-11-false",
+        "in_game": false,
+        "is_live": false,
+        "is_promo": false,
+        "line_score": 239.5,
+        "odds_type": "standard",
+        "projection_type": "Single Stat",
+        "rank": 6,
+        "refundable": true,
+        "start_time": "2025-08-30T12:00:00-04:00",
+        "stat_display_name": "Pass Yards",
+        "stat_type": "Pass Yards",
+        "status": "pre_game",
+        "trending_count": 243,
+        "tv_channel": null,
+        "updated_at": "2025-07-29T22:46:16-04:00"
+      },
+      "relationships": {
+        "duration": {
+          "data": {
+            "type": "duration",
+            "id": "11"
+          }
+        },
+        "game": {
+          "data": {
+            "type": "game",
+            "id": "85006"
+          }
+        },
+        "league": {
+          "data": {
+            "type": "league",
+            "id": "15"
+          }
+        },
+        "new_player": {
+          "data": {
+            "type": "new_player",
+            "id": "207623"
+          }
+        },
+        "projection_type": {
+          "data": {
+            "type": "projection_type",
+            "id": "2"
+          }
+        },
+        "score": {
+          "data": null
+        },
+        "stat_type": {
+          "data": {
+            "type": "stat_type",
+            "id": "16"
+          }
+        }
+      }
+    },
+    {
+      "type": "projection",
+      "id": "5846116",
+      "attributes": {
+        "adjusted_odds": null,
+        "board_time": "2025-07-28T12:00:00-04:00",
+        "custom_image": null,
+        "description": "OSU",
+        "end_time": null,
+        "flash_sale_line_score": null,
+        "game_id": "0daef1e3-63e6-453c-b985-988b389fc3f3",
+        "group_key": "207623-44-0daef1e3-63e6-453c-b985-988b389fc3f3-11-false",
+        "in_game": false,
+        "is_live": false,
+        "is_promo": false,
+        "line_score": 1.5,
+        "odds_type": "standard",
+        "projection_type": "Single Stat",
+        "rank": 7,
+        "refundable": true,
+        "start_time": "2025-08-30T12:00:00-04:00",
+        "stat_display_name": "Pass TDs",
+        "stat_type": "Pass TDs",
+        "status": "pre_game",
+        "trending_count": 188,
+        "tv_channel": null,
+        "updated_at": "2025-07-30T00:41:58-04:00"
+      },
+      "relationships": {
+        "duration": {
+          "data": {
+            "type": "duration",
+            "id": "11"
+          }
+        },
+        "game": {
+          "data": {
+            "type": "game",
+            "id": "85006"
+          }
+        },
+        "league": {
+          "data": {
+            "type": "league",
+            "id": "15"
+          }
+        },
+        "new_player": {
+          "data": {
+            "type": "new_player",
+            "id": "207623"
+          }
+        },
+        "projection_type": {
+          "data": {
+            "type": "projection_type",
+            "id": "2"
+          }
+        },
+        "score": {
+          "data": null
+        },
+        "stat_type": {
+          "data": {
+            "type": "stat_type",
+            "id": "44"
+          }
+        }
+      }
+    },
+    {
+      "type": "projection",
+      "id": "5846122",
+      "attributes": {
+        "adjusted_odds": null,
+        "board_time": "2025-07-28T15:30:00-04:00",
+        "custom_image": null,
+        "description": "FSU",
+        "end_time": null,
+        "flash_sale_line_score": null,
+        "game_id": "c460a7c1-92b9-414e-8c9a-b9759884f470",
+        "group_key": "249571-17-c460a7c1-92b9-414e-8c9a-b9759884f470-11-false",
+        "in_game": false,
+        "is_live": false,
+        "is_promo": false,
+        "line_score": 80.5,
+        "odds_type": "standard",
+        "projection_type": "Single Stat",
+        "rank": 8,
+        "refundable": true,
+        "start_time": "2025-08-30T15:30:00-04:00",
+        "stat_display_name": "Receiving Yards",
+        "stat_type": "Receiving Yards",
+        "status": "pre_game",
+        "trending_count": 236,
+        "tv_channel": null,
+        "updated_at": "2025-07-30T00:20:33-04:00"
+      },
+      "relationships": {
+        "duration": {
+          "data": {
+            "type": "duration",
+            "id": "11"
+          }
+        },
+        "game": {
+          "data": {
+            "type": "game",
+            "id": "85007"
+          }
+        },
+        "league": {
+          "data": {
+            "type": "league",
+            "id": "15"
+          }
+        },
+        "new_player": {
+          "data": {
+            "type": "new_player",
+            "id": "249571"
+          }
+        },
+        "projection_type": {
+          "data": {
+            "type": "projection_type",
+            "id": "2"
+          }
+        },
+        "score": {
+          "data": null
+        },
+        "stat_type": {
+          "data": {
+            "type": "stat_type",
+            "id": "17"
+          }
+        }
+      }
+    },
+    {
+      "type": "projection",
+      "id": "5846123",
+      "attributes": {
+        "adjusted_odds": null,
+        "board_time": "2025-07-28T15:30:00-04:00",
+        "custom_image": null,
+        "description": "FSU",
+        "end_time": null,
+        "flash_sale_line_score": null,
+        "game_id": "c460a7c1-92b9-414e-8c9a-b9759884f470",
+        "group_key": "249572-17-c460a7c1-92b9-414e-8c9a-b9759884f470-11-false",
+        "in_game": false,
+        "is_live": false,
+        "is_promo": false,
+        "line_score": 57.5,
+        "odds_type": "standard",
+        "projection_type": "Single Stat",
+        "rank": 9,
+        "refundable": true,
+        "start_time": "2025-08-30T15:30:00-04:00",
+        "stat_display_name": "Receiving Yards",
+        "stat_type": "Receiving Yards",
+        "status": "pre_game",
+        "tv_channel": null,
+        "updated_at": "2025-07-30T00:41:58-04:00"
+      },
+      "relationships": {
+        "duration": {
+          "data": {
+            "type": "duration",
+            "id": "11"
+          }
+        },
+        "game": {
+          "data": {
+            "type": "game",
+            "id": "85007"
+          }
+        },
+        "league": {
+          "data": {
+            "type": "league",
+            "id": "15"
+          }
+        },
+        "new_player": {
+          "data": {
+            "type": "new_player",
+            "id": "249572"
+          }
+        },
+        "projection_type": {
+          "data": {
+            "type": "projection_type",
+            "id": "2"
+          }
+        },
+        "score": {
+          "data": null
+        },
+        "stat_type": {
+          "data": {
+            "type": "stat_type",
+            "id": "17"
+          }
+        }
+      }
+    },
+    {
+      "type": "projection",
+      "id": "5846126",
+      "attributes": {
+        "adjusted_odds": null,
+        "board_time": "2025-07-27T19:30:00-04:00",
+        "custom_image": null,
+        "description": "CLEM",
+        "end_time": null,
+        "flash_sale_line_score": null,
+        "game_id": "95ef9b56-801e-4f63-b9c5-c25e8e1a243c",
+        "group_key": "183036-16-95ef9b56-801e-4f63-b9c5-c25e8e1a243c-11-false",
+        "in_game": false,
+        "is_live": false,
+        "is_promo": false,
+        "line_score": 294.5,
+        "odds_type": "standard",
+        "projection_type": "Single Stat",
+        "rank": 10,
+        "refundable": true,
+        "start_time": "2025-08-30T19:30:00-04:00",
+        "stat_display_name": "Pass Yards",
+        "stat_type": "Pass Yards",
+        "status": "pre_game",
+        "trending_count": 193,
+        "tv_channel": null,
+        "updated_at": "2025-07-29T22:46:16-04:00"
+      },
+      "relationships": {
+        "duration": {
+          "data": {
+            "type": "duration",
+            "id": "11"
+          }
+        },
+        "game": {
+          "data": {
+            "type": "game",
+            "id": "85008"
+          }
+        },
+        "league": {
+          "data": {
+            "type": "league",
+            "id": "15"
+          }
+        },
+        "new_player": {
+          "data": {
+            "type": "new_player",
+            "id": "183036"
+          }
+        },
+        "projection_type": {
+          "data": {
+            "type": "projection_type",
+            "id": "2"
+          }
+        },
+        "score": {
+          "data": null
+        },
+        "stat_type": {
+          "data": {
+            "type": "stat_type",
+            "id": "16"
+          }
+        }
+      }
+    },
+    {
+      "type": "projection",
+      "id": "5846130",
+      "attributes": {
+        "adjusted_odds": null,
+        "board_time": "2025-07-27T19:30:00-04:00",
+        "custom_image": null,
+        "description": "CLEM",
+        "end_time": null,
+        "flash_sale_line_score": null,
+        "game_id": "95ef9b56-801e-4f63-b9c5-c25e8e1a243c",
+        "group_key": "207800-17-95ef9b56-801e-4f63-b9c5-c25e8e1a243c-11-false",
+        "in_game": false,
+        "is_live": false,
+        "is_promo": false,
+        "line_score": 64.5,
+        "odds_type": "standard",
+        "projection_type": "Single Stat",
+        "rank": 11,
+        "refundable": true,
+        "start_time": "2025-08-30T19:30:00-04:00",
+        "stat_display_name": "Receiving Yards",
+        "stat_type": "Receiving Yards",
+        "status": "pre_game",
+        "tv_channel": null,
+        "updated_at": "2025-07-29T23:21:45-04:00"
+      },
+      "relationships": {
+        "duration": {
+          "data": {
+            "type": "duration",
+            "id": "11"
+          }
+        },
+        "game": {
+          "data": {
+            "type": "game",
+            "id": "85008"
+          }
+        },
+        "league": {
+          "data": {
+            "type": "league",
+            "id": "15"
+          }
+        },
+        "new_player": {
+          "data": {
+            "type": "new_player",
+            "id": "207800"
+          }
+        },
+        "projection_type": {
+          "data": {
+            "type": "projection_type",
+            "id": "2"
+          }
+        },
+        "score": {
+          "data": null
+        },
+        "stat_type": {
+          "data": {
+            "type": "stat_type",
+            "id": "17"
+          }
+        }
+      }
+    },
+    {
+      "type": "projection",
+      "id": "5846125",
+      "attributes": {
+        "adjusted_odds": null,
+        "board_time": "2025-07-27T19:30:00-04:00",
+        "custom_image": null,
+        "description": "LSU",
+        "end_time": null,
+        "flash_sale_line_score": null,
+        "game_id": "95ef9b56-801e-4f63-b9c5-c25e8e1a243c",
+        "group_key": "249573-16-95ef9b56-801e-4f63-b9c5-c25e8e1a243c-11-false",
+        "in_game": false,
+        "is_live": false,
+        "is_promo": false,
+        "line_score": 284.5,
+        "odds_type": "standard",
+        "projection_type": "Single Stat",
+        "rank": 12,
+        "refundable": true,
+        "start_time": "2025-08-30T19:30:00-04:00",
+        "stat_display_name": "Pass Yards",
+        "stat_type": "Pass Yards",
+        "status": "pre_game",
+        "trending_count": 129,
+        "tv_channel": null,
+        "updated_at": "2025-07-29T22:46:16-04:00"
+      },
+      "relationships": {
+        "duration": {
+          "data": {
+            "type": "duration",
+            "id": "11"
+          }
+        },
+        "game": {
+          "data": {
+            "type": "game",
+            "id": "85008"
+          }
+        },
+        "league": {
+          "data": {
+            "type": "league",
+            "id": "15"
+          }
+        },
+        "new_player": {
+          "data": {
+            "type": "new_player",
+            "id": "249573"
+          }
+        },
+        "projection_type": {
+          "data": {
+            "type": "projection_type",
+            "id": "2"
+          }
+        },
+        "score": {
+          "data": null
+        },
+        "stat_type": {
+          "data": {
+            "type": "stat_type",
+            "id": "16"
+          }
+        }
+      }
+    },
+    {
+      "type": "projection",
+      "id": "5846129",
+      "attributes": {
+        "adjusted_odds": null,
+        "board_time": "2025-07-27T19:30:00-04:00",
+        "custom_image": null,
+        "description": "LSU",
+        "end_time": null,
+        "flash_sale_line_score": null,
+        "game_id": "95ef9b56-801e-4f63-b9c5-c25e8e1a243c",
+        "group_key": "249574-17-95ef9b56-801e-4f63-b9c5-c25e8e1a243c-11-false",
+        "in_game": false,
+        "is_live": false,
+        "is_promo": false,
+        "line_score": 69.5,
+        "odds_type": "standard",
+        "projection_type": "Single Stat",
+        "rank": 13,
+        "refundable": true,
+        "start_time": "2025-08-30T19:30:00-04:00",
+        "stat_display_name": "Receiving Yards",
+        "stat_type": "Receiving Yards",
+        "status": "pre_game",
+        "tv_channel": null,
+        "updated_at": "2025-07-29T23:08:03-04:00"
+      },
+      "relationships": {
+        "duration": {
+          "data": {
+            "type": "duration",
+            "id": "11"
+          }
+        },
+        "game": {
+          "data": {
+            "type": "game",
+            "id": "85008"
+          }
+        },
+        "league": {
+          "data": {
+            "type": "league",
+            "id": "15"
+          }
+        },
+        "new_player": {
+          "data": {
+            "type": "new_player",
+            "id": "249574"
+          }
+        },
+        "projection_type": {
+          "data": {
+            "type": "projection_type",
+            "id": "2"
+          }
+        },
+        "score": {
+          "data": null
+        },
+        "stat_type": {
+          "data": {
+            "type": "stat_type",
+            "id": "17"
+          }
+        }
+      }
+    },
+    {
+      "type": "projection",
+      "id": "5846138",
+      "attributes": {
+        "adjusted_odds": null,
+        "board_time": "2025-07-28T15:00:00-04:00",
+        "custom_image": null,
+        "description": "SCAR",
+        "end_time": null,
+        "flash_sale_line_score": null,
+        "game_id": "8dcbbbc0-510e-4cda-9967-a9080e3123e6",
+        "group_key": "171734-16-8dcbbbc0-510e-4cda-9967-a9080e3123e6-11-false",
+        "in_game": false,
+        "is_live": false,
+        "is_promo": false,
+        "line_score": 190.5,
+        "odds_type": "standard",
+        "projection_type": "Single Stat",
+        "rank": 14,
+        "refundable": true,
+        "start_time": "2025-08-31T15:00:00-04:00",
+        "stat_display_name": "Pass Yards",
+        "stat_type": "Pass Yards",
+        "status": "pre_game",
+        "tv_channel": null,
+        "updated_at": "2025-07-29T23:11:32-04:00"
+      },
+      "relationships": {
+        "duration": {
+          "data": {
+            "type": "duration",
+            "id": "11"
+          }
+        },
+        "game": {
+          "data": {
+            "type": "game",
+            "id": "85005"
+          }
+        },
+        "league": {
+          "data": {
+            "type": "league",
+            "id": "15"
+          }
+        },
+        "new_player": {
+          "data": {
+            "type": "new_player",
+            "id": "171734"
+          }
+        },
+        "projection_type": {
+          "data": {
+            "type": "projection_type",
+            "id": "2"
+          }
+        },
+        "score": {
+          "data": null
+        },
+        "stat_type": {
+          "data": {
+            "type": "stat_type",
+            "id": "16"
+          }
+        }
+      }
+    },
+    {
+      "type": "projection",
+      "id": "5846115",
+      "attributes": {
+        "adjusted_odds": null,
+        "board_time": "2025-07-28T15:00:00-04:00",
+        "custom_image": null,
+        "description": "VT",
+        "end_time": null,
+        "flash_sale_line_score": null,
+        "game_id": "8dcbbbc0-510e-4cda-9967-a9080e3123e6",
+        "group_key": "249570-44-8dcbbbc0-510e-4cda-9967-a9080e3123e6-11-false",
+        "in_game": false,
+        "is_live": false,
+        "is_promo": false,
+        "line_score": 1.5,
+        "odds_type": "standard",
+        "projection_type": "Single Stat",
+        "rank": 15,
+        "refundable": true,
+        "start_time": "2025-08-31T15:00:00-04:00",
+        "stat_display_name": "Pass TDs",
+        "stat_type": "Pass TDs",
+        "status": "pre_game",
+        "trending_count": 165,
+        "tv_channel": null,
+        "updated_at": "2025-07-30T01:13:54-04:00"
+      },
+      "relationships": {
+        "duration": {
+          "data": {
+            "type": "duration",
+            "id": "11"
+          }
+        },
+        "game": {
+          "data": {
+            "type": "game",
+            "id": "85005"
+          }
+        },
+        "league": {
+          "data": {
+            "type": "league",
+            "id": "15"
+          }
+        },
+        "new_player": {
+          "data": {
+            "type": "new_player",
+            "id": "249570"
+          }
+        },
+        "projection_type": {
+          "data": {
+            "type": "projection_type",
+            "id": "2"
+          }
+        },
+        "score": {
+          "data": null
+        },
+        "stat_type": {
+          "data": {
+            "type": "stat_type",
+            "id": "44"
+          }
+        }
+      }
+    },
+    {
+      "type": "projection",
+      "id": "5846139",
+      "attributes": {
+        "adjusted_odds": null,
+        "board_time": "2025-07-28T15:00:00-04:00",
+        "custom_image": null,
+        "description": "VT",
+        "end_time": null,
+        "flash_sale_line_score": null,
+        "game_id": "8dcbbbc0-510e-4cda-9967-a9080e3123e6",
+        "group_key": "249570-16-8dcbbbc0-510e-4cda-9967-a9080e3123e6-11-false",
+        "in_game": false,
+        "is_live": false,
+        "is_promo": false,
+        "line_score": 234.5,
+        "odds_type": "standard",
+        "projection_type": "Single Stat",
+        "rank": 16,
+        "refundable": true,
+        "start_time": "2025-08-31T15:00:00-04:00",
+        "stat_display_name": "Pass Yards",
+        "stat_type": "Pass Yards",
+        "status": "pre_game",
+        "trending_count": 100,
+        "tv_channel": null,
+        "updated_at": "2025-07-29T23:18:05-04:00"
+      },
+      "relationships": {
+        "duration": {
+          "data": {
+            "type": "duration",
+            "id": "11"
+          }
+        },
+        "game": {
+          "data": {
+            "type": "game",
+            "id": "85005"
+          }
+        },
+        "league": {
+          "data": {
+            "type": "league",
+            "id": "15"
+          }
+        },
+        "new_player": {
+          "data": {
+            "type": "new_player",
+            "id": "249570"
+          }
+        },
+        "projection_type": {
+          "data": {
+            "type": "projection_type",
+            "id": "2"
+          }
+        },
+        "score": {
+          "data": null
+        },
+        "stat_type": {
+          "data": {
+            "type": "stat_type",
+            "id": "16"
+          }
+        }
+      }
+    },
+    {
+      "type": "projection",
+      "id": "5846141",
+      "attributes": {
+        "adjusted_odds": null,
+        "board_time": "2025-07-28T19:30:00-04:00",
+        "custom_image": null,
+        "description": "MIA",
+        "end_time": null,
+        "flash_sale_line_score": null,
+        "game_id": "27fe216a-415b-4d26-9a85-a0de9c02bb78",
+        "group_key": "182773-15-27fe216a-415b-4d26-9a85-a0de9c02bb78-11-false",
+        "in_game": false,
+        "is_live": false,
+        "is_promo": false,
+        "line_score": 95.5,
+        "odds_type": "standard",
+        "projection_type": "Single Stat",
+        "rank": 17,
+        "refundable": true,
+        "start_time": "2025-08-31T19:30:00-04:00",
+        "stat_display_name": "Rush Yards",
+        "stat_type": "Rush Yards",
+        "status": "pre_game",
+        "trending_count": 153,
+        "tv_channel": null,
+        "updated_at": "2025-07-30T00:58:11-04:00"
+      },
+      "relationships": {
+        "duration": {
+          "data": {
+            "type": "duration",
+            "id": "11"
+          }
+        },
+        "game": {
+          "data": {
+            "type": "game",
+            "id": "85009"
+          }
+        },
+        "league": {
+          "data": {
+            "type": "league",
+            "id": "15"
+          }
+        },
+        "new_player": {
+          "data": {
+            "type": "new_player",
+            "id": "182773"
+          }
+        },
+        "projection_type": {
+          "data": {
+            "type": "projection_type",
+            "id": "2"
+          }
+        },
+        "score": {
+          "data": null
+        },
+        "stat_type": {
+          "data": {
+            "type": "stat_type",
+            "id": "15"
+          }
+        }
+      }
+    },
+    {
+      "type": "projection",
+      "id": "5846140",
+      "attributes": {
+        "adjusted_odds": null,
+        "board_time": "2025-07-15T19:30:00-04:00",
+        "custom_image": null,
+        "description": "ND",
+        "end_time": null,
+        "flash_sale_line_score": null,
+        "game_id": "27fe216a-415b-4d26-9a85-a0de9c02bb78",
+        "group_key": "249575-16-27fe216a-415b-4d26-9a85-a0de9c02bb78-11-false",
+        "in_game": false,
+        "is_live": false,
+        "is_promo": false,
+        "line_score": 254.5,
+        "odds_type": "standard",
+        "projection_type": "Single Stat",
+        "rank": 18,
+        "refundable": true,
+        "start_time": "2025-08-31T19:30:00-04:00",
+        "stat_display_name": "Pass Yards",
+        "stat_type": "Pass Yards",
+        "status": "pre_game",
+        "trending_count": 222,
+        "tv_channel": null,
+        "updated_at": "2025-07-29T22:46:16-04:00"
+      },
+      "relationships": {
+        "duration": {
+          "data": {
+            "type": "duration",
+            "id": "11"
+          }
+        },
+        "game": {
+          "data": {
+            "type": "game",
+            "id": "85009"
+          }
+        },
+        "league": {
+          "data": {
+            "type": "league",
+            "id": "15"
+          }
+        },
+        "new_player": {
+          "data": {
+            "type": "new_player",
+            "id": "249575"
+          }
+        },
+        "projection_type": {
+          "data": {
+            "type": "projection_type",
+            "id": "2"
+          }
+        },
+        "score": {
+          "data": null
+        },
+        "stat_type": {
+          "data": {
+            "type": "stat_type",
+            "id": "16"
+          }
+        }
+      }
+    }
+  ],
+  "included": [
+    {
+      "type": "game",
+      "id": "85008",
+      "attributes": {
+        "created_at": "2025-07-29T22:22:23-04:00",
+        "end_time": null,
+        "external_game_id": "95ef9b56-801e-4f63-b9c5-c25e8e1a243c",
+        "is_live": false,
+        "metadata": {
+          "game_id": "95ef9b56-801e-4f63-b9c5-c25e8e1a243c",
+          "game_info": {
+            "status": "pre-game",
+            "teams": {
+              "away": {
+                "abbreviation": "LSU"
+              },
+              "home": {
+                "abbreviation": "CLEM"
+              }
+            }
+          },
+          "league_name": "CFB"
+        },
+        "start_time": "2025-08-30T19:30:00-04:00",
+        "status": "pre-game",
+        "updated_at": "2025-07-29T22:22:23-04:00"
+      }
+    },
+    {
+      "type": "projection_type",
+      "id": "2",
+      "attributes": {
+        "name": "Single Stat"
+      }
+    },
+    {
+      "type": "stat_type",
+      "id": "17",
+      "attributes": {
+        "lfg_ignored_leagues": [],
+        "name": "Receiving Yards",
+        "rank": 3
+      }
+    },
+    {
+      "type": "team",
+      "id": "313",
+      "attributes": {
+        "abbreviation": "TEX",
+        "market": "Texas",
+        "name": "Longhorns",
+        "primary_color": null,
+        "secondary_color": null,
+        "tertiary_color": null
+      }
+    },
+    {
+      "type": "team",
+      "id": "41459",
+      "attributes": {
+        "abbreviation": "ALA",
+        "market": "Alabama",
+        "name": "Crimson Tide",
+        "primary_color": null,
+        "secondary_color": null,
+        "tertiary_color": null
+      }
+    },
+    {
+      "type": "stat_type",
+      "id": "15",
+      "attributes": {
+        "lfg_ignored_leagues": [],
+        "name": "Rush Yards",
+        "rank": 2
+      }
+    },
+    {
+      "type": "new_player",
+      "id": "249572",
+      "attributes": {
+        "combo": false,
+        "display_name": "Germie Bernard",
+        "image_url": "https://static.prizepicks.com/images/players/cfb/Germie_Bernard_e14eaaf0-8e80-11ec-8d02-85ead82574a9.webp",
+        "jersey_number": null,
+        "league": "CFB",
+        "league_id": 15,
+        "market": "Alabama",
+        "name": "Germie Bernard",
+        "position": "WR",
+        "team": "ALA",
+        "team_name": "Crimson Tide"
+      },
+      "relationships": {
+        "league": {
+          "data": {
+            "type": "league",
+            "id": "15"
+          }
+        },
+        "team_data": {
+          "data": {
+            "type": "team",
+            "id": "41459"
+          }
+        }
+      }
+    },
+    {
+      "type": "new_player",
+      "id": "207800",
+      "attributes": {
+        "combo": false,
+        "display_name": "Aaron Anderson",
+        "image_url": "https://static.prizepicks.com/images/manual/ANDERSON_AARON.png",
+        "jersey_number": null,
+        "league": "CFB",
+        "league_id": 15,
+        "market": "LSU",
+        "name": "Aaron Anderson",
+        "position": "WR",
+        "team": "LSU",
+        "team_name": "Tigers"
+      },
+      "relationships": {
+        "league": {
+          "data": {
+            "type": "league",
+            "id": "15"
+          }
+        },
+        "team_data": {
+          "data": {
+            "type": "team",
+            "id": "305"
+          }
+        }
+      }
+    },
+    {
+      "type": "team",
+      "id": "41460",
+      "attributes": {
+        "abbreviation": "CLEM",
+        "market": "Clemson",
+        "name": "Tigers",
+        "primary_color": null,
+        "secondary_color": null,
+        "tertiary_color": null
+      }
+    },
+    {
+      "type": "new_player",
+      "id": "182773",
+      "attributes": {
+        "combo": false,
+        "display_name": "Jeremiyah Love",
+        "image_url": "https://static.prizepicks.com/images/manual/Jeremiyah_LOVE.png",
+        "jersey_number": null,
+        "league": "CFB",
+        "league_id": 15,
+        "market": "Notre Dame",
+        "name": "Jeremiyah Love",
+        "position": "RB",
+        "team": "ND",
+        "team_name": "Fighting Irish"
+      },
+      "relationships": {
+        "league": {
+          "data": {
+            "type": "league",
+            "id": "15"
+          }
+        },
+        "team_data": {
+          "data": {
+            "type": "team",
+            "id": "710"
+          }
+        }
+      }
+    },
+    {
+      "type": "team",
+      "id": "41461",
+      "attributes": {
+        "abbreviation": "MIA",
+        "market": "Miami (FL)",
+        "name": "Hurricanes",
+        "primary_color": null,
+        "secondary_color": null,
+        "tertiary_color": null
+      }
+    },
+    {
+      "type": "stat_type",
+      "id": "16",
+      "attributes": {
+        "lfg_ignored_leagues": [],
+        "name": "Pass Yards",
+        "rank": 0
+      }
+    },
+    {
+      "type": "game",
+      "id": "85010",
+      "attributes": {
+        "created_at": "2025-07-29T22:26:38-04:00",
+        "end_time": null,
+        "external_game_id": "ff0532c8-cc0d-473a-b47f-421eccf4d427",
+        "is_live": false,
+        "metadata": {
+          "game_id": "ff0532c8-cc0d-473a-b47f-421eccf4d427",
+          "game_info": {
+            "status": "pre-game",
+            "teams": {
+              "away": {
+                "abbreviation": "ISU"
+              },
+              "home": {
+                "abbreviation": "KSU"
+              }
+            }
+          },
+          "league_name": "CFB"
+        },
+        "start_time": "2025-08-23T12:00:00-04:00",
+        "status": "pre-game",
+        "updated_at": "2025-07-29T22:26:38-04:00"
+      }
+    },
+    {
+      "type": "new_player",
+      "id": "249577",
+      "attributes": {
+        "combo": false,
+        "display_name": "Avery Johnson",
+        "image_url": "https://static.prizepicks.com/images/players/cfb/Avery_Johnson_5e30d140-9cd8-11ed-8450-073f5137ec67.webp",
+        "jersey_number": null,
+        "league": "CFB",
+        "league_id": 15,
+        "market": "Kansas State",
+        "name": "Avery Johnson",
+        "position": "QB",
+        "team": "KSU",
+        "team_name": "Wildcats"
+      },
+      "relationships": {
+        "league": {
+          "data": {
+            "type": "league",
+            "id": "15"
+          }
+        },
+        "team_data": {
+          "data": {
+            "type": "team",
+            "id": "41462"
+          }
+        }
+      }
+    },
+    {
+      "type": "team",
+      "id": "41458",
+      "attributes": {
+        "abbreviation": "SCAR",
+        "market": "South Carolina",
+        "name": "Gamecocks",
+        "primary_color": null,
+        "secondary_color": null,
+        "tertiary_color": null
+      }
+    },
+    {
+      "type": "duration",
+      "id": "11",
+      "attributes": {
+        "name": "Full"
+      }
+    },
+    {
+      "type": "team",
+      "id": "41462",
+      "attributes": {
+        "abbreviation": "KSU",
+        "market": "Kansas State",
+        "name": "Wildcats",
+        "primary_color": null,
+        "secondary_color": null,
+        "tertiary_color": null
+      }
+    },
+    {
+      "type": "team",
+      "id": "264",
+      "attributes": {
+        "abbreviation": "OSU",
+        "market": "Ohio State",
+        "name": "Buckeyes",
+        "primary_color": null,
+        "secondary_color": null,
+        "tertiary_color": null
+      }
+    },
+    {
+      "type": "team",
+      "id": "305",
+      "attributes": {
+        "abbreviation": "LSU",
+        "market": "LSU",
+        "name": "Tigers",
+        "primary_color": null,
+        "secondary_color": null,
+        "tertiary_color": null
+      }
+    },
+    {
+      "type": "team",
+      "id": "710",
+      "attributes": {
+        "abbreviation": "ND",
+        "market": "Notre Dame",
+        "name": "Fighting Irish",
+        "primary_color": null,
+        "secondary_color": null,
+        "tertiary_color": null
+      }
+    },
+    {
+      "type": "league",
+      "id": "15",
+      "attributes": {
+        "active": true,
+        "f2p_enabled": true,
+        "icon": "football",
+        "image_url": "https://static.prizepicks.com/images/leagues/production/41.svg",
+        "last_five_games_enabled": true,
+        "league_icon_id": 41,
+        "name": "CFB",
+        "parent_id": null,
+        "parent_name": null,
+        "projections_count": 0,
+        "rank": 295,
+        "show_trending": true
+      },
+      "relationships": {
+        "projection_filters": {
+          "data": []
+        }
+      }
+    },
+    {
+      "type": "new_player",
+      "id": "249576",
+      "attributes": {
+        "combo": false,
+        "display_name": "Dylan Edwards",
+        "image_url": "https://static.prizepicks.com/images/players/cfb/Dylan_Edwards_3c434d70-993a-11ed-961f-17b5255c6c3e.webp",
+        "jersey_number": null,
+        "league": "CFB",
+        "league_id": 15,
+        "market": "Kansas State",
+        "name": "Dylan Edwards",
+        "position": "RB",
+        "team": "KSU",
+        "team_name": "Wildcats"
+      },
+      "relationships": {
+        "league": {
+          "data": {
+            "type": "league",
+            "id": "15"
+          }
+        },
+        "team_data": {
+          "data": {
+            "type": "team",
+            "id": "41462"
+          }
+        }
+      }
+    },
+    {
+      "type": "new_player",
+      "id": "207612",
+      "attributes": {
+        "combo": false,
+        "display_name": "Ryan Wingo",
+        "image_url": "https://static.prizepicks.com/images/manual/Ryan Wingo.png",
+        "jersey_number": null,
+        "league": "CFB",
+        "league_id": 15,
+        "market": "Texas",
+        "name": "Ryan Wingo",
+        "position": "WR",
+        "team": "TEX",
+        "team_name": "Longhorns"
+      },
+      "relationships": {
+        "league": {
+          "data": {
+            "type": "league",
+            "id": "15"
+          }
+        },
+        "team_data": {
+          "data": {
+            "type": "team",
+            "id": "313"
+          }
+        }
+      }
+    },
+    {
+      "type": "new_player",
+      "id": "207623",
+      "attributes": {
+        "combo": false,
+        "display_name": "Arch Manning",
+        "image_url": "https://static.prizepicks.com/images/manual/MANNING_ARCH.png",
+        "jersey_number": null,
+        "league": "CFB",
+        "league_id": 15,
+        "market": "Texas",
+        "name": "Arch Manning",
+        "position": "QB",
+        "team": "TEX",
+        "team_name": "Longhorns"
+      },
+      "relationships": {
+        "league": {
+          "data": {
+            "type": "league",
+            "id": "15"
+          }
+        },
+        "team_data": {
+          "data": {
+            "type": "team",
+            "id": "313"
+          }
+        }
+      }
+    },
+    {
+      "type": "new_player",
+      "id": "249571",
+      "attributes": {
+        "combo": false,
+        "display_name": "Ryan Williams",
+        "image_url": "https://static.prizepicks.com/images/teams/cfb/Alabama_Crimson_110946.webp",
+        "jersey_number": null,
+        "league": "CFB",
+        "league_id": 15,
+        "market": "Alabama",
+        "name": "Ryan Williams",
+        "position": "WR",
+        "team": "ALA",
+        "team_name": "Crimson Tide"
+      },
+      "relationships": {
+        "league": {
+          "data": {
+            "type": "league",
+            "id": "15"
+          }
+        },
+        "team_data": {
+          "data": {
+            "type": "team",
+            "id": "41459"
+          }
+        }
+      }
+    },
+    {
+      "type": "new_player",
+      "id": "249573",
+      "attributes": {
+        "combo": false,
+        "display_name": "Cade Klubnik",
+        "image_url": "https://static.prizepicks.com/images/players/cfb/Cade_Klubnik_7c73bff0-8b5e-11ec-84cd-2d772b2010bf.webp",
+        "jersey_number": null,
+        "league": "CFB",
+        "league_id": 15,
+        "market": "Clemson",
+        "name": "Cade Klubnik",
+        "position": "QB",
+        "team": "CLEM",
+        "team_name": "Tigers"
+      },
+      "relationships": {
+        "league": {
+          "data": {
+            "type": "league",
+            "id": "15"
+          }
+        },
+        "team_data": {
+          "data": {
+            "type": "team",
+            "id": "41460"
+          }
+        }
+      }
+    },
+    {
+      "type": "team",
+      "id": "219",
+      "attributes": {
+        "abbreviation": "ISU",
+        "market": "Iowa State",
+        "name": "Cyclones",
+        "primary_color": null,
+        "secondary_color": null,
+        "tertiary_color": null
+      }
+    },
+    {
+      "type": "new_player",
+      "id": "153476",
+      "attributes": {
+        "combo": false,
+        "display_name": "Rocco Becht",
+        "image_url": "https://static.prizepicks.com/images/teams/cfb/Iowa_State_105193.webp",
+        "jersey_number": null,
+        "league": "CFB",
+        "league_id": 15,
+        "market": "Iowa State",
+        "name": "Rocco Becht",
+        "position": "QB",
+        "team": "ISU",
+        "team_name": "Cyclones"
+      },
+      "relationships": {
+        "league": {
+          "data": {
+            "type": "league",
+            "id": "15"
+          }
+        },
+        "team_data": {
+          "data": {
+            "type": "team",
+            "id": "219"
+          }
+        }
+      }
+    },
+    {
+      "type": "new_player",
+      "id": "206973",
+      "attributes": {
+        "combo": false,
+        "display_name": "Jeremiah Smith",
+        "image_url": "https://static.prizepicks.com/images/manual/Jeremiah+Smith.png",
+        "jersey_number": null,
+        "league": "CFB",
+        "league_id": 15,
+        "market": "Ohio State",
+        "name": "Jeremiah Smith",
+        "position": "WR",
+        "team": "OSU",
+        "team_name": "Buckeyes"
+      },
+      "relationships": {
+        "league": {
+          "data": {
+            "type": "league",
+            "id": "15"
+          }
+        },
+        "team_data": {
+          "data": {
+            "type": "team",
+            "id": "264"
+          }
+        }
+      }
+    },
+    {
+      "type": "game",
+      "id": "85006",
+      "attributes": {
+        "created_at": "2025-07-29T22:16:09-04:00",
+        "end_time": null,
+        "external_game_id": "0daef1e3-63e6-453c-b985-988b389fc3f3",
+        "is_live": false,
+        "metadata": {
+          "game_id": "0daef1e3-63e6-453c-b985-988b389fc3f3",
+          "game_info": {
+            "status": "pre-game",
+            "teams": {
+              "away": {
+                "abbreviation": "OSU"
+              },
+              "home": {
+                "abbreviation": "TEX"
+              }
+            }
+          },
+          "league_name": "CFB"
+        },
+        "start_time": "2025-08-30T12:00:00-04:00",
+        "status": "pre-game",
+        "updated_at": "2025-07-29T22:16:09-04:00"
+      }
+    },
+    {
+      "type": "new_player",
+      "id": "183036",
+      "attributes": {
+        "combo": false,
+        "display_name": "Garrett Nussmeier",
+        "image_url": "https://static.prizepicks.com/images/manual/NUSSMEIER.png",
+        "jersey_number": null,
+        "league": "CFB",
+        "league_id": 15,
+        "market": "LSU",
+        "name": "Garrett Nussmeier",
+        "position": "QB",
+        "team": "LSU",
+        "team_name": "Tigers"
+      },
+      "relationships": {
+        "league": {
+          "data": {
+            "type": "league",
+            "id": "15"
+          }
+        },
+        "team_data": {
+          "data": {
+            "type": "team",
+            "id": "305"
+          }
+        }
+      }
+    },
+    {
+      "type": "team",
+      "id": "260",
+      "attributes": {
+        "abbreviation": "VT",
+        "market": "Virginia Tech",
+        "name": "Hokies",
+        "primary_color": null,
+        "secondary_color": null,
+        "tertiary_color": null
+      }
+    },
+    {
+      "type": "game",
+      "id": "85009",
+      "attributes": {
+        "created_at": "2025-07-29T22:24:22-04:00",
+        "end_time": null,
+        "external_game_id": "27fe216a-415b-4d26-9a85-a0de9c02bb78",
+        "is_live": false,
+        "metadata": {
+          "game_id": "27fe216a-415b-4d26-9a85-a0de9c02bb78",
+          "game_info": {
+            "status": "pre-game",
+            "teams": {
+              "away": {
+                "abbreviation": "ND"
+              },
+              "home": {
+                "abbreviation": "MIA"
+              }
+            }
+          },
+          "league_name": "CFB"
+        },
+        "start_time": "2025-08-31T19:30:00-04:00",
+        "status": "pre-game",
+        "updated_at": "2025-07-29T22:24:22-04:00"
+      }
+    },
+    {
+      "type": "stat_type",
+      "id": "44",
+      "attributes": {
+        "lfg_ignored_leagues": [],
+        "name": "Pass TDs",
+        "rank": 3
+      }
+    },
+    {
+      "type": "game",
+      "id": "85007",
+      "attributes": {
+        "created_at": "2025-07-29T22:21:33-04:00",
+        "end_time": null,
+        "external_game_id": "c460a7c1-92b9-414e-8c9a-b9759884f470",
+        "is_live": false,
+        "metadata": {
+          "game_id": "c460a7c1-92b9-414e-8c9a-b9759884f470",
+          "game_info": {
+            "status": "pre-game",
+            "teams": {
+              "away": {
+                "abbreviation": "FSU"
+              },
+              "home": {
+                "abbreviation": "ALA"
+              }
+            }
+          },
+          "league_name": "CFB"
+        },
+        "start_time": "2025-08-30T15:30:00-04:00",
+        "status": "pre-game",
+        "updated_at": "2025-07-29T22:21:33-04:00"
+      }
+    },
+    {
+      "type": "new_player",
+      "id": "249574",
+      "attributes": {
+        "combo": false,
+        "display_name": "Antonio Williams",
+        "image_url": "https://static.prizepicks.com/images/players/cfb/Antonio_Williams_ee065540-8b5b-11ec-be36-0b578f8db3ee.webp",
+        "jersey_number": null,
+        "league": "CFB",
+        "league_id": 15,
+        "market": "Clemson",
+        "name": "Antonio Williams",
+        "position": "WR",
+        "team": "CLEM",
+        "team_name": "Tigers"
+      },
+      "relationships": {
+        "league": {
+          "data": {
+            "type": "league",
+            "id": "15"
+          }
+        },
+        "team_data": {
+          "data": {
+            "type": "team",
+            "id": "41460"
+          }
+        }
+      }
+    },
+    {
+      "type": "new_player",
+      "id": "171734",
+      "attributes": {
+        "combo": false,
+        "display_name": "Kyron Drones",
+        "image_url": "https://static.prizepicks.com/images/manual/DRONES.png",
+        "jersey_number": null,
+        "league": "CFB",
+        "league_id": 15,
+        "market": "Virginia Tech",
+        "name": "Kyron Drones",
+        "position": "QB",
+        "team": "VT",
+        "team_name": "Hokies"
+      },
+      "relationships": {
+        "league": {
+          "data": {
+            "type": "league",
+            "id": "15"
+          }
+        },
+        "team_data": {
+          "data": {
+            "type": "team",
+            "id": "260"
+          }
+        }
+      }
+    },
+    {
+      "type": "game",
+      "id": "85005",
+      "attributes": {
+        "created_at": "2025-07-29T22:15:15-04:00",
+        "end_time": null,
+        "external_game_id": "8dcbbbc0-510e-4cda-9967-a9080e3123e6",
+        "is_live": false,
+        "metadata": {
+          "game_id": "8dcbbbc0-510e-4cda-9967-a9080e3123e6",
+          "game_info": {
+            "status": "pre-game",
+            "teams": {
+              "away": {
+                "abbreviation": "VT"
+              },
+              "home": {
+                "abbreviation": "SCAR"
+              }
+            }
+          },
+          "league_name": "CFB"
+        },
+        "start_time": "2025-08-31T15:00:00-04:00",
+        "status": "pre-game",
+        "updated_at": "2025-07-29T22:15:15-04:00"
+      }
+    },
+    {
+      "type": "new_player",
+      "id": "249575",
+      "attributes": {
+        "combo": false,
+        "display_name": "Carson Beck",
+        "image_url": "https://static.prizepicks.com/images/manual/carsonbeckum.png",
+        "jersey_number": null,
+        "league": "CFB",
+        "league_id": 15,
+        "market": "Miami (FL)",
+        "name": "Carson Beck",
+        "position": "QB",
+        "team": "MIA",
+        "team_name": "Hurricanes"
+      },
+      "relationships": {
+        "league": {
+          "data": {
+            "type": "league",
+            "id": "15"
+          }
+        },
+        "team_data": {
+          "data": {
+            "type": "team",
+            "id": "41461"
+          }
+        }
+      }
+    },
+    {
+      "type": "new_player",
+      "id": "249570",
+      "attributes": {
+        "combo": false,
+        "display_name": "LaNorris Sellers",
+        "image_url": "https://static.prizepicks.com/images/players/cfb/LaNorris_Sellers_2cb832f0-a261-11ed-8480-1d1f197292c4.webp",
+        "jersey_number": null,
+        "league": "CFB",
+        "league_id": 15,
+        "market": "South Carolina",
+        "name": "LaNorris Sellers",
+        "position": "QB",
+        "team": "SCAR",
+        "team_name": "Gamecocks"
+      },
+      "relationships": {
+        "league": {
+          "data": {
+            "type": "league",
+            "id": "15"
+          }
+        },
+        "team_data": {
+          "data": {
+            "type": "team",
+            "id": "41458"
+          }
+        }
+      }
+    }
+  ],
+  "links": {
+    "self": "api.prizepicks.com/projections?league_id=15&per_page=250&single_stat=true&in_game=true&state_code=CA&game_mode=prizepools"
+  },
+  "meta": {
+    "current_page": 1,
+    "total_pages": 1
+  }
+}

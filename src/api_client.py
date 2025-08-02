@@ -450,6 +450,140 @@ def fetch_nfl_game_ids(year: int = 2023, week: int = 1, type_param: int = 2) -> 
         }
 
 
+def fetch_nfl_boxscore(event_id: str) -> Dict[str, Any]:
+    """
+    Fetch detailed NFL boxscore data including player statistics for a specific game.
+    
+    Args:
+        event_id: The event/game ID to fetch boxscore for
+        
+    Returns:
+        Dict containing success status and boxscore data
+    """
+    print_api_separator("NFL Boxscore API")
+    print(f"🏈 Fetching NFL boxscore data for event: {event_id}")
+    
+    try:
+        # Validate environment variables
+        api_key = os.getenv('RAPIDAPI_KEY')
+        api_host = os.getenv('RAPIDAPI_HOST')
+        
+        if not api_key or not api_host:
+            error_msg = "Missing required NFL API credentials in environment variables"
+            print(f"❌ {error_msg}")
+            return {'success': False, 'error': error_msg, 'event_id': event_id}
+        
+        # API endpoint for boxscore
+        url = f"https://{api_host}/nfl-boxscore"
+        params = {'id': event_id}
+        
+        headers = {
+            'X-RapidAPI-Key': api_key,
+            'X-RapidAPI-Host': api_host
+        }
+        
+        print(f"🔗 Making request to: {url}")
+        print(f"📋 Parameters: {params}")
+        
+        # Make the API request
+        response = requests.get(url, params=params, headers=headers, timeout=30)
+        
+        print(f"📡 Response status: {response.status_code}")
+        
+        if response.status_code == 200:
+            try:
+                data = response.json()
+                
+                # Validate response structure
+                if 'boxscore' in data and isinstance(data['boxscore'], dict):
+                    boxscore = data['boxscore']
+                    
+                    # Count teams and players
+                    teams_count = len(boxscore.get('teams', []))
+                    players_data = boxscore.get('players', [])
+                    players_count = 0
+                    
+                    for team_data in players_data:
+                        for stat_category in team_data.get('statistics', []):
+                            athletes = stat_category.get('athletes', [])
+                            players_count += len(athletes)
+                    
+                    print(f"✅ Successfully retrieved boxscore for event {event_id}")
+                    print(f"📊 Found {teams_count} teams with {players_count} total player stat entries")
+                    
+                    # Save raw API data to file
+                    filename = f"boxscore_{event_id}.json"
+                    save_api_data(data, "nfl_boxscore", filename)
+                    
+                    # Get sample player for display
+                    sample_player = None
+                    if players_data and len(players_data) > 0:
+                        first_team = players_data[0]
+                        if 'statistics' in first_team and len(first_team['statistics']) > 0:
+                            first_stat = first_team['statistics'][0]
+                            if 'athletes' in first_stat and len(first_stat['athletes']) > 0:
+                                athlete = first_stat['athletes'][0]
+                                sample_player = {
+                                    'name': athlete.get('athlete', {}).get('displayName', 'Unknown'),
+                                    'position': first_stat.get('name', 'Unknown'),
+                                    'stats': athlete.get('stats', [])
+                                }
+                    
+                    print_response_summary(f"NFL Boxscore (Event {event_id})", True, players_count, sample_player)
+                    
+                    return {
+                        'success': True,
+                        'event_id': event_id,
+                        'teams_count': teams_count,
+                        'players_count': players_count,
+                        'data': data
+                    }
+                else:
+                    error_msg = f"Invalid response structure - missing 'boxscore' field"
+                    print(f"❌ {error_msg}")
+                    return {'success': False, 'error': error_msg, 'event_id': event_id}
+                    
+            except json.JSONDecodeError as e:
+                error_msg = f"Failed to decode JSON response: {e}"
+                print(f"❌ {error_msg}")
+                return {'success': False, 'error': error_msg, 'event_id': event_id}
+                
+        elif response.status_code == 401:
+            error_msg = "Authentication failed - check your RapidAPI key"
+            print(f"❌ HTTP 401: {error_msg}")
+            return {'success': False, 'error': error_msg, 'event_id': event_id}
+            
+        elif response.status_code == 403:
+            error_msg = "Access forbidden - check your RapidAPI subscription and host header"
+            print(f"❌ HTTP 403: {error_msg}")
+            return {'success': False, 'error': error_msg, 'event_id': event_id}
+            
+        elif response.status_code == 404:
+            error_msg = f"Event ID {event_id} not found"
+            print(f"❌ HTTP 404: {error_msg}")
+            return {'success': False, 'error': error_msg, 'event_id': event_id}
+            
+        else:
+            error_msg = f"HTTP {response.status_code}: {response.text[:200]}"
+            print(f"❌ {error_msg}")
+            return {'success': False, 'error': error_msg, 'event_id': event_id}
+            
+    except requests.exceptions.Timeout:
+        error_msg = "Request timed out - API may be slow"
+        print(f"❌ {error_msg}")
+        return {'success': False, 'error': error_msg, 'event_id': event_id}
+        
+    except requests.exceptions.ConnectionError:
+        error_msg = "Connection error - check your internet connection"
+        print(f"❌ {error_msg}")
+        return {'success': False, 'error': error_msg, 'event_id': event_id}
+        
+    except Exception as e:
+        error_msg = f"Unexpected error: {e}"
+        print(f"❌ {error_msg}")
+        return {'success': False, 'error': error_msg, 'event_id': event_id}
+
+
 def fetch_cfb_player_data(year: int = 2023, week: int = 1, season_type: str = 'regular') -> Dict[str, Any]:
     """
     Fetch college football player statistics from CollegeFootballData API.
@@ -659,6 +793,24 @@ if __name__ == "__main__":
         
         nfl_stats_result = fetch_nfl_game_ids(2023, 1, 2)
         
+        # Test NFL Boxscore API (if we got game IDs)
+        print("\n🏈 Testing NFL Boxscore API Integration...")
+        
+        nfl_boxscore_result = {'success': False}
+        if nfl_stats_result['success'] and 'data' in nfl_stats_result:
+            items = nfl_stats_result['data'].get('items', [])
+            if items and len(items) > 0:
+                # Use the first game ID we found
+                first_game = items[0]
+                game_id = first_game.get('id', '401220225')  # fallback to known ID
+                nfl_boxscore_result = fetch_nfl_boxscore(game_id)
+            else:
+                print("⚠️ No game IDs found, using fallback ID for boxscore test")
+                nfl_boxscore_result = fetch_nfl_boxscore('401220225')
+        else:
+            print("⚠️ Game IDs fetch failed, using fallback ID for boxscore test")
+            nfl_boxscore_result = fetch_nfl_boxscore('401220225')
+        
         # Test College Football Data API
         print("\n🏈 Testing College Football Data API Integration...")
         
@@ -669,7 +821,8 @@ if __name__ == "__main__":
         print("=" * 80)
         print(f"PrizePicks NFL: {'✅ SUCCESS' if nfl_result['success'] else '❌ FAILED'}")
         print(f"PrizePicks CFB: {'✅ SUCCESS' if cfb_result['success'] else '❌ FAILED'}")
-        print(f"NFL Player Stats: {'✅ SUCCESS' if nfl_stats_result['success'] else '❌ FAILED'}")
+        print(f"NFL Game IDs: {'✅ SUCCESS' if nfl_stats_result['success'] else '❌ FAILED'}")
+        print(f"NFL Boxscore: {'✅ SUCCESS' if nfl_boxscore_result['success'] else '❌ FAILED'}")
         print(f"CFB Player Stats: {'✅ SUCCESS' if cfb_stats_result['success'] else '❌ FAILED'}")
         print("=" * 80)
         

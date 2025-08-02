@@ -15,7 +15,7 @@ Football Prop Insights is designed to collect, store, and analyze football betti
 
 ### Data Sources
 - **PrizePicks API**: Prop betting lines for NFL and College Football
-- **NFL API (RapidAPI)**: Professional football player statistics and game data
+- **NFL API (RapidAPI)**: Professional football game IDs and detailed player boxscore statistics
 - **College Football Data API**: Comprehensive college football statistics
 - **Underdog Fantasy API**: (Planned for future implementation)
 
@@ -111,6 +111,20 @@ The project includes a convenient shell script for generating API data:
 - `year`: NFL season year (e.g., 2023, 2024)
 - `week`: Week number (1-18)
 - `type`: Game type (1=preseason, 2=regular season, 3=postseason)
+
+#### NFL Boxscore API
+```bash
+./generate_api_data.sh nfl-boxscore <event_id>
+
+# Examples:
+./generate_api_data.sh nfl-boxscore 401220225    # Get detailed player stats for game
+./generate_api_data.sh nfl-boxscore 401547410    # Different game example
+```
+
+**Parameters:**
+- `event_id`: NFL game event ID (obtained from nfl-stats command)
+
+**Output:** Detailed player statistics including passing, rushing, receiving, defense, and special teams stats for all players in the specified game.
 
 #### College Football Data API
 ```bash
@@ -215,6 +229,42 @@ api_data/
     }
   ],
   "count": 16
+}
+```
+
+#### NFL Boxscore Data Structure
+```json
+{
+  "boxscore": {
+    "teams": [
+      {
+        "team": {
+          "id": "34",
+          "name": "Texans",
+          "displayName": "Houston Texans"
+        }
+      }
+    ],
+    "players": [
+      {
+        "team": {"name": "Texans"},
+        "statistics": [
+          {
+            "name": "passing",
+            "athletes": [
+              {
+                "athlete": {
+                  "id": "3122840",
+                  "displayName": "Deshaun Watson"
+                },
+                "stats": ["20/32", "253", "7.9", "1", "1", "4-11", "38.7", "84.5"]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }
 ```
 

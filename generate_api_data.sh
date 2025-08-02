@@ -21,7 +21,8 @@ show_help() {
     echo "Available API Types:"
     echo "  prizepicks-nfl    - PrizePicks NFL projections"
     echo "  prizepicks-cfb    - PrizePicks College Football projections"
-    echo "  nfl-stats         - NFL Player Stats (requires: year week type)"
+    echo "  nfl-stats         - NFL Game IDs (requires: year week type)"
+    echo "  nfl-boxscore      - NFL Player Stats (requires: event_id)"
     echo "  cfb-stats         - College Football Data (requires: year week season_type)"
     echo "  all               - Run all APIs with default parameters"
     echo ""
@@ -29,6 +30,7 @@ show_help() {
     echo "  ./generate_api_data.sh prizepicks-nfl"
     echo "  ./generate_api_data.sh prizepicks-cfb"
     echo "  ./generate_api_data.sh nfl-stats 2023 1 2"
+    echo "  ./generate_api_data.sh nfl-boxscore 401220225"
     echo "  ./generate_api_data.sh cfb-stats 2023 1 regular"
     echo "  ./generate_api_data.sh all"
     echo ""
@@ -36,6 +38,9 @@ show_help() {
     echo "  year    - NFL season year (e.g., 2023)"
     echo "  week    - Week number (1-18)"
     echo "  type    - Game type (2=regular season, 1=preseason, 3=postseason)"
+    echo ""
+    echo "Parameters for nfl-boxscore:"
+    echo "  event_id - NFL game event ID (e.g., 401220225)"
     echo ""
     echo "Parameters for cfb-stats:"
     echo "  year         - CFB season year (e.g., 2023)"
@@ -78,6 +83,25 @@ print(f'✅ Success: {result[\"success\"]}, Games: {result.get(\"game_count\", 0
 "
 }
 
+# Function to run NFL Boxscore
+run_nfl_boxscore() {
+    local event_id=${1}
+    
+    if [ -z "$event_id" ]; then
+        echo -e "${RED}❌ Error: event_id parameter is required${NC}"
+        echo "Usage: ./generate_api_data.sh nfl-boxscore <event_id>"
+        echo "Example: ./generate_api_data.sh nfl-boxscore 401220225"
+        exit 1
+    fi
+    
+    echo -e "${BLUE}🏈 Fetching NFL Boxscore Data (Event ID: $event_id)...${NC}"
+    python3 -c "
+from src.api_client import fetch_nfl_boxscore
+result = fetch_nfl_boxscore('$event_id')
+print(f'✅ Success: {result[\"success\"]}, Players: {result.get(\"players_count\", 0)}')
+"
+}
+
 # Function to run CFB Stats
 run_cfb_stats() {
     local year=${1:-2023}
@@ -104,6 +128,9 @@ run_all() {
     echo ""
     
     run_nfl_stats 2023 1 2
+    echo ""
+    
+    run_nfl_boxscore 401220225
     echo ""
     
     run_cfb_stats 2023 1 regular
@@ -137,6 +164,14 @@ case "$1" in
             exit 1
         fi
         run_nfl_stats "$2" "$3" "$4"
+        ;;
+    "nfl-boxscore")
+        if [ $# -lt 2 ]; then
+            echo -e "${RED}❌ Error: nfl-boxscore requires 1 parameter: event_id${NC}"
+            echo "Example: ./generate_api_data.sh nfl-boxscore 401220225"
+            exit 1
+        fi
+        run_nfl_boxscore "$2"
         ;;
     "cfb-stats")
         if [ $# -lt 4 ]; then
