@@ -2,7 +2,7 @@
 
 ## Relevant Files
 
-- `src/api_client.py` - Main module containing all four API integration functions ✅ Created (with env validation)
+- `src/api_client.py` - Main module containing all four API integration functions ✅ Created (with env validation + PrizePicks function)
 - `requirements.txt` - Python dependencies (requests, python-dotenv) ✅ Created
 - `.env` - Environment variables for API keys and configuration ✅ Created
 - `env.example` - Example environment file with placeholder values ✅ Created
@@ -26,7 +26,7 @@
   - [x] 1.4 Create `setup.md` documentation with clear instructions for environment variable configuration
   - [x] 1.5 Add environment variable validation function to check for required keys before API calls
 
-- [ ] 2.0 PrizePicks API Integration & Testing
+- [x] 2.0 PrizePicks API Integration & Testing
   - [x] 2.1 Create `fetch_prizepicks_data(league='nfl')` function in `api_client.py` with league parameter
   - [x] 2.2 Implement GET request to PrizePicks NFL endpoint (league_id=9, per_page=250, state_code=CA, game_mode=prizepools)
   - [x] 2.3 Implement GET request to PrizePicks College Football endpoint (league_id=15, per_page=250, state_code=CA, game_mode=prizepools)
