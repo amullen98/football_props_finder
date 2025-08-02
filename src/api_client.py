@@ -415,6 +415,186 @@ def fetch_nfl_game_ids(year: int = 2023, week: int = 1, type_param: int = 2) -> 
         }
 
 
+def fetch_cfb_player_data(year: int = 2023, week: int = 1, season_type: str = 'regular') -> Dict[str, Any]:
+    """
+    Fetch college football player statistics from CollegeFootballData API.
+    
+    Args:
+        year (int): College football season year (default: 2023)
+        week (int): Week number (default: 1)
+        season_type (str): Season type - 'regular', 'postseason', or 'both' (default: 'regular')
+        
+    Returns:
+        Dict[str, Any]: Response data with success status and results
+    """
+    print_api_separator("College Football Data API")
+    
+    # Get required environment variable
+    cfb_api_key = os.getenv('CFB_API_KEY')
+    
+    if not cfb_api_key:
+        error_msg = "Missing required CFB_API_KEY environment variable"
+        print(f"❌ Authentication Error: {error_msg}")
+        print_response_summary("College Football Data", False)
+        return {
+            'success': False,
+            'error': error_msg,
+            'data': None
+        }
+    
+    # Build API URL and headers
+    base_url = "https://api.collegefootballdata.com/games/players"
+    params = {
+        'year': year,
+        'week': week,
+        'seasonType': season_type
+    }
+    
+    headers = {
+        'Authorization': f'Bearer {cfb_api_key}',
+        'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36',
+        'Accept': 'application/json'
+    }
+    
+    try:
+        print(f"🔗 Calling CFB API for {year} season, week {week} ({season_type})...")
+        print(f"🌐 URL: {base_url}")
+        print(f"📋 Parameters: {params}")
+        print(f"🔑 Using Bearer token authentication")
+        
+        response = requests.get(base_url, params=params, headers=headers, timeout=30)
+        
+        print(f"📡 HTTP Status Code: {response.status_code}")
+        
+        if response.status_code == 200:
+            try:
+                data = response.json()
+                
+                # Validate response structure (CFB API returns an array of games)
+                if isinstance(data, list):
+                    games = data
+                    game_count = len(games)
+                    
+                    # Count total player stats across all games
+                    total_player_stats = 0
+                    for game in games:
+                        if 'teams' in game:
+                            for team in game['teams']:
+                                if 'statistics' in team:
+                                    total_player_stats += len(team['statistics'])
+                    
+                    print(f"✅ Successfully retrieved {game_count} CFB games with {total_player_stats} player stat records")
+                    
+                    # Get sample record for display
+                    sample_record = games[0] if games else None
+                    
+                    print_response_summary("College Football Data", True, game_count, sample_record)
+                    
+                    return {
+                        'success': True,
+                        'year': year,
+                        'week': week,
+                        'season_type': season_type,
+                        'game_count': game_count,
+                        'total_player_stats': total_player_stats,
+                        'data': data
+                    }
+                else:
+                    error_msg = "Response is not a list or invalid format"
+                    print(f"❌ Response validation failed: {error_msg}")
+                    print(f"📄 Response type: {type(data)}")
+                    if isinstance(data, dict):
+                        print(f"📄 Response keys: {list(data.keys())}")
+                    print_response_summary("College Football Data", False)
+                    
+                    return {
+                        'success': False,
+                        'error': error_msg,
+                        'data': data
+                    }
+                    
+            except json.JSONDecodeError as e:
+                error_msg = f"Failed to parse JSON response: {str(e)}"
+                print(f"❌ JSON Error: {error_msg}")
+                print(f"📄 Raw response: {response.text[:200]}...")
+                print_response_summary("College Football Data", False)
+                
+                return {
+                    'success': False,
+                    'error': error_msg,
+                    'data': None
+                }
+                
+        elif response.status_code == 401:
+            error_msg = "Authentication failed - Invalid CFB API key"
+            print(f"❌ Authentication Error: {error_msg}")
+            print("🔍 Please verify your CFB_API_KEY in the .env file")
+            print_response_summary("College Football Data", False)
+            
+            return {
+                'success': False,
+                'error': error_msg,
+                'data': None
+            }
+            
+        elif response.status_code == 403:
+            error_msg = "Access forbidden - Check API subscription or rate limits"
+            print(f"❌ Authorization Error: {error_msg}")
+            print("🔍 You may have exceeded your CFB API rate limit (1,000/month)")
+            print_response_summary("College Football Data", False)
+            
+            return {
+                'success': False,
+                'error': error_msg,
+                'data': None
+            }
+            
+        else:
+            error_msg = f"HTTP {response.status_code}: {response.reason}"
+            print(f"❌ HTTP Error: {error_msg}")
+            print(f"📄 Response content: {response.text[:200]}...")
+            print_response_summary("College Football Data", False)
+            
+            return {
+                'success': False,
+                'error': error_msg,
+                'data': None
+            }
+            
+    except requests.exceptions.Timeout:
+        error_msg = "Request timeout (30 seconds)"
+        print(f"❌ Timeout Error: {error_msg}")
+        print_response_summary("College Football Data", False)
+        
+        return {
+            'success': False,
+            'error': error_msg,
+            'data': None
+        }
+        
+    except requests.exceptions.ConnectionError as e:
+        error_msg = f"Connection error: {str(e)}"
+        print(f"❌ Connection Error: {error_msg}")
+        print_response_summary("College Football Data", False)
+        
+        return {
+            'success': False,
+            'error': error_msg,
+            'data': None
+        }
+        
+    except Exception as e:
+        error_msg = f"Unexpected error: {str(e)}"
+        print(f"❌ Unexpected Error: {error_msg}")
+        print_response_summary("College Football Data", False)
+        
+        return {
+            'success': False,
+            'error': error_msg,
+            'data': None
+        }
+
+
 if __name__ == "__main__":
     print("🏈 Football Prop Insights - API Client Test Suite")
     print("Step 1: API Connectivity & Data Validation")
@@ -440,12 +620,18 @@ if __name__ == "__main__":
         
         nfl_stats_result = fetch_nfl_game_ids(2023, 1, 2)
         
+        # Test College Football Data API
+        print("\n🏈 Testing College Football Data API Integration...")
+        
+        cfb_stats_result = fetch_cfb_player_data(2023, 1, 'regular')
+        
         print("\n" + "=" * 80)
         print("🏁 API TEST SUMMARY")
         print("=" * 80)
         print(f"PrizePicks NFL: {'✅ SUCCESS' if nfl_result['success'] else '❌ FAILED'}")
         print(f"PrizePicks CFB: {'✅ SUCCESS' if cfb_result['success'] else '❌ FAILED'}")
         print(f"NFL Player Stats: {'✅ SUCCESS' if nfl_stats_result['success'] else '❌ FAILED'}")
+        print(f"CFB Player Stats: {'✅ SUCCESS' if cfb_stats_result['success'] else '❌ FAILED'}")
         print("=" * 80)
         
     else:
