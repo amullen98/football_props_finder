@@ -19,7 +19,7 @@
 
 ## Tasks
 
-- [ ] 1.0 Set Up Parsing Module Structure and Foundation
+- [x] 1.0 Set Up Parsing Module Structure and Foundation
   - [x] 1.1 Create `parsers/` directory in project root
   - [x] 1.2 Create `parsers/__init__.py` to establish Python package
   - [x] 1.3 Define common error handling patterns for JSON parsing failures
@@ -27,15 +27,15 @@
   - [x] 1.5 Establish consistent function signature patterns across all parsers
 
 - [ ] 2.0 Implement PrizePicks Parser (`parse_prizepicks.py`)
-  - [ ] 2.1 Create `parse_prizepicks_data()` function with proper error handling
-  - [ ] 2.2 Implement lookup dictionary creation from `included[]` array for players, teams, and markets
-  - [ ] 2.3 Parse `data[]` array to extract projection records
-  - [ ] 2.4 Map player references to actual player names using lookup dictionaries
-  - [ ] 2.5 Map team references to team abbreviations using lookup dictionaries
-  - [ ] 2.6 Extract game time and opponent information from market references
-  - [ ] 2.7 Extract `stat_type`, `line_score`, and `projection_id` from projection data
-  - [ ] 2.8 Return list of dictionaries matching specified output format
-  - [ ] 2.9 Add function to handle both file path and JSON data inputs
+  - [x] 2.1 Create `parse_prizepicks_data()` function with proper error handling
+  - [x] 2.2 Implement lookup dictionary creation from `included[]` array for players, teams, and markets
+  - [x] 2.3 Parse `data[]` array to extract projection records
+  - [x] 2.4 Map player references to actual player names using lookup dictionaries
+  - [x] 2.5 Map team references to team abbreviations using lookup dictionaries
+  - [x] 2.6 Extract game time and opponent information from market references
+  - [x] 2.7 Extract `stat_type`, `line_score`, and `projection_id` from projection data
+  - [x] 2.8 Return list of dictionaries matching specified output format
+  - [x] 2.9 Add function to handle both file path and JSON data inputs
 
 - [ ] 3.0 Implement College Football Parser (`parse_cfb_stats.py`)
   - [ ] 3.1 Create `parse_cfb_player_stats()` function with proper error handling
