@@ -305,11 +305,11 @@ Path('parsed_data/cfb_stats').mkdir(parents=True, exist_ok=True)
 
 # Parse the raw data
 try:
-    input_file = f'api_data/cfb_stats/players_{$year}_week{$week}_{$season_type}.json'
+    input_file = 'api_data/cfb_stats/players_${year}_week${week}_${season_type}.json'
     parsed_data = parse_cfb_player_stats(input_file)
     
     # Save parsed data to file
-    output_file = f'parsed_data/cfb_stats/players_{$year}_week{$week}_{$season_type}_parsed.json'
+    output_file = 'parsed_data/cfb_stats/players_${year}_week${week}_${season_type}_parsed.json'
     with open(output_file, 'w') as f:
         json.dump(parsed_data, f, indent=2, ensure_ascii=False)
     
