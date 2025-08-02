@@ -3,7 +3,7 @@
 ## Relevant Files
 
 - `parsers/parse_prizepicks.py` - ✅ COMPLETE - Parser for PrizePicks NFL projection data, handles complex lookup dictionaries and field extraction
-- `parsers/parse_cfb_stats.py` - Parser for College Football player statistics, filters by position and extracts relevant stats
+- `parsers/parse_cfb_stats.py` - ✅ COMPLETE - Parser for College Football player statistics, filters by position and extracts relevant stats
 - `parsers/parse_nfl_game_ids.py` - Simple parser for NFL game ID extraction from weekly game lists
 - `parsers/parse_nfl_boxscore.py` - Complex parser for NFL boxscore data, navigates nested player statistics
 - `parsers/__init__.py` - Module initialization file with imports and metadata, establishes parsers as Python package
@@ -37,7 +37,7 @@
   - [x] 2.8 Return list of dictionaries matching specified output format
   - [x] 2.9 Add function to handle both file path and JSON data inputs
 
-- [ ] 3.0 Implement College Football Parser (`parse_cfb_stats.py`)
+- [x] 3.0 Implement College Football Parser (`parse_cfb_stats.py`)
   - [x] 3.1 Create `parse_cfb_player_stats()` function with proper error handling
   - [x] 3.2 Implement position filtering logic for QB, WR, and RB positions only
   - [x] 3.3 Extract QB-specific statistics: `passYards`, `completions`, `attempts`, `passTD`
@@ -49,12 +49,12 @@
   - [x] 3.9 Add function to handle both file path and JSON data inputs
 
 - [ ] 4.0 Implement NFL Game ID Parser (`parse_nfl_game_ids.py`)
-  - [ ] 4.1 Create `parse_nfl_game_ids()` function with proper error handling
-  - [ ] 4.2 Extract `eventid` values from `items[]` array in JSON structure
-  - [ ] 4.3 Parse filename or input parameters to determine week and year
-  - [ ] 4.4 Return structured dictionary with `week`, `year`, and `game_ids` list
-  - [ ] 4.5 Handle empty or missing items array gracefully
-  - [ ] 4.6 Add function to handle both file path and JSON data inputs
+  - [x] 4.1 Create `parse_nfl_game_ids()` function with proper error handling
+  - [x] 4.2 Extract `eventid` values from `items[]` array in JSON structure
+  - [x] 4.3 Parse filename or input parameters to determine week and year
+  - [x] 4.4 Return structured dictionary with `week`, `year`, and `game_ids` list
+  - [x] 4.5 Handle empty or missing items array gracefully
+  - [x] 4.6 Add function to handle both file path and JSON data inputs
 
 - [ ] 5.0 Implement NFL Boxscore Parser (`parse_nfl_boxscore.py`)
   - [ ] 5.1 Create `parse_nfl_boxscore()` function with proper error handling
