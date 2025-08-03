@@ -87,17 +87,32 @@ __author__ = "Football Props Finder Team"
 
 # Import key components for easy access
 try:
-    from .connection import get_connection, get_connection_pool
-    from .schema import create_all_tables, drop_all_tables
-    from .validation import validate_prop_line, validate_player_stats
+    from .connection import (
+        get_connection,
+        get_connection_manager,
+        connection_context,
+        cursor_context,
+        execute_query,
+        check_database_connection,
+        DatabaseConfig,
+        ConnectionManager
+    )
+    from .schema import create_all_tables, drop_all_tables, verify_schema
     
     __all__ = [
+        # Connection management
         'get_connection',
-        'get_connection_pool', 
+        'get_connection_manager',
+        'connection_context',
+        'cursor_context', 
+        'execute_query',
+        'check_database_connection',
+        'DatabaseConfig',
+        'ConnectionManager',
+        # Schema management
         'create_all_tables',
         'drop_all_tables',
-        'validate_prop_line',
-        'validate_player_stats'
+        'verify_schema'
     ]
     
 except ImportError:
