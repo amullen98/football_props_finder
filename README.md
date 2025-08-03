@@ -263,6 +263,40 @@ with cursor_context() as cursor:
     print(f"Upsert result: {result}")
 ```
 
+#### Transaction Management
+
+**Automatic Commit (Default):**
+```python
+from src.database import cursor_context
+
+# Transactions automatically commit by default
+with cursor_context() as cursor:
+    cursor.execute("INSERT INTO players (...) VALUES (...)")
+    # Automatically commits when context exits
+```
+
+**Manual Transaction Control:**
+```python
+from src.database import cursor_context
+
+# Disable autocommit for complex transactions
+with cursor_context(autocommit=False) as cursor:
+    cursor.execute("INSERT INTO players (...) VALUES (...)")
+    cursor.execute("INSERT INTO teams (...) VALUES (...)")
+    # Must manually commit or rollback
+    cursor.connection.commit()
+```
+
+**Batch Operations (Automatic Transaction Management):**
+```python
+from src.database import batch_transaction
+
+# Batch operations manage their own transactions
+with batch_transaction() as conn:
+    # Multiple operations in single transaction
+    # Automatically commits on success, rolls back on error
+```
+
 #### Data Validation
 
 **Validate Individual Records:**

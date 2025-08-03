@@ -243,23 +243,31 @@ class ConnectionManager:
         try:
             yield conn
         finally:
-            if conn and not isinstance(conn, MockConnection):
+            if conn and hasattr(conn, 'close'):
                 self.return_connection(conn)
     
     @contextmanager
-    def get_cursor_context(self, retries: int = 3) -> Generator[Any, None, None]:
+    def get_cursor_context(self, retries: int = 3, autocommit: bool = True) -> Generator[Any, None, None]:
         """
         Context manager for database cursors.
         
         Args:
             retries: Number of retry attempts
+            autocommit: Whether to automatically commit the transaction
             
         Yields:
             Database cursor
         """
         with self.get_connection_context(retries=retries) as conn:
-            with conn.cursor() as cursor:
-                yield cursor
+            try:
+                with conn.cursor() as cursor:
+                    yield cursor
+                if autocommit and PSYCOPG2_AVAILABLE:
+                    conn.commit()
+            except Exception as e:
+                if PSYCOPG2_AVAILABLE:
+                    conn.rollback()
+                raise
     
     def execute_query(self, query: str, params: Optional[tuple] = None, 
                      fetch_one: bool = False, fetch_all: bool = False,
@@ -426,17 +434,18 @@ def connection_context(retries: int = 3) -> Generator[Any, None, None]:
         yield conn
 
 @contextmanager
-def cursor_context(retries: int = 3) -> Generator[Any, None, None]:
+def cursor_context(retries: int = 3, autocommit: bool = True) -> Generator[Any, None, None]:
     """
     Convenience context manager for database cursors.
     
     Args:
         retries: Number of retry attempts
+        autocommit: Whether to automatically commit the transaction
         
     Yields:
         Database cursor
     """
-    with get_connection_manager().get_cursor_context(retries=retries) as cursor:
+    with get_connection_manager().get_cursor_context(retries=retries, autocommit=autocommit) as cursor:
         yield cursor
 
 def execute_query(query: str, params: Optional[tuple] = None,
