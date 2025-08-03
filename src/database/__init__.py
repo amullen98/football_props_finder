@@ -98,6 +98,50 @@ try:
         ConnectionManager
     )
     from .schema import create_all_tables, drop_all_tables, verify_schema
+    from .insert import (
+        InsertError,
+        insert_prop_line,
+        insert_player_stats,
+        insert_game_processed,
+        insert_player,
+        insert_team,
+        upsert_prop_line,
+        upsert_player_stats,
+        upsert_game_processed,
+        upsert_player,
+        upsert_team
+    )
+    from .batch import (
+        BatchInsertResult,
+        batch_insert_prop_lines,
+        batch_insert_player_stats,
+        batch_insert_games_processed,
+        batch_insert_mixed_data,
+        batch_transaction
+    )
+    from .validation import (
+        ValidationSeverity,
+        ValidationResult,
+        ValidationReport,
+        ValidationError,
+        DataValidator
+    )
+    from .parser_integration import (
+        DataRouter,
+        route_prizepicks_data,
+        route_nfl_boxscore_data,
+        route_cfb_stats_data,
+        route_nfl_game_ids_data,
+        load_and_route_parsed_file,
+        load_and_route_parsed_directory
+    )
+    from .sample_data import (
+        SampleDataLoader,
+        DatabaseTester,
+        test_all_insertions,
+        load_sample_prizepicks_data,
+        load_sample_nfl_boxscore_data
+    )
     
     __all__ = [
         # Connection management
@@ -112,7 +156,46 @@ try:
         # Schema management
         'create_all_tables',
         'drop_all_tables',
-        'verify_schema'
+        'verify_schema',
+        # Insertion functions
+        'InsertError',
+        'insert_prop_line',
+        'insert_player_stats',
+        'insert_game_processed',
+        'insert_player',
+        'insert_team',
+        'upsert_prop_line',
+        'upsert_player_stats',
+        'upsert_game_processed',
+        'upsert_player',
+        'upsert_team',
+        # Batch operations
+        'BatchInsertResult',
+        'batch_insert_prop_lines',
+        'batch_insert_player_stats',
+        'batch_insert_games_processed',
+        'batch_insert_mixed_data',
+        'batch_transaction',
+        # Validation
+        'ValidationSeverity',
+        'ValidationResult',
+        'ValidationReport',
+        'ValidationError',
+        'DataValidator',
+        # Parser integration
+        'DataRouter',
+        'route_prizepicks_data',
+        'route_nfl_boxscore_data',
+        'route_cfb_stats_data',
+        'route_nfl_game_ids_data',
+        'load_and_route_parsed_file',
+        'load_and_route_parsed_directory',
+        # Sample data and testing
+        'SampleDataLoader',
+        'DatabaseTester',
+        'test_all_insertions',
+        'load_sample_prizepicks_data',
+        'load_sample_nfl_boxscore_data'
     ]
     
 except ImportError:

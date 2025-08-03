@@ -45,20 +45,24 @@
   - [x] 3.5 Add transaction management and rollback capabilities for batch operations
   - [x] 3.6 Test insertion functions with sample dictionary data
 
-- [ ] 4.0 Data Validation & Quality Assurance
-  - [ ] 4.1 Create `src/database/validation.py` module with validation framework
-  - [ ] 4.2 Implement required field validation (player_name, team, stat_type cannot be null)
-  - [ ] 4.3 Add data type validation (numeric fields, timestamps, etc.)
-  - [ ] 4.4 Implement foreign key relationship validation where applicable
-  - [ ] 4.5 Add placeholder value rejection ("Unknown", "TBD", etc.) in critical fields
-  - [ ] 4.6 Create comprehensive error logging with specific details about rejected records
-  - [ ] 4.7 Test validation functions with both valid and invalid sample data
+- [x] 4.0 Data Validation & Quality Assurance
+  - [x] 4.1 Create `src/database/validation.py` module with validation framework
+  - [x] 4.2 Implement required field validation (player_name, team, stat_type cannot be null)
+  - [x] 4.3 Add data type validation (numeric fields, timestamps, etc.)
+  - [x] 4.4 Create data quality checks (duplicate detection, outlier detection)
+  - [x] 4.5 Add placeholder value rejection ("Unknown", "TBD", etc.) in critical fields
+  - [x] 4.6 Implement business logic validation (season years, valid positions, etc.)
+  - [x] 4.7 Add comprehensive logging and reporting for validation failures
+  - [x] 4.8 Create table-specific validators for all 5 database tables
+  - [x] 4.9 Implement batch validation with cross-record duplicate detection
+  - [x] 4.10 Add statistical consistency validation (completions ≤ attempts, etc.)
+  - [x] 4.11 Test validation functions with both valid and invalid sample data
 
-- [ ] 5.0 Testing & Sample Data Integration
-  - [ ] 5.1 Create `src/database/sample_data.py` with sample insertion scripts
-  - [ ] 5.2 Implement sample data loading from existing parsed files (PrizePicks, CFB, NFL)
-  - [ ] 5.3 Create query validation functions to verify inserted data matches source files
-  - [ ] 5.4 Add data consistency checks that validate relationships between tables
-  - [ ] 5.5 Test integration with all existing parser outputs (parsed_data directory)
-  - [ ] 5.6 Verify performance baseline (1000+ records inserted in under 10 seconds)
+- [x] 5.0 Testing & Sample Data Integration
+  - [x] 5.1 Create `src/database/sample_data.py` with sample insertion scripts
+  - [x] 5.2 Implement sample data loading from existing parsed files (PrizePicks, CFB, NFL)
+  - [x] 5.3 Create query validation functions to verify inserted data matches source files
+  - [x] 5.4 Add data consistency checks that validate relationships between tables
+  - [x] 5.5 Test integration with all existing parser outputs (parsed_data directory)
+  - [x] 5.6 Verify performance baseline (1000+ records inserted in under 10 seconds)
   - [ ] 5.7 Update README.md with database setup and usage instructions
