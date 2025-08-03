@@ -504,13 +504,13 @@ def derive_game_time_from_prizepicks(projection: Dict, included_data: List[Dict]
         return None
 
 
-def derive_team_and_opponent_from_cfb_game(game_data: Dict, team_school: str) -> tuple[str, str]:
+def derive_team_and_opponent_from_cfb_game(game_data: Dict, team_name: str) -> tuple[str, str]:
     """
     Derive team and opponent from CFB game data structure.
     
     Args:
         game_data: Game data from College Football API
-        team_school: School name of the team we're looking for
+        team_name: Team name we're looking for
         
     Returns:
         Tuple of (team_name, opponent_name)
@@ -525,7 +525,8 @@ def derive_team_and_opponent_from_cfb_game(game_data: Dict, team_school: str) ->
         opponent_team = None
         
         for team in teams:
-            if team.get('school') == team_school:
+            # CFB API uses 'team' field not 'school'
+            if team.get('team') == team_name:
                 our_team = team
             else:
                 opponent_team = team
@@ -533,10 +534,10 @@ def derive_team_and_opponent_from_cfb_game(game_data: Dict, team_school: str) ->
         if not our_team or not opponent_team:
             return "Unknown Team", "Unknown Opponent"
         
-        team_name = our_team.get('school', 'Unknown Team')
-        opponent_name = opponent_team.get('school', 'Unknown Opponent')
+        our_team_name = our_team.get('team', 'Unknown Team')
+        opponent_name = opponent_team.get('team', 'Unknown Opponent')
         
-        return team_name, opponent_name
+        return our_team_name, opponent_name
         
     except Exception:
         return "Unknown Team", "Unknown Opponent"
