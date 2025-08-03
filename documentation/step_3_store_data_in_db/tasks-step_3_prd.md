@@ -65,4 +65,4 @@
   - [x] 5.4 Add data consistency checks that validate relationships between tables
   - [x] 5.5 Test integration with all existing parser outputs (parsed_data directory)
   - [x] 5.6 Verify performance baseline (1000+ records inserted in under 10 seconds)
-  - [ ] 5.7 Update README.md with database setup and usage instructions
+  - [x] 5.7 Update README.md with database setup and usage instructions
