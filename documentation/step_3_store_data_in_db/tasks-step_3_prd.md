@@ -37,13 +37,13 @@
   - [x] 2.5 Create database configuration management (host, port, database, user)
   - [x] 2.6 Test connection module with local PostgreSQL instance
 
-- [ ] 3.0 Data Insertion Functions
-  - [ ] 3.1 Create `src/database/insert.py` with direct insertion functions for each table
-  - [ ] 3.2 Create `src/database/batch.py` with batch insertion capabilities and transaction support
-  - [ ] 3.3 Implement upsert functions that handle duplicate data gracefully
-  - [ ] 3.4 Create `src/database/parser_integration.py` to route parsed JSON data to appropriate tables
-  - [ ] 3.5 Add transaction management and rollback capabilities for batch operations
-  - [ ] 3.6 Test insertion functions with sample dictionary data
+- [x] 3.0 Data Insertion Functions
+  - [x] 3.1 Create `src/database/insert.py` with direct insertion functions for each table
+  - [x] 3.2 Create `src/database/batch.py` with batch insertion capabilities and transaction support
+  - [x] 3.3 Implement upsert functions that handle duplicate data gracefully
+  - [x] 3.4 Create `src/database/parser_integration.py` to route parsed JSON data to appropriate tables
+  - [x] 3.5 Add transaction management and rollback capabilities for batch operations
+  - [x] 3.6 Test insertion functions with sample dictionary data
 
 - [ ] 4.0 Data Validation & Quality Assurance
   - [ ] 4.1 Create `src/database/validation.py` module with validation framework
